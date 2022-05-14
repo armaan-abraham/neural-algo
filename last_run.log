@@ -1,0 +1,1837 @@
+2022-05-13 12:36:48,384 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=0, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='6', nnodes='6')
+2022-05-13 12:36:48,384 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:36:48,384 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:36:48,387 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:36:48,387 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:36:48,388 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:36:48,388 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:36:48,388 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 0, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:36:48,388 [MainThread  ] [INFO ] Test
+2022-05-13 12:36:48,392 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.10185185074806213
+2022-05-13 12:36:48,392 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0
+2022-05-13 12:36:48,392 [MainThread  ] [INFO ] BFS: termination accuracy: 0.0
+2022-05-13 12:36:48,392 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.9166666865348816
+2022-05-13 12:36:48,392 [MainThread  ] [INFO ] DFS: key mean accuracy: 7.455353260040283
+2022-05-13 12:36:48,392 [MainThread  ] [INFO ] DFS: state last accuracy: 0.1666666716337204
+2022-05-13 12:36:48,392 [MainThread  ] [INFO ] DFS: key last accuracy: 0.38606342673301697
+2022-05-13 12:36:48,392 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.3333333432674408
+2022-05-13 12:36:48,392 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.0
+2022-05-13 12:36:48,393 [MainThread  ] [INFO ] Termination accuracy: 0.0
+2022-05-13 12:37:47,311 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=0, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='6', nnodes='6')
+2022-05-13 12:37:47,312 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:37:47,312 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:37:47,315 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:37:47,316 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:37:47,316 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:37:47,317 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:37:47,317 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 0, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:37:47,317 [MainThread  ] [INFO ] Test
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.10185185074806213
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] BFS: termination accuracy: 0.0
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.9166666865348816
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] DFS: key mean accuracy: 7.455353260040283
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] DFS: state last accuracy: 0.1666666716337204
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] DFS: key last accuracy: 0.38606342673301697
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.3333333432674408
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.0
+2022-05-13 12:37:47,321 [MainThread  ] [INFO ] Termination accuracy: 0.0
+2022-05-13 12:39:14,414 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='6', nnodes='6')
+2022-05-13 12:39:14,415 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:39:14,415 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:39:14,418 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:39:14,419 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:39:14,419 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:39:14,419 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:39:14,419 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 50, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:39:14,443 [MainThread  ] [INFO ] Epoch 0; Train loss 10.4762; Val loss 10.4146
+2022-05-13 12:39:14,454 [MainThread  ] [INFO ] Epoch 1; Train loss 10.4146; Val loss 10.3725
+2022-05-13 12:39:14,465 [MainThread  ] [INFO ] Epoch 2; Train loss 10.3725; Val loss 10.3312
+2022-05-13 12:39:14,476 [MainThread  ] [INFO ] Epoch 3; Train loss 10.3306; Val loss 10.2907
+2022-05-13 12:39:14,487 [MainThread  ] [INFO ] Epoch 4; Train loss 10.2903; Val loss 10.2513
+2022-05-13 12:39:14,497 [MainThread  ] [INFO ] Epoch 5; Train loss 10.2509; Val loss 10.2132
+2022-05-13 12:39:14,508 [MainThread  ] [INFO ] Epoch 6; Train loss 10.2132; Val loss 10.1757
+2022-05-13 12:39:14,519 [MainThread  ] [INFO ] Epoch 7; Train loss 10.1754; Val loss 10.1393
+2022-05-13 12:39:14,529 [MainThread  ] [INFO ] Epoch 8; Train loss 10.1390; Val loss 10.1032
+2022-05-13 12:39:14,540 [MainThread  ] [INFO ] Epoch 9; Train loss 10.1182; Val loss 10.0675
+2022-05-13 12:39:14,551 [MainThread  ] [INFO ] Epoch 10; Train loss 10.0675; Val loss 10.0332
+2022-05-13 12:39:14,562 [MainThread  ] [INFO ] Epoch 11; Train loss 10.0332; Val loss 9.9994
+2022-05-13 12:39:14,572 [MainThread  ] [INFO ] Epoch 12; Train loss 9.9989; Val loss 9.9660
+2022-05-13 12:39:14,582 [MainThread  ] [INFO ] Epoch 13; Train loss 9.9660; Val loss 9.9330
+2022-05-13 12:39:14,593 [MainThread  ] [INFO ] Epoch 14; Train loss 9.9330; Val loss 9.9006
+2022-05-13 12:39:14,604 [MainThread  ] [INFO ] Epoch 15; Train loss 9.9002; Val loss 9.8690
+2022-05-13 12:39:14,614 [MainThread  ] [INFO ] Epoch 16; Train loss 9.8805; Val loss 9.8377
+2022-05-13 12:39:14,625 [MainThread  ] [INFO ] Epoch 17; Train loss 9.8377; Val loss 9.8067
+2022-05-13 12:39:14,636 [MainThread  ] [INFO ] Epoch 18; Train loss 9.8067; Val loss 9.7764
+2022-05-13 12:39:14,646 [MainThread  ] [INFO ] Epoch 19; Train loss 9.7764; Val loss 9.7465
+2022-05-13 12:39:14,656 [MainThread  ] [INFO ] Epoch 20; Train loss 9.7458; Val loss 9.7166
+2022-05-13 12:39:14,667 [MainThread  ] [INFO ] Epoch 21; Train loss 9.7166; Val loss 9.6869
+2022-05-13 12:39:14,677 [MainThread  ] [INFO ] Epoch 22; Train loss 9.6862; Val loss 9.6574
+2022-05-13 12:39:14,688 [MainThread  ] [INFO ] Epoch 23; Train loss 9.6565; Val loss 9.6280
+2022-05-13 12:39:14,698 [MainThread  ] [INFO ] Epoch 24; Train loss 9.6280; Val loss 9.5986
+2022-05-13 12:39:14,709 [MainThread  ] [INFO ] Epoch 25; Train loss 9.6072; Val loss 9.5701
+2022-05-13 12:39:14,719 [MainThread  ] [INFO ] Epoch 26; Train loss 9.5783; Val loss 9.5422
+2022-05-13 12:39:14,730 [MainThread  ] [INFO ] Epoch 27; Train loss 9.5500; Val loss 9.5146
+2022-05-13 12:39:14,740 [MainThread  ] [INFO ] Epoch 28; Train loss 9.5219; Val loss 9.4874
+2022-05-13 12:39:14,751 [MainThread  ] [INFO ] Epoch 29; Train loss 9.4874; Val loss 9.4602
+2022-05-13 12:39:14,761 [MainThread  ] [INFO ] Epoch 30; Train loss 9.4602; Val loss 9.4324
+2022-05-13 12:39:14,771 [MainThread  ] [INFO ] Epoch 31; Train loss 9.4324; Val loss 9.4042
+2022-05-13 12:39:14,782 [MainThread  ] [INFO ] Epoch 32; Train loss 9.4042; Val loss 9.3759
+2022-05-13 12:39:14,793 [MainThread  ] [INFO ] Epoch 33; Train loss 9.3759; Val loss 9.3477
+2022-05-13 12:39:14,803 [MainThread  ] [INFO ] Epoch 34; Train loss 9.3477; Val loss 9.3196
+2022-05-13 12:39:14,813 [MainThread  ] [INFO ] Epoch 35; Train loss 9.3171; Val loss 9.2919
+2022-05-13 12:39:14,824 [MainThread  ] [INFO ] Epoch 36; Train loss 9.2892; Val loss 9.2647
+2022-05-13 12:39:14,834 [MainThread  ] [INFO ] Epoch 37; Train loss 9.2619; Val loss 9.2378
+2022-05-13 12:39:14,844 [MainThread  ] [INFO ] Epoch 38; Train loss 9.2349; Val loss 9.2116
+2022-05-13 12:39:14,855 [MainThread  ] [INFO ] Epoch 39; Train loss 9.2084; Val loss 9.1854
+2022-05-13 12:39:14,865 [MainThread  ] [INFO ] Epoch 40; Train loss 9.1854; Val loss 9.1593
+2022-05-13 12:39:14,876 [MainThread  ] [INFO ] Epoch 41; Train loss 9.1557; Val loss 9.1333
+2022-05-13 12:39:14,886 [MainThread  ] [INFO ] Epoch 42; Train loss 9.1294; Val loss 9.1072
+2022-05-13 12:39:14,896 [MainThread  ] [INFO ] Epoch 43; Train loss 9.1072; Val loss 9.0811
+2022-05-13 12:39:14,906 [MainThread  ] [INFO ] Epoch 44; Train loss 9.0811; Val loss 9.0554
+2022-05-13 12:39:14,917 [MainThread  ] [INFO ] Epoch 45; Train loss 9.0509; Val loss 9.0299
+2022-05-13 12:39:14,927 [MainThread  ] [INFO ] Epoch 46; Train loss 9.0253; Val loss 9.0046
+2022-05-13 12:39:14,938 [MainThread  ] [INFO ] Epoch 47; Train loss 9.0046; Val loss 8.9789
+2022-05-13 12:39:14,948 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9789; Val loss 8.9529
+2022-05-13 12:39:14,959 [MainThread  ] [INFO ] Epoch 49; Train loss 8.9529; Val loss 8.9267
+2022-05-13 12:39:14,959 [MainThread  ] [INFO ] Test
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.12962962687015533
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.9166666865348816
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] DFS: key mean accuracy: 6.670431613922119
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] DFS: key last accuracy: 6.670431613922119
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.1944444328546524
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.1944444328546524
+2022-05-13 12:39:14,962 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:39:25,283 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=100, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='6', nnodes='6')
+2022-05-13 12:39:25,283 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:39:25,283 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:39:25,286 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:39:25,287 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:39:25,287 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:39:25,287 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:39:25,287 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 100, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:39:25,300 [MainThread  ] [INFO ] Epoch 0; Train loss 10.4762; Val loss 10.4146
+2022-05-13 12:39:25,311 [MainThread  ] [INFO ] Epoch 1; Train loss 10.4146; Val loss 10.3725
+2022-05-13 12:39:25,322 [MainThread  ] [INFO ] Epoch 2; Train loss 10.3725; Val loss 10.3312
+2022-05-13 12:39:25,333 [MainThread  ] [INFO ] Epoch 3; Train loss 10.3306; Val loss 10.2907
+2022-05-13 12:39:25,344 [MainThread  ] [INFO ] Epoch 4; Train loss 10.2903; Val loss 10.2513
+2022-05-13 12:39:25,354 [MainThread  ] [INFO ] Epoch 5; Train loss 10.2509; Val loss 10.2132
+2022-05-13 12:39:25,364 [MainThread  ] [INFO ] Epoch 6; Train loss 10.2132; Val loss 10.1757
+2022-05-13 12:39:25,375 [MainThread  ] [INFO ] Epoch 7; Train loss 10.1754; Val loss 10.1393
+2022-05-13 12:39:25,385 [MainThread  ] [INFO ] Epoch 8; Train loss 10.1390; Val loss 10.1032
+2022-05-13 12:39:25,396 [MainThread  ] [INFO ] Epoch 9; Train loss 10.1182; Val loss 10.0675
+2022-05-13 12:39:25,406 [MainThread  ] [INFO ] Epoch 10; Train loss 10.0675; Val loss 10.0332
+2022-05-13 12:39:25,416 [MainThread  ] [INFO ] Epoch 11; Train loss 10.0332; Val loss 9.9994
+2022-05-13 12:39:25,427 [MainThread  ] [INFO ] Epoch 12; Train loss 9.9989; Val loss 9.9660
+2022-05-13 12:39:25,437 [MainThread  ] [INFO ] Epoch 13; Train loss 9.9660; Val loss 9.9330
+2022-05-13 12:39:25,448 [MainThread  ] [INFO ] Epoch 14; Train loss 9.9330; Val loss 9.9006
+2022-05-13 12:39:25,458 [MainThread  ] [INFO ] Epoch 15; Train loss 9.9002; Val loss 9.8690
+2022-05-13 12:39:25,469 [MainThread  ] [INFO ] Epoch 16; Train loss 9.8805; Val loss 9.8377
+2022-05-13 12:39:25,479 [MainThread  ] [INFO ] Epoch 17; Train loss 9.8377; Val loss 9.8067
+2022-05-13 12:39:25,489 [MainThread  ] [INFO ] Epoch 18; Train loss 9.8067; Val loss 9.7764
+2022-05-13 12:39:25,499 [MainThread  ] [INFO ] Epoch 19; Train loss 9.7764; Val loss 9.7465
+2022-05-13 12:39:25,509 [MainThread  ] [INFO ] Epoch 20; Train loss 9.7458; Val loss 9.7166
+2022-05-13 12:39:25,520 [MainThread  ] [INFO ] Epoch 21; Train loss 9.7166; Val loss 9.6869
+2022-05-13 12:39:25,530 [MainThread  ] [INFO ] Epoch 22; Train loss 9.6862; Val loss 9.6574
+2022-05-13 12:39:25,541 [MainThread  ] [INFO ] Epoch 23; Train loss 9.6565; Val loss 9.6280
+2022-05-13 12:39:25,551 [MainThread  ] [INFO ] Epoch 24; Train loss 9.6280; Val loss 9.5986
+2022-05-13 12:39:25,561 [MainThread  ] [INFO ] Epoch 25; Train loss 9.6072; Val loss 9.5701
+2022-05-13 12:39:25,571 [MainThread  ] [INFO ] Epoch 26; Train loss 9.5783; Val loss 9.5422
+2022-05-13 12:39:25,582 [MainThread  ] [INFO ] Epoch 27; Train loss 9.5500; Val loss 9.5146
+2022-05-13 12:39:25,592 [MainThread  ] [INFO ] Epoch 28; Train loss 9.5219; Val loss 9.4874
+2022-05-13 12:39:25,603 [MainThread  ] [INFO ] Epoch 29; Train loss 9.4874; Val loss 9.4602
+2022-05-13 12:39:25,613 [MainThread  ] [INFO ] Epoch 30; Train loss 9.4602; Val loss 9.4324
+2022-05-13 12:39:25,624 [MainThread  ] [INFO ] Epoch 31; Train loss 9.4324; Val loss 9.4042
+2022-05-13 12:39:25,633 [MainThread  ] [INFO ] Epoch 32; Train loss 9.4042; Val loss 9.3759
+2022-05-13 12:39:25,644 [MainThread  ] [INFO ] Epoch 33; Train loss 9.3759; Val loss 9.3477
+2022-05-13 12:39:25,654 [MainThread  ] [INFO ] Epoch 34; Train loss 9.3477; Val loss 9.3196
+2022-05-13 12:39:25,664 [MainThread  ] [INFO ] Epoch 35; Train loss 9.3171; Val loss 9.2919
+2022-05-13 12:39:25,674 [MainThread  ] [INFO ] Epoch 36; Train loss 9.2892; Val loss 9.2647
+2022-05-13 12:39:25,684 [MainThread  ] [INFO ] Epoch 37; Train loss 9.2619; Val loss 9.2378
+2022-05-13 12:39:25,694 [MainThread  ] [INFO ] Epoch 38; Train loss 9.2349; Val loss 9.2116
+2022-05-13 12:39:25,704 [MainThread  ] [INFO ] Epoch 39; Train loss 9.2084; Val loss 9.1854
+2022-05-13 12:39:25,715 [MainThread  ] [INFO ] Epoch 40; Train loss 9.1854; Val loss 9.1593
+2022-05-13 12:39:25,725 [MainThread  ] [INFO ] Epoch 41; Train loss 9.1557; Val loss 9.1333
+2022-05-13 12:39:25,735 [MainThread  ] [INFO ] Epoch 42; Train loss 9.1294; Val loss 9.1072
+2022-05-13 12:39:25,745 [MainThread  ] [INFO ] Epoch 43; Train loss 9.1072; Val loss 9.0811
+2022-05-13 12:39:25,756 [MainThread  ] [INFO ] Epoch 44; Train loss 9.0811; Val loss 9.0554
+2022-05-13 12:39:25,766 [MainThread  ] [INFO ] Epoch 45; Train loss 9.0509; Val loss 9.0299
+2022-05-13 12:39:25,776 [MainThread  ] [INFO ] Epoch 46; Train loss 9.0253; Val loss 9.0046
+2022-05-13 12:39:25,786 [MainThread  ] [INFO ] Epoch 47; Train loss 9.0046; Val loss 8.9789
+2022-05-13 12:39:25,796 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9789; Val loss 8.9529
+2022-05-13 12:39:25,807 [MainThread  ] [INFO ] Epoch 49; Train loss 8.9529; Val loss 8.9267
+2022-05-13 12:39:25,817 [MainThread  ] [INFO ] Epoch 50; Train loss 8.9267; Val loss 8.9007
+2022-05-13 12:39:25,827 [MainThread  ] [INFO ] Epoch 51; Train loss 8.9007; Val loss 8.8747
+2022-05-13 12:39:25,838 [MainThread  ] [INFO ] Epoch 52; Train loss 8.8747; Val loss 8.8487
+2022-05-13 12:39:25,848 [MainThread  ] [INFO ] Epoch 53; Train loss 8.8442; Val loss 8.8225
+2022-05-13 12:39:25,858 [MainThread  ] [INFO ] Epoch 54; Train loss 8.8225; Val loss 8.7961
+2022-05-13 12:39:25,868 [MainThread  ] [INFO ] Epoch 55; Train loss 8.7961; Val loss 8.7696
+2022-05-13 12:39:25,879 [MainThread  ] [INFO ] Epoch 56; Train loss 8.7696; Val loss 8.7434
+2022-05-13 12:39:25,890 [MainThread  ] [INFO ] Epoch 57; Train loss 8.7434; Val loss 8.7167
+2022-05-13 12:39:25,900 [MainThread  ] [INFO ] Epoch 58; Train loss 8.7167; Val loss 8.6898
+2022-05-13 12:39:25,910 [MainThread  ] [INFO ] Epoch 59; Train loss 8.6854; Val loss 8.6627
+2022-05-13 12:39:25,921 [MainThread  ] [INFO ] Epoch 60; Train loss 8.6583; Val loss 8.6357
+2022-05-13 12:39:25,931 [MainThread  ] [INFO ] Epoch 61; Train loss 8.6367; Val loss 8.6084
+2022-05-13 12:39:25,941 [MainThread  ] [INFO ] Epoch 62; Train loss 8.6084; Val loss 8.5809
+2022-05-13 12:39:25,951 [MainThread  ] [INFO ] Epoch 63; Train loss 8.5766; Val loss 8.5532
+2022-05-13 12:39:25,962 [MainThread  ] [INFO ] Epoch 64; Train loss 8.5532; Val loss 8.5252
+2022-05-13 12:39:25,972 [MainThread  ] [INFO ] Epoch 65; Train loss 8.5209; Val loss 8.4968
+2022-05-13 12:39:25,982 [MainThread  ] [INFO ] Epoch 66; Train loss 8.4968; Val loss 8.4679
+2022-05-13 12:39:25,992 [MainThread  ] [INFO ] Epoch 67; Train loss 8.4679; Val loss 8.4382
+2022-05-13 12:39:26,003 [MainThread  ] [INFO ] Epoch 68; Train loss 8.4338; Val loss 8.4076
+2022-05-13 12:39:26,013 [MainThread  ] [INFO ] Epoch 69; Train loss 8.4076; Val loss 8.3763
+2022-05-13 12:39:26,024 [MainThread  ] [INFO ] Epoch 70; Train loss 8.3763; Val loss 8.3445
+2022-05-13 12:39:26,034 [MainThread  ] [INFO ] Epoch 71; Train loss 8.3470; Val loss 8.3113
+2022-05-13 12:39:26,044 [MainThread  ] [INFO ] Epoch 72; Train loss 8.3069; Val loss 8.2772
+2022-05-13 12:39:26,054 [MainThread  ] [INFO ] Epoch 73; Train loss 8.2727; Val loss 8.2416
+2022-05-13 12:39:26,064 [MainThread  ] [INFO ] Epoch 74; Train loss 8.2416; Val loss 8.2044
+2022-05-13 12:39:26,074 [MainThread  ] [INFO ] Epoch 75; Train loss 8.1996; Val loss 8.1660
+2022-05-13 12:39:26,085 [MainThread  ] [INFO ] Epoch 76; Train loss 8.1660; Val loss 8.1270
+2022-05-13 12:39:26,095 [MainThread  ] [INFO ] Epoch 77; Train loss 8.1220; Val loss 8.0870
+2022-05-13 12:39:26,105 [MainThread  ] [INFO ] Epoch 78; Train loss 8.0870; Val loss 8.0462
+2022-05-13 12:39:26,115 [MainThread  ] [INFO ] Epoch 79; Train loss 8.0501; Val loss 8.0079
+2022-05-13 12:39:26,126 [MainThread  ] [INFO ] Epoch 80; Train loss 8.0079; Val loss 7.9725
+2022-05-13 12:39:26,136 [MainThread  ] [INFO ] Epoch 81; Train loss 7.9725; Val loss 7.9371
+2022-05-13 12:39:26,146 [MainThread  ] [INFO ] Epoch 82; Train loss 7.9331; Val loss 7.9044
+2022-05-13 12:39:26,157 [MainThread  ] [INFO ] Epoch 83; Train loss 7.9044; Val loss 7.8709
+2022-05-13 12:39:26,166 [MainThread  ] [INFO ] Epoch 84; Train loss 7.8671; Val loss 7.8366
+2022-05-13 12:39:26,177 [MainThread  ] [INFO ] Epoch 85; Train loss 7.8407; Val loss 7.8091
+2022-05-13 12:39:26,187 [MainThread  ] [INFO ] Epoch 86; Train loss 7.8055; Val loss 7.7808
+2022-05-13 12:39:26,198 [MainThread  ] [INFO ] Epoch 87; Train loss 7.7808; Val loss 7.7520
+2022-05-13 12:39:26,208 [MainThread  ] [INFO ] Epoch 88; Train loss 7.7556; Val loss 7.7232
+2022-05-13 12:39:26,218 [MainThread  ] [INFO ] Epoch 89; Train loss 7.7232; Val loss 7.6939
+2022-05-13 12:39:26,228 [MainThread  ] [INFO ] Epoch 90; Train loss 7.6911; Val loss 7.6647
+2022-05-13 12:39:26,238 [MainThread  ] [INFO ] Epoch 91; Train loss 7.6622; Val loss 7.6352
+2022-05-13 12:39:26,249 [MainThread  ] [INFO ] Epoch 92; Train loss 7.6352; Val loss 7.6053
+2022-05-13 12:39:26,259 [MainThread  ] [INFO ] Epoch 93; Train loss 7.6053; Val loss 7.5746
+2022-05-13 12:39:26,269 [MainThread  ] [INFO ] Epoch 94; Train loss 7.5778; Val loss 7.5432
+2022-05-13 12:39:26,280 [MainThread  ] [INFO ] Epoch 95; Train loss 7.5432; Val loss 7.5114
+2022-05-13 12:39:26,290 [MainThread  ] [INFO ] Epoch 96; Train loss 7.5114; Val loss 7.4792
+2022-05-13 12:39:26,300 [MainThread  ] [INFO ] Epoch 97; Train loss 7.4792; Val loss 7.4464
+2022-05-13 12:39:26,310 [MainThread  ] [INFO ] Epoch 98; Train loss 7.4464; Val loss 7.4136
+2022-05-13 12:39:26,320 [MainThread  ] [INFO ] Epoch 99; Train loss 7.4150; Val loss 7.3805
+2022-05-13 12:39:26,321 [MainThread  ] [INFO ] Test
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.5555555820465088
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 1.0
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.944444477558136
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] DFS: key mean accuracy: 3.6679470539093018
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] DFS: key last accuracy: 3.6679470539093018
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.6388888955116272
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.6388888955116272
+2022-05-13 12:39:26,324 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:40:39,624 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=1000, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='6', nnodes='6')
+2022-05-13 12:40:39,625 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:40:39,625 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:40:39,631 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:40:39,632 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:40:39,633 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:40:39,633 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:40:39,633 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 1000, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:40:39,645 [MainThread  ] [INFO ] Epoch 0; Train loss 10.4762; Val loss 10.4146
+2022-05-13 12:40:39,656 [MainThread  ] [INFO ] Epoch 1; Train loss 10.4146; Val loss 10.3725
+2022-05-13 12:40:39,667 [MainThread  ] [INFO ] Epoch 2; Train loss 10.3725; Val loss 10.3312
+2022-05-13 12:40:39,678 [MainThread  ] [INFO ] Epoch 3; Train loss 10.3306; Val loss 10.2907
+2022-05-13 12:40:39,688 [MainThread  ] [INFO ] Epoch 4; Train loss 10.2903; Val loss 10.2513
+2022-05-13 12:40:39,698 [MainThread  ] [INFO ] Epoch 5; Train loss 10.2509; Val loss 10.2132
+2022-05-13 12:40:39,708 [MainThread  ] [INFO ] Epoch 6; Train loss 10.2132; Val loss 10.1757
+2022-05-13 12:40:39,718 [MainThread  ] [INFO ] Epoch 7; Train loss 10.1754; Val loss 10.1393
+2022-05-13 12:40:39,728 [MainThread  ] [INFO ] Epoch 8; Train loss 10.1390; Val loss 10.1032
+2022-05-13 12:40:39,739 [MainThread  ] [INFO ] Epoch 9; Train loss 10.1182; Val loss 10.0675
+2022-05-13 12:40:39,750 [MainThread  ] [INFO ] Epoch 10; Train loss 10.0675; Val loss 10.0332
+2022-05-13 12:40:39,761 [MainThread  ] [INFO ] Epoch 11; Train loss 10.0332; Val loss 9.9994
+2022-05-13 12:40:39,771 [MainThread  ] [INFO ] Epoch 12; Train loss 9.9989; Val loss 9.9660
+2022-05-13 12:40:39,782 [MainThread  ] [INFO ] Epoch 13; Train loss 9.9660; Val loss 9.9330
+2022-05-13 12:40:39,792 [MainThread  ] [INFO ] Epoch 14; Train loss 9.9330; Val loss 9.9006
+2022-05-13 12:40:39,803 [MainThread  ] [INFO ] Epoch 15; Train loss 9.9002; Val loss 9.8690
+2022-05-13 12:40:39,813 [MainThread  ] [INFO ] Epoch 16; Train loss 9.8805; Val loss 9.8377
+2022-05-13 12:40:39,823 [MainThread  ] [INFO ] Epoch 17; Train loss 9.8377; Val loss 9.8067
+2022-05-13 12:40:39,833 [MainThread  ] [INFO ] Epoch 18; Train loss 9.8067; Val loss 9.7764
+2022-05-13 12:40:39,844 [MainThread  ] [INFO ] Epoch 19; Train loss 9.7764; Val loss 9.7465
+2022-05-13 12:40:39,854 [MainThread  ] [INFO ] Epoch 20; Train loss 9.7458; Val loss 9.7166
+2022-05-13 12:40:39,865 [MainThread  ] [INFO ] Epoch 21; Train loss 9.7166; Val loss 9.6869
+2022-05-13 12:40:39,875 [MainThread  ] [INFO ] Epoch 22; Train loss 9.6862; Val loss 9.6574
+2022-05-13 12:40:39,886 [MainThread  ] [INFO ] Epoch 23; Train loss 9.6565; Val loss 9.6280
+2022-05-13 12:40:39,896 [MainThread  ] [INFO ] Epoch 24; Train loss 9.6280; Val loss 9.5986
+2022-05-13 12:40:39,906 [MainThread  ] [INFO ] Epoch 25; Train loss 9.6072; Val loss 9.5701
+2022-05-13 12:40:39,916 [MainThread  ] [INFO ] Epoch 26; Train loss 9.5783; Val loss 9.5422
+2022-05-13 12:40:39,926 [MainThread  ] [INFO ] Epoch 27; Train loss 9.5500; Val loss 9.5146
+2022-05-13 12:40:39,936 [MainThread  ] [INFO ] Epoch 28; Train loss 9.5219; Val loss 9.4874
+2022-05-13 12:40:39,947 [MainThread  ] [INFO ] Epoch 29; Train loss 9.4874; Val loss 9.4602
+2022-05-13 12:40:39,958 [MainThread  ] [INFO ] Epoch 30; Train loss 9.4602; Val loss 9.4324
+2022-05-13 12:40:39,968 [MainThread  ] [INFO ] Epoch 31; Train loss 9.4324; Val loss 9.4042
+2022-05-13 12:40:39,979 [MainThread  ] [INFO ] Epoch 32; Train loss 9.4042; Val loss 9.3759
+2022-05-13 12:40:39,989 [MainThread  ] [INFO ] Epoch 33; Train loss 9.3759; Val loss 9.3477
+2022-05-13 12:40:40,000 [MainThread  ] [INFO ] Epoch 34; Train loss 9.3477; Val loss 9.3196
+2022-05-13 12:40:40,011 [MainThread  ] [INFO ] Epoch 35; Train loss 9.3171; Val loss 9.2919
+2022-05-13 12:40:40,022 [MainThread  ] [INFO ] Epoch 36; Train loss 9.2892; Val loss 9.2647
+2022-05-13 12:40:40,033 [MainThread  ] [INFO ] Epoch 37; Train loss 9.2619; Val loss 9.2378
+2022-05-13 12:40:40,044 [MainThread  ] [INFO ] Epoch 38; Train loss 9.2349; Val loss 9.2116
+2022-05-13 12:40:40,055 [MainThread  ] [INFO ] Epoch 39; Train loss 9.2084; Val loss 9.1854
+2022-05-13 12:40:40,067 [MainThread  ] [INFO ] Epoch 40; Train loss 9.1854; Val loss 9.1593
+2022-05-13 12:40:40,078 [MainThread  ] [INFO ] Epoch 41; Train loss 9.1557; Val loss 9.1333
+2022-05-13 12:40:40,089 [MainThread  ] [INFO ] Epoch 42; Train loss 9.1294; Val loss 9.1072
+2022-05-13 12:40:40,099 [MainThread  ] [INFO ] Epoch 43; Train loss 9.1072; Val loss 9.0811
+2022-05-13 12:40:40,110 [MainThread  ] [INFO ] Epoch 44; Train loss 9.0811; Val loss 9.0554
+2022-05-13 12:40:40,120 [MainThread  ] [INFO ] Epoch 45; Train loss 9.0509; Val loss 9.0299
+2022-05-13 12:40:40,131 [MainThread  ] [INFO ] Epoch 46; Train loss 9.0253; Val loss 9.0046
+2022-05-13 12:40:40,142 [MainThread  ] [INFO ] Epoch 47; Train loss 9.0046; Val loss 8.9789
+2022-05-13 12:40:40,152 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9789; Val loss 8.9529
+2022-05-13 12:40:40,163 [MainThread  ] [INFO ] Epoch 49; Train loss 8.9529; Val loss 8.9267
+2022-05-13 12:40:40,174 [MainThread  ] [INFO ] Epoch 50; Train loss 8.9267; Val loss 8.9007
+2022-05-13 12:40:40,184 [MainThread  ] [INFO ] Epoch 51; Train loss 8.9007; Val loss 8.8747
+2022-05-13 12:40:40,195 [MainThread  ] [INFO ] Epoch 52; Train loss 8.8747; Val loss 8.8487
+2022-05-13 12:40:40,205 [MainThread  ] [INFO ] Epoch 53; Train loss 8.8442; Val loss 8.8225
+2022-05-13 12:40:40,215 [MainThread  ] [INFO ] Epoch 54; Train loss 8.8225; Val loss 8.7961
+2022-05-13 12:40:40,225 [MainThread  ] [INFO ] Epoch 55; Train loss 8.7961; Val loss 8.7696
+2022-05-13 12:40:40,235 [MainThread  ] [INFO ] Epoch 56; Train loss 8.7696; Val loss 8.7434
+2022-05-13 12:40:40,246 [MainThread  ] [INFO ] Epoch 57; Train loss 8.7434; Val loss 8.7167
+2022-05-13 12:40:40,256 [MainThread  ] [INFO ] Epoch 58; Train loss 8.7167; Val loss 8.6898
+2022-05-13 12:40:40,266 [MainThread  ] [INFO ] Epoch 59; Train loss 8.6854; Val loss 8.6627
+2022-05-13 12:40:40,276 [MainThread  ] [INFO ] Epoch 60; Train loss 8.6583; Val loss 8.6357
+2022-05-13 12:40:40,287 [MainThread  ] [INFO ] Epoch 61; Train loss 8.6367; Val loss 8.6084
+2022-05-13 12:40:40,297 [MainThread  ] [INFO ] Epoch 62; Train loss 8.6084; Val loss 8.5809
+2022-05-13 12:40:40,307 [MainThread  ] [INFO ] Epoch 63; Train loss 8.5766; Val loss 8.5532
+2022-05-13 12:40:40,318 [MainThread  ] [INFO ] Epoch 64; Train loss 8.5532; Val loss 8.5252
+2022-05-13 12:40:40,328 [MainThread  ] [INFO ] Epoch 65; Train loss 8.5209; Val loss 8.4968
+2022-05-13 12:40:40,338 [MainThread  ] [INFO ] Epoch 66; Train loss 8.4968; Val loss 8.4679
+2022-05-13 12:40:40,349 [MainThread  ] [INFO ] Epoch 67; Train loss 8.4679; Val loss 8.4382
+2022-05-13 12:40:40,359 [MainThread  ] [INFO ] Epoch 68; Train loss 8.4338; Val loss 8.4076
+2022-05-13 12:40:40,369 [MainThread  ] [INFO ] Epoch 69; Train loss 8.4076; Val loss 8.3763
+2022-05-13 12:40:40,379 [MainThread  ] [INFO ] Epoch 70; Train loss 8.3763; Val loss 8.3445
+2022-05-13 12:40:40,390 [MainThread  ] [INFO ] Epoch 71; Train loss 8.3470; Val loss 8.3113
+2022-05-13 12:40:40,400 [MainThread  ] [INFO ] Epoch 72; Train loss 8.3069; Val loss 8.2772
+2022-05-13 12:40:40,411 [MainThread  ] [INFO ] Epoch 73; Train loss 8.2727; Val loss 8.2416
+2022-05-13 12:40:40,421 [MainThread  ] [INFO ] Epoch 74; Train loss 8.2416; Val loss 8.2044
+2022-05-13 12:40:40,432 [MainThread  ] [INFO ] Epoch 75; Train loss 8.1996; Val loss 8.1660
+2022-05-13 12:40:40,442 [MainThread  ] [INFO ] Epoch 76; Train loss 8.1660; Val loss 8.1270
+2022-05-13 12:40:40,452 [MainThread  ] [INFO ] Epoch 77; Train loss 8.1220; Val loss 8.0870
+2022-05-13 12:40:40,463 [MainThread  ] [INFO ] Epoch 78; Train loss 8.0870; Val loss 8.0462
+2022-05-13 12:40:40,473 [MainThread  ] [INFO ] Epoch 79; Train loss 8.0501; Val loss 8.0079
+2022-05-13 12:40:40,484 [MainThread  ] [INFO ] Epoch 80; Train loss 8.0079; Val loss 7.9725
+2022-05-13 12:40:40,494 [MainThread  ] [INFO ] Epoch 81; Train loss 7.9725; Val loss 7.9371
+2022-05-13 12:40:40,504 [MainThread  ] [INFO ] Epoch 82; Train loss 7.9331; Val loss 7.9044
+2022-05-13 12:40:40,514 [MainThread  ] [INFO ] Epoch 83; Train loss 7.9044; Val loss 7.8709
+2022-05-13 12:40:40,524 [MainThread  ] [INFO ] Epoch 84; Train loss 7.8671; Val loss 7.8366
+2022-05-13 12:40:40,535 [MainThread  ] [INFO ] Epoch 85; Train loss 7.8407; Val loss 7.8091
+2022-05-13 12:40:40,545 [MainThread  ] [INFO ] Epoch 86; Train loss 7.8055; Val loss 7.7808
+2022-05-13 12:40:40,555 [MainThread  ] [INFO ] Epoch 87; Train loss 7.7808; Val loss 7.7520
+2022-05-13 12:40:40,566 [MainThread  ] [INFO ] Epoch 88; Train loss 7.7556; Val loss 7.7232
+2022-05-13 12:40:40,576 [MainThread  ] [INFO ] Epoch 89; Train loss 7.7232; Val loss 7.6939
+2022-05-13 12:40:40,587 [MainThread  ] [INFO ] Epoch 90; Train loss 7.6911; Val loss 7.6647
+2022-05-13 12:40:40,597 [MainThread  ] [INFO ] Epoch 91; Train loss 7.6622; Val loss 7.6352
+2022-05-13 12:40:40,607 [MainThread  ] [INFO ] Epoch 92; Train loss 7.6352; Val loss 7.6053
+2022-05-13 12:40:40,617 [MainThread  ] [INFO ] Epoch 93; Train loss 7.6053; Val loss 7.5746
+2022-05-13 12:40:40,628 [MainThread  ] [INFO ] Epoch 94; Train loss 7.5778; Val loss 7.5432
+2022-05-13 12:40:40,637 [MainThread  ] [INFO ] Epoch 95; Train loss 7.5432; Val loss 7.5114
+2022-05-13 12:40:40,648 [MainThread  ] [INFO ] Epoch 96; Train loss 7.5114; Val loss 7.4792
+2022-05-13 12:40:40,658 [MainThread  ] [INFO ] Epoch 97; Train loss 7.4792; Val loss 7.4464
+2022-05-13 12:40:40,668 [MainThread  ] [INFO ] Epoch 98; Train loss 7.4464; Val loss 7.4136
+2022-05-13 12:40:40,678 [MainThread  ] [INFO ] Epoch 99; Train loss 7.4150; Val loss 7.3805
+2022-05-13 12:40:40,688 [MainThread  ] [INFO ] Epoch 100; Train loss 7.3805; Val loss 7.3469
+2022-05-13 12:40:40,698 [MainThread  ] [INFO ] Epoch 101; Train loss 7.3469; Val loss 7.3136
+2022-05-13 12:40:40,709 [MainThread  ] [INFO ] Epoch 102; Train loss 7.3146; Val loss 7.2799
+2022-05-13 12:40:40,719 [MainThread  ] [INFO ] Epoch 103; Train loss 7.2808; Val loss 7.2464
+2022-05-13 12:40:40,729 [MainThread  ] [INFO ] Epoch 104; Train loss 7.2464; Val loss 7.2134
+2022-05-13 12:40:40,740 [MainThread  ] [INFO ] Epoch 105; Train loss 7.2134; Val loss 7.1803
+2022-05-13 12:40:40,750 [MainThread  ] [INFO ] Epoch 106; Train loss 7.1803; Val loss 7.1466
+2022-05-13 12:40:40,761 [MainThread  ] [INFO ] Epoch 107; Train loss 7.1466; Val loss 7.1119
+2022-05-13 12:40:40,771 [MainThread  ] [INFO ] Epoch 108; Train loss 7.1119; Val loss 7.0768
+2022-05-13 12:40:40,782 [MainThread  ] [INFO ] Epoch 109; Train loss 7.0768; Val loss 7.0416
+2022-05-13 12:40:40,792 [MainThread  ] [INFO ] Epoch 110; Train loss 7.0416; Val loss 7.0063
+2022-05-13 12:40:40,802 [MainThread  ] [INFO ] Epoch 111; Train loss 7.0059; Val loss 6.9699
+2022-05-13 12:40:40,812 [MainThread  ] [INFO ] Epoch 112; Train loss 6.9701; Val loss 6.9321
+2022-05-13 12:40:40,823 [MainThread  ] [INFO ] Epoch 113; Train loss 6.9321; Val loss 6.8939
+2022-05-13 12:40:40,833 [MainThread  ] [INFO ] Epoch 114; Train loss 6.8939; Val loss 6.8595
+2022-05-13 12:40:40,843 [MainThread  ] [INFO ] Epoch 115; Train loss 6.8584; Val loss 6.8294
+2022-05-13 12:40:40,854 [MainThread  ] [INFO ] Epoch 116; Train loss 6.8294; Val loss 6.7983
+2022-05-13 12:40:40,864 [MainThread  ] [INFO ] Epoch 117; Train loss 6.7983; Val loss 6.7668
+2022-05-13 12:40:40,875 [MainThread  ] [INFO ] Epoch 118; Train loss 6.7668; Val loss 6.7344
+2022-05-13 12:40:40,885 [MainThread  ] [INFO ] Epoch 119; Train loss 6.7331; Val loss 6.7016
+2022-05-13 12:40:40,896 [MainThread  ] [INFO ] Epoch 120; Train loss 6.7002; Val loss 6.6695
+2022-05-13 12:40:40,906 [MainThread  ] [INFO ] Epoch 121; Train loss 6.6695; Val loss 6.6378
+2022-05-13 12:40:40,916 [MainThread  ] [INFO ] Epoch 122; Train loss 6.6341; Val loss 6.6056
+2022-05-13 12:40:40,926 [MainThread  ] [INFO ] Epoch 123; Train loss 6.6044; Val loss 6.5728
+2022-05-13 12:40:40,937 [MainThread  ] [INFO ] Epoch 124; Train loss 6.5728; Val loss 6.5397
+2022-05-13 12:40:40,947 [MainThread  ] [INFO ] Epoch 125; Train loss 6.5397; Val loss 6.5058
+2022-05-13 12:40:40,957 [MainThread  ] [INFO ] Epoch 126; Train loss 6.5058; Val loss 6.4717
+2022-05-13 12:40:40,968 [MainThread  ] [INFO ] Epoch 127; Train loss 6.4708; Val loss 6.4381
+2022-05-13 12:40:40,978 [MainThread  ] [INFO ] Epoch 128; Train loss 6.4372; Val loss 6.4042
+2022-05-13 12:40:40,988 [MainThread  ] [INFO ] Epoch 129; Train loss 6.4032; Val loss 6.3706
+2022-05-13 12:40:40,999 [MainThread  ] [INFO ] Epoch 130; Train loss 6.3658; Val loss 6.3370
+2022-05-13 12:40:41,009 [MainThread  ] [INFO ] Epoch 131; Train loss 6.3319; Val loss 6.3026
+2022-05-13 12:40:41,019 [MainThread  ] [INFO ] Epoch 132; Train loss 6.3012; Val loss 6.2672
+2022-05-13 12:40:41,030 [MainThread  ] [INFO ] Epoch 133; Train loss 6.2657; Val loss 6.2314
+2022-05-13 12:40:41,041 [MainThread  ] [INFO ] Epoch 134; Train loss 6.2314; Val loss 6.1951
+2022-05-13 12:40:41,050 [MainThread  ] [INFO ] Epoch 135; Train loss 6.1951; Val loss 6.1580
+2022-05-13 12:40:41,061 [MainThread  ] [INFO ] Epoch 136; Train loss 6.1580; Val loss 6.1195
+2022-05-13 12:40:41,072 [MainThread  ] [INFO ] Epoch 137; Train loss 6.1123; Val loss 6.0798
+2022-05-13 12:40:41,083 [MainThread  ] [INFO ] Epoch 138; Train loss 6.0771; Val loss 6.0387
+2022-05-13 12:40:41,093 [MainThread  ] [INFO ] Epoch 139; Train loss 6.0359; Val loss 5.9969
+2022-05-13 12:40:41,104 [MainThread  ] [INFO ] Epoch 140; Train loss 5.9969; Val loss 5.9550
+2022-05-13 12:40:41,114 [MainThread  ] [INFO ] Epoch 141; Train loss 5.9550; Val loss 5.9125
+2022-05-13 12:40:41,124 [MainThread  ] [INFO ] Epoch 142; Train loss 5.9125; Val loss 5.8691
+2022-05-13 12:40:41,134 [MainThread  ] [INFO ] Epoch 143; Train loss 5.8662; Val loss 5.8251
+2022-05-13 12:40:41,144 [MainThread  ] [INFO ] Epoch 144; Train loss 5.8223; Val loss 5.7799
+2022-05-13 12:40:41,155 [MainThread  ] [INFO ] Epoch 145; Train loss 5.7714; Val loss 5.7341
+2022-05-13 12:40:41,165 [MainThread  ] [INFO ] Epoch 146; Train loss 5.7341; Val loss 5.6879
+2022-05-13 12:40:41,175 [MainThread  ] [INFO ] Epoch 147; Train loss 5.6856; Val loss 5.6428
+2022-05-13 12:40:41,185 [MainThread  ] [INFO ] Epoch 148; Train loss 5.6405; Val loss 5.5979
+2022-05-13 12:40:41,195 [MainThread  ] [INFO ] Epoch 149; Train loss 5.5979; Val loss 5.5527
+2022-05-13 12:40:41,205 [MainThread  ] [INFO ] Epoch 150; Train loss 5.5527; Val loss 5.5073
+2022-05-13 12:40:41,215 [MainThread  ] [INFO ] Epoch 151; Train loss 5.5073; Val loss 5.4612
+2022-05-13 12:40:41,226 [MainThread  ] [INFO ] Epoch 152; Train loss 5.4612; Val loss 5.4140
+2022-05-13 12:40:41,236 [MainThread  ] [INFO ] Epoch 153; Train loss 5.4116; Val loss 5.3662
+2022-05-13 12:40:41,246 [MainThread  ] [INFO ] Epoch 154; Train loss 5.3662; Val loss 5.3179
+2022-05-13 12:40:41,257 [MainThread  ] [INFO ] Epoch 155; Train loss 5.3179; Val loss 5.2706
+2022-05-13 12:40:41,268 [MainThread  ] [INFO ] Epoch 156; Train loss 5.2706; Val loss 5.2219
+2022-05-13 12:40:41,282 [MainThread  ] [INFO ] Epoch 157; Train loss 5.2219; Val loss 5.1723
+2022-05-13 12:40:41,298 [MainThread  ] [INFO ] Epoch 158; Train loss 5.1628; Val loss 5.1215
+2022-05-13 12:40:41,310 [MainThread  ] [INFO ] Epoch 159; Train loss 5.1190; Val loss 5.0703
+2022-05-13 12:40:41,321 [MainThread  ] [INFO ] Epoch 160; Train loss 5.0703; Val loss 5.0185
+2022-05-13 12:40:41,332 [MainThread  ] [INFO ] Epoch 161; Train loss 5.0161; Val loss 4.9660
+2022-05-13 12:40:41,342 [MainThread  ] [INFO ] Epoch 162; Train loss 4.9558; Val loss 4.9134
+2022-05-13 12:40:41,352 [MainThread  ] [INFO ] Epoch 163; Train loss 4.9134; Val loss 4.8602
+2022-05-13 12:40:41,363 [MainThread  ] [INFO ] Epoch 164; Train loss 4.8495; Val loss 4.8075
+2022-05-13 12:40:41,373 [MainThread  ] [INFO ] Epoch 165; Train loss 4.7966; Val loss 4.7564
+2022-05-13 12:40:41,383 [MainThread  ] [INFO ] Epoch 166; Train loss 4.7453; Val loss 4.7039
+2022-05-13 12:40:41,393 [MainThread  ] [INFO ] Epoch 167; Train loss 4.7039; Val loss 4.6524
+2022-05-13 12:40:41,403 [MainThread  ] [INFO ] Epoch 168; Train loss 4.6498; Val loss 4.6021
+2022-05-13 12:40:41,413 [MainThread  ] [INFO ] Epoch 169; Train loss 4.6021; Val loss 4.5508
+2022-05-13 12:40:41,424 [MainThread  ] [INFO ] Epoch 170; Train loss 4.5482; Val loss 4.4999
+2022-05-13 12:40:41,434 [MainThread  ] [INFO ] Epoch 171; Train loss 4.4974; Val loss 4.4507
+2022-05-13 12:40:41,444 [MainThread  ] [INFO ] Epoch 172; Train loss 4.4483; Val loss 4.4022
+2022-05-13 12:40:41,454 [MainThread  ] [INFO ] Epoch 173; Train loss 4.3905; Val loss 4.3527
+2022-05-13 12:40:41,465 [MainThread  ] [INFO ] Epoch 174; Train loss 4.3411; Val loss 4.3044
+2022-05-13 12:40:41,475 [MainThread  ] [INFO ] Epoch 175; Train loss 4.3022; Val loss 4.2558
+2022-05-13 12:40:41,486 [MainThread  ] [INFO ] Epoch 176; Train loss 4.2536; Val loss 4.2062
+2022-05-13 12:40:41,496 [MainThread  ] [INFO ] Epoch 177; Train loss 4.2041; Val loss 4.1559
+2022-05-13 12:40:41,507 [MainThread  ] [INFO ] Epoch 178; Train loss 4.1559; Val loss 4.1084
+2022-05-13 12:40:41,517 [MainThread  ] [INFO ] Epoch 179; Train loss 4.1064; Val loss 4.0594
+2022-05-13 12:40:41,527 [MainThread  ] [INFO ] Epoch 180; Train loss 4.0477; Val loss 4.0099
+2022-05-13 12:40:41,537 [MainThread  ] [INFO ] Epoch 181; Train loss 4.0099; Val loss 3.9630
+2022-05-13 12:40:41,548 [MainThread  ] [INFO ] Epoch 182; Train loss 3.9611; Val loss 3.9166
+2022-05-13 12:40:41,557 [MainThread  ] [INFO ] Epoch 183; Train loss 3.9166; Val loss 3.8699
+2022-05-13 12:40:41,567 [MainThread  ] [INFO ] Epoch 184; Train loss 3.8681; Val loss 3.8258
+2022-05-13 12:40:41,578 [MainThread  ] [INFO ] Epoch 185; Train loss 3.8137; Val loss 3.7880
+2022-05-13 12:40:41,588 [MainThread  ] [INFO ] Epoch 186; Train loss 3.7880; Val loss 3.7525
+2022-05-13 12:40:41,597 [MainThread  ] [INFO ] Epoch 187; Train loss 3.7525; Val loss 3.7191
+2022-05-13 12:40:41,608 [MainThread  ] [INFO ] Epoch 188; Train loss 3.7174; Val loss 3.6842
+2022-05-13 12:40:41,618 [MainThread  ] [INFO ] Epoch 189; Train loss 3.6825; Val loss 3.6496
+2022-05-13 12:40:41,628 [MainThread  ] [INFO ] Epoch 190; Train loss 3.6496; Val loss 3.6168
+2022-05-13 12:40:41,638 [MainThread  ] [INFO ] Epoch 191; Train loss 3.6044; Val loss 3.5831
+2022-05-13 12:40:41,649 [MainThread  ] [INFO ] Epoch 192; Train loss 3.5831; Val loss 3.5495
+2022-05-13 12:40:41,659 [MainThread  ] [INFO ] Epoch 193; Train loss 3.5495; Val loss 3.5170
+2022-05-13 12:40:41,669 [MainThread  ] [INFO ] Epoch 194; Train loss 3.5170; Val loss 3.4848
+2022-05-13 12:40:41,679 [MainThread  ] [INFO ] Epoch 195; Train loss 3.4848; Val loss 3.4538
+2022-05-13 12:40:41,689 [MainThread  ] [INFO ] Epoch 196; Train loss 3.4524; Val loss 3.4246
+2022-05-13 12:40:41,698 [MainThread  ] [INFO ] Epoch 197; Train loss 3.4246; Val loss 3.3933
+2022-05-13 12:40:41,709 [MainThread  ] [INFO ] Epoch 198; Train loss 3.3802; Val loss 3.3633
+2022-05-13 12:40:41,719 [MainThread  ] [INFO ] Epoch 199; Train loss 3.3501; Val loss 3.3341
+2022-05-13 12:40:41,729 [MainThread  ] [INFO ] Epoch 200; Train loss 3.3341; Val loss 3.3052
+2022-05-13 12:40:41,739 [MainThread  ] [INFO ] Epoch 201; Train loss 3.2918; Val loss 3.2770
+2022-05-13 12:40:41,750 [MainThread  ] [INFO ] Epoch 202; Train loss 3.2770; Val loss 3.2488
+2022-05-13 12:40:41,761 [MainThread  ] [INFO ] Epoch 203; Train loss 3.2488; Val loss 3.2211
+2022-05-13 12:40:41,771 [MainThread  ] [INFO ] Epoch 204; Train loss 3.2074; Val loss 3.1948
+2022-05-13 12:40:41,781 [MainThread  ] [INFO ] Epoch 205; Train loss 3.1810; Val loss 3.1693
+2022-05-13 12:40:41,792 [MainThread  ] [INFO ] Epoch 206; Train loss 3.1683; Val loss 3.1441
+2022-05-13 12:40:41,803 [MainThread  ] [INFO ] Epoch 207; Train loss 3.1300; Val loss 3.1192
+2022-05-13 12:40:41,813 [MainThread  ] [INFO ] Epoch 208; Train loss 3.1183; Val loss 3.0948
+2022-05-13 12:40:41,823 [MainThread  ] [INFO ] Epoch 209; Train loss 3.0805; Val loss 3.0711
+2022-05-13 12:40:41,833 [MainThread  ] [INFO ] Epoch 210; Train loss 3.0711; Val loss 3.0478
+2022-05-13 12:40:41,843 [MainThread  ] [INFO ] Epoch 211; Train loss 3.0470; Val loss 3.0251
+2022-05-13 12:40:41,853 [MainThread  ] [INFO ] Epoch 212; Train loss 3.0251; Val loss 3.0033
+2022-05-13 12:40:41,864 [MainThread  ] [INFO ] Epoch 213; Train loss 3.0025; Val loss 2.9793
+2022-05-13 12:40:41,874 [MainThread  ] [INFO ] Epoch 214; Train loss 2.9793; Val loss 2.9558
+2022-05-13 12:40:41,884 [MainThread  ] [INFO ] Epoch 215; Train loss 2.9558; Val loss 2.9378
+2022-05-13 12:40:41,894 [MainThread  ] [INFO ] Epoch 216; Train loss 2.9378; Val loss 2.9123
+2022-05-13 12:40:41,904 [MainThread  ] [INFO ] Epoch 217; Train loss 2.9123; Val loss 2.8879
+2022-05-13 12:40:41,915 [MainThread  ] [INFO ] Epoch 218; Train loss 2.8873; Val loss 2.8676
+2022-05-13 12:40:41,925 [MainThread  ] [INFO ] Epoch 219; Train loss 2.8669; Val loss 2.8455
+2022-05-13 12:40:41,935 [MainThread  ] [INFO ] Epoch 220; Train loss 2.8455; Val loss 2.8250
+2022-05-13 12:40:41,945 [MainThread  ] [INFO ] Epoch 221; Train loss 2.8250; Val loss 2.8081
+2022-05-13 12:40:41,955 [MainThread  ] [INFO ] Epoch 222; Train loss 2.8075; Val loss 2.7856
+2022-05-13 12:40:41,965 [MainThread  ] [INFO ] Epoch 223; Train loss 2.7856; Val loss 2.7759
+2022-05-13 12:40:41,975 [MainThread  ] [INFO ] Epoch 224; Train loss 2.7759; Val loss 2.7607
+2022-05-13 12:40:41,985 [MainThread  ] [INFO ] Epoch 225; Train loss 2.7601; Val loss 2.7375
+2022-05-13 12:40:41,995 [MainThread  ] [INFO ] Epoch 226; Train loss 2.7375; Val loss 2.7234
+2022-05-13 12:40:42,005 [MainThread  ] [INFO ] Epoch 227; Train loss 2.7234; Val loss 2.7115
+2022-05-13 12:40:42,015 [MainThread  ] [INFO ] Epoch 228; Train loss 2.6957; Val loss 2.6914
+2022-05-13 12:40:42,025 [MainThread  ] [INFO ] Epoch 229; Train loss 2.6756; Val loss 2.6696
+2022-05-13 12:40:42,035 [MainThread  ] [INFO ] Epoch 230; Train loss 2.6690; Val loss 2.6568
+2022-05-13 12:40:42,045 [MainThread  ] [INFO ] Epoch 231; Train loss 2.6568; Val loss 2.6413
+2022-05-13 12:40:42,055 [MainThread  ] [INFO ] Epoch 232; Train loss 2.6253; Val loss 2.6268
+2022-05-13 12:40:42,065 [MainThread  ] [INFO ] Epoch 233; Train loss 2.6262; Val loss 2.6126
+2022-05-13 12:40:42,075 [MainThread  ] [INFO ] Epoch 234; Train loss 2.6126; Val loss 2.6007
+2022-05-13 12:40:42,086 [MainThread  ] [INFO ] Epoch 235; Train loss 2.5845; Val loss 2.5851
+2022-05-13 12:40:42,095 [MainThread  ] [INFO ] Epoch 236; Train loss 2.5689; Val loss 2.5707
+2022-05-13 12:40:42,105 [MainThread  ] [INFO ] Epoch 237; Train loss 2.5702; Val loss 2.5584
+2022-05-13 12:40:42,116 [MainThread  ] [INFO ] Epoch 238; Train loss 2.5584; Val loss 2.5427
+2022-05-13 12:40:42,125 [MainThread  ] [INFO ] Epoch 239; Train loss 2.5427; Val loss 2.5306
+2022-05-13 12:40:42,136 [MainThread  ] [INFO ] Epoch 240; Train loss 2.5142; Val loss 2.5150
+2022-05-13 12:40:42,146 [MainThread  ] [INFO ] Epoch 241; Train loss 2.5150; Val loss 2.5017
+2022-05-13 12:40:42,156 [MainThread  ] [INFO ] Epoch 242; Train loss 2.4852; Val loss 2.4919
+2022-05-13 12:40:42,166 [MainThread  ] [INFO ] Epoch 243; Train loss 2.4914; Val loss 2.4774
+2022-05-13 12:40:42,177 [MainThread  ] [INFO ] Epoch 244; Train loss 2.4774; Val loss 2.4676
+2022-05-13 12:40:42,187 [MainThread  ] [INFO ] Epoch 245; Train loss 2.4676; Val loss 2.4569
+2022-05-13 12:40:42,197 [MainThread  ] [INFO ] Epoch 246; Train loss 2.4569; Val loss 2.4398
+2022-05-13 12:40:42,207 [MainThread  ] [INFO ] Epoch 247; Train loss 2.4398; Val loss 2.4348
+2022-05-13 12:40:42,217 [MainThread  ] [INFO ] Epoch 248; Train loss 2.4348; Val loss 2.4220
+2022-05-13 12:40:42,227 [MainThread  ] [INFO ] Epoch 249; Train loss 2.4052; Val loss 2.4051
+2022-05-13 12:40:42,238 [MainThread  ] [INFO ] Epoch 250; Train loss 2.3883; Val loss 2.3990
+2022-05-13 12:40:42,248 [MainThread  ] [INFO ] Epoch 251; Train loss 2.3986; Val loss 2.3850
+2022-05-13 12:40:42,258 [MainThread  ] [INFO ] Epoch 252; Train loss 2.3850; Val loss 2.3715
+2022-05-13 12:40:42,269 [MainThread  ] [INFO ] Epoch 253; Train loss 2.3545; Val loss 2.3608
+2022-05-13 12:40:42,279 [MainThread  ] [INFO ] Epoch 254; Train loss 2.3604; Val loss 2.3478
+2022-05-13 12:40:42,289 [MainThread  ] [INFO ] Epoch 255; Train loss 2.3478; Val loss 2.3363
+2022-05-13 12:40:42,300 [MainThread  ] [INFO ] Epoch 256; Train loss 2.3359; Val loss 2.3243
+2022-05-13 12:40:42,310 [MainThread  ] [INFO ] Epoch 257; Train loss 2.3243; Val loss 2.3130
+2022-05-13 12:40:42,320 [MainThread  ] [INFO ] Epoch 258; Train loss 2.2959; Val loss 2.3016
+2022-05-13 12:40:42,329 [MainThread  ] [INFO ] Epoch 259; Train loss 2.2845; Val loss 2.2902
+2022-05-13 12:40:42,339 [MainThread  ] [INFO ] Epoch 260; Train loss 2.2730; Val loss 2.2807
+2022-05-13 12:40:42,349 [MainThread  ] [INFO ] Epoch 261; Train loss 2.2807; Val loss 2.2686
+2022-05-13 12:40:42,359 [MainThread  ] [INFO ] Epoch 262; Train loss 2.2686; Val loss 2.2662
+2022-05-13 12:40:42,369 [MainThread  ] [INFO ] Epoch 263; Train loss 2.2658; Val loss 2.2579
+2022-05-13 12:40:42,379 [MainThread  ] [INFO ] Epoch 264; Train loss 2.2576; Val loss 2.2414
+2022-05-13 12:40:42,389 [MainThread  ] [INFO ] Epoch 265; Train loss 2.2414; Val loss 2.2404
+2022-05-13 12:40:42,400 [MainThread  ] [INFO ] Epoch 266; Train loss 2.2404; Val loss 2.2321
+2022-05-13 12:40:42,410 [MainThread  ] [INFO ] Epoch 267; Train loss 2.2321; Val loss 2.2134
+2022-05-13 12:40:42,419 [MainThread  ] [INFO ] Epoch 268; Train loss 2.2134; Val loss 2.2182
+2022-05-13 12:40:42,420 [MainThread  ] [INFO ] Early stopping criterion satisfied
+2022-05-13 12:40:42,420 [MainThread  ] [INFO ] Test
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.8888888955116272
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 1.0
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.944444477558136
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] DFS: key mean accuracy: 0.7673324942588806
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] DFS: key last accuracy: 0.7673324942588806
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.9722221493721008
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.9722221493721008
+2022-05-13 12:40:42,423 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:40:51,780 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=10000, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='6', nnodes='6')
+2022-05-13 12:40:51,781 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:40:51,781 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:40:51,784 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:40:51,785 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:40:51,786 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:40:51,786 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:40:51,786 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 10000, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:40:51,797 [MainThread  ] [INFO ] Epoch 0; Train loss 10.4762; Val loss 10.4146
+2022-05-13 12:40:51,809 [MainThread  ] [INFO ] Epoch 1; Train loss 10.4146; Val loss 10.3725
+2022-05-13 12:40:51,820 [MainThread  ] [INFO ] Epoch 2; Train loss 10.3725; Val loss 10.3312
+2022-05-13 12:40:51,830 [MainThread  ] [INFO ] Epoch 3; Train loss 10.3306; Val loss 10.2907
+2022-05-13 12:40:51,841 [MainThread  ] [INFO ] Epoch 4; Train loss 10.2903; Val loss 10.2513
+2022-05-13 12:40:51,852 [MainThread  ] [INFO ] Epoch 5; Train loss 10.2509; Val loss 10.2132
+2022-05-13 12:40:51,862 [MainThread  ] [INFO ] Epoch 6; Train loss 10.2132; Val loss 10.1757
+2022-05-13 12:40:51,873 [MainThread  ] [INFO ] Epoch 7; Train loss 10.1754; Val loss 10.1393
+2022-05-13 12:40:51,883 [MainThread  ] [INFO ] Epoch 8; Train loss 10.1390; Val loss 10.1032
+2022-05-13 12:40:51,893 [MainThread  ] [INFO ] Epoch 9; Train loss 10.1182; Val loss 10.0675
+2022-05-13 12:40:51,904 [MainThread  ] [INFO ] Epoch 10; Train loss 10.0675; Val loss 10.0332
+2022-05-13 12:40:51,914 [MainThread  ] [INFO ] Epoch 11; Train loss 10.0332; Val loss 9.9994
+2022-05-13 12:40:51,924 [MainThread  ] [INFO ] Epoch 12; Train loss 9.9989; Val loss 9.9660
+2022-05-13 12:40:51,935 [MainThread  ] [INFO ] Epoch 13; Train loss 9.9660; Val loss 9.9330
+2022-05-13 12:40:51,945 [MainThread  ] [INFO ] Epoch 14; Train loss 9.9330; Val loss 9.9006
+2022-05-13 12:40:51,955 [MainThread  ] [INFO ] Epoch 15; Train loss 9.9002; Val loss 9.8690
+2022-05-13 12:40:51,965 [MainThread  ] [INFO ] Epoch 16; Train loss 9.8805; Val loss 9.8377
+2022-05-13 12:40:51,976 [MainThread  ] [INFO ] Epoch 17; Train loss 9.8377; Val loss 9.8067
+2022-05-13 12:40:51,986 [MainThread  ] [INFO ] Epoch 18; Train loss 9.8067; Val loss 9.7764
+2022-05-13 12:40:51,997 [MainThread  ] [INFO ] Epoch 19; Train loss 9.7764; Val loss 9.7465
+2022-05-13 12:40:52,007 [MainThread  ] [INFO ] Epoch 20; Train loss 9.7458; Val loss 9.7166
+2022-05-13 12:40:52,017 [MainThread  ] [INFO ] Epoch 21; Train loss 9.7166; Val loss 9.6869
+2022-05-13 12:40:52,028 [MainThread  ] [INFO ] Epoch 22; Train loss 9.6862; Val loss 9.6574
+2022-05-13 12:40:52,038 [MainThread  ] [INFO ] Epoch 23; Train loss 9.6565; Val loss 9.6280
+2022-05-13 12:40:52,048 [MainThread  ] [INFO ] Epoch 24; Train loss 9.6280; Val loss 9.5986
+2022-05-13 12:40:52,059 [MainThread  ] [INFO ] Epoch 25; Train loss 9.6072; Val loss 9.5701
+2022-05-13 12:40:52,069 [MainThread  ] [INFO ] Epoch 26; Train loss 9.5783; Val loss 9.5422
+2022-05-13 12:40:52,079 [MainThread  ] [INFO ] Epoch 27; Train loss 9.5500; Val loss 9.5146
+2022-05-13 12:40:52,090 [MainThread  ] [INFO ] Epoch 28; Train loss 9.5219; Val loss 9.4874
+2022-05-13 12:40:52,100 [MainThread  ] [INFO ] Epoch 29; Train loss 9.4874; Val loss 9.4602
+2022-05-13 12:40:52,110 [MainThread  ] [INFO ] Epoch 30; Train loss 9.4602; Val loss 9.4324
+2022-05-13 12:40:52,120 [MainThread  ] [INFO ] Epoch 31; Train loss 9.4324; Val loss 9.4042
+2022-05-13 12:40:52,131 [MainThread  ] [INFO ] Epoch 32; Train loss 9.4042; Val loss 9.3759
+2022-05-13 12:40:52,140 [MainThread  ] [INFO ] Epoch 33; Train loss 9.3759; Val loss 9.3477
+2022-05-13 12:40:52,150 [MainThread  ] [INFO ] Epoch 34; Train loss 9.3477; Val loss 9.3196
+2022-05-13 12:40:52,160 [MainThread  ] [INFO ] Epoch 35; Train loss 9.3171; Val loss 9.2919
+2022-05-13 12:40:52,170 [MainThread  ] [INFO ] Epoch 36; Train loss 9.2892; Val loss 9.2647
+2022-05-13 12:40:52,181 [MainThread  ] [INFO ] Epoch 37; Train loss 9.2619; Val loss 9.2378
+2022-05-13 12:40:52,191 [MainThread  ] [INFO ] Epoch 38; Train loss 9.2349; Val loss 9.2116
+2022-05-13 12:40:52,201 [MainThread  ] [INFO ] Epoch 39; Train loss 9.2084; Val loss 9.1854
+2022-05-13 12:40:52,212 [MainThread  ] [INFO ] Epoch 40; Train loss 9.1854; Val loss 9.1593
+2022-05-13 12:40:52,222 [MainThread  ] [INFO ] Epoch 41; Train loss 9.1557; Val loss 9.1333
+2022-05-13 12:40:52,233 [MainThread  ] [INFO ] Epoch 42; Train loss 9.1294; Val loss 9.1072
+2022-05-13 12:40:52,243 [MainThread  ] [INFO ] Epoch 43; Train loss 9.1072; Val loss 9.0811
+2022-05-13 12:40:52,252 [MainThread  ] [INFO ] Epoch 44; Train loss 9.0811; Val loss 9.0554
+2022-05-13 12:40:52,263 [MainThread  ] [INFO ] Epoch 45; Train loss 9.0509; Val loss 9.0299
+2022-05-13 12:40:52,273 [MainThread  ] [INFO ] Epoch 46; Train loss 9.0253; Val loss 9.0046
+2022-05-13 12:40:52,284 [MainThread  ] [INFO ] Epoch 47; Train loss 9.0046; Val loss 8.9789
+2022-05-13 12:40:52,294 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9789; Val loss 8.9529
+2022-05-13 12:40:52,304 [MainThread  ] [INFO ] Epoch 49; Train loss 8.9529; Val loss 8.9267
+2022-05-13 12:40:52,314 [MainThread  ] [INFO ] Epoch 50; Train loss 8.9267; Val loss 8.9007
+2022-05-13 12:40:52,325 [MainThread  ] [INFO ] Epoch 51; Train loss 8.9007; Val loss 8.8747
+2022-05-13 12:40:52,335 [MainThread  ] [INFO ] Epoch 52; Train loss 8.8747; Val loss 8.8487
+2022-05-13 12:40:52,345 [MainThread  ] [INFO ] Epoch 53; Train loss 8.8442; Val loss 8.8225
+2022-05-13 12:40:52,355 [MainThread  ] [INFO ] Epoch 54; Train loss 8.8225; Val loss 8.7961
+2022-05-13 12:40:52,366 [MainThread  ] [INFO ] Epoch 55; Train loss 8.7961; Val loss 8.7696
+2022-05-13 12:40:52,376 [MainThread  ] [INFO ] Epoch 56; Train loss 8.7696; Val loss 8.7434
+2022-05-13 12:40:52,386 [MainThread  ] [INFO ] Epoch 57; Train loss 8.7434; Val loss 8.7167
+2022-05-13 12:40:52,397 [MainThread  ] [INFO ] Epoch 58; Train loss 8.7167; Val loss 8.6898
+2022-05-13 12:40:52,407 [MainThread  ] [INFO ] Epoch 59; Train loss 8.6854; Val loss 8.6627
+2022-05-13 12:40:52,416 [MainThread  ] [INFO ] Epoch 60; Train loss 8.6583; Val loss 8.6357
+2022-05-13 12:40:52,427 [MainThread  ] [INFO ] Epoch 61; Train loss 8.6367; Val loss 8.6084
+2022-05-13 12:40:52,437 [MainThread  ] [INFO ] Epoch 62; Train loss 8.6084; Val loss 8.5809
+2022-05-13 12:40:52,447 [MainThread  ] [INFO ] Epoch 63; Train loss 8.5766; Val loss 8.5532
+2022-05-13 12:40:52,458 [MainThread  ] [INFO ] Epoch 64; Train loss 8.5532; Val loss 8.5252
+2022-05-13 12:40:52,468 [MainThread  ] [INFO ] Epoch 65; Train loss 8.5209; Val loss 8.4968
+2022-05-13 12:40:52,478 [MainThread  ] [INFO ] Epoch 66; Train loss 8.4968; Val loss 8.4679
+2022-05-13 12:40:52,489 [MainThread  ] [INFO ] Epoch 67; Train loss 8.4679; Val loss 8.4382
+2022-05-13 12:40:52,499 [MainThread  ] [INFO ] Epoch 68; Train loss 8.4338; Val loss 8.4076
+2022-05-13 12:40:52,508 [MainThread  ] [INFO ] Epoch 69; Train loss 8.4076; Val loss 8.3763
+2022-05-13 12:40:52,518 [MainThread  ] [INFO ] Epoch 70; Train loss 8.3763; Val loss 8.3445
+2022-05-13 12:40:52,528 [MainThread  ] [INFO ] Epoch 71; Train loss 8.3470; Val loss 8.3113
+2022-05-13 12:40:52,539 [MainThread  ] [INFO ] Epoch 72; Train loss 8.3069; Val loss 8.2772
+2022-05-13 12:40:52,549 [MainThread  ] [INFO ] Epoch 73; Train loss 8.2727; Val loss 8.2416
+2022-05-13 12:40:52,559 [MainThread  ] [INFO ] Epoch 74; Train loss 8.2416; Val loss 8.2044
+2022-05-13 12:40:52,569 [MainThread  ] [INFO ] Epoch 75; Train loss 8.1996; Val loss 8.1660
+2022-05-13 12:40:52,579 [MainThread  ] [INFO ] Epoch 76; Train loss 8.1660; Val loss 8.1270
+2022-05-13 12:40:52,589 [MainThread  ] [INFO ] Epoch 77; Train loss 8.1220; Val loss 8.0870
+2022-05-13 12:40:52,599 [MainThread  ] [INFO ] Epoch 78; Train loss 8.0870; Val loss 8.0462
+2022-05-13 12:40:52,608 [MainThread  ] [INFO ] Epoch 79; Train loss 8.0501; Val loss 8.0079
+2022-05-13 12:40:52,618 [MainThread  ] [INFO ] Epoch 80; Train loss 8.0079; Val loss 7.9725
+2022-05-13 12:40:52,629 [MainThread  ] [INFO ] Epoch 81; Train loss 7.9725; Val loss 7.9371
+2022-05-13 12:40:52,639 [MainThread  ] [INFO ] Epoch 82; Train loss 7.9331; Val loss 7.9044
+2022-05-13 12:40:52,649 [MainThread  ] [INFO ] Epoch 83; Train loss 7.9044; Val loss 7.8709
+2022-05-13 12:40:52,659 [MainThread  ] [INFO ] Epoch 84; Train loss 7.8671; Val loss 7.8366
+2022-05-13 12:40:52,669 [MainThread  ] [INFO ] Epoch 85; Train loss 7.8407; Val loss 7.8091
+2022-05-13 12:40:52,679 [MainThread  ] [INFO ] Epoch 86; Train loss 7.8055; Val loss 7.7808
+2022-05-13 12:40:52,690 [MainThread  ] [INFO ] Epoch 87; Train loss 7.7808; Val loss 7.7520
+2022-05-13 12:40:52,700 [MainThread  ] [INFO ] Epoch 88; Train loss 7.7556; Val loss 7.7232
+2022-05-13 12:40:52,710 [MainThread  ] [INFO ] Epoch 89; Train loss 7.7232; Val loss 7.6939
+2022-05-13 12:40:52,720 [MainThread  ] [INFO ] Epoch 90; Train loss 7.6911; Val loss 7.6647
+2022-05-13 12:40:52,730 [MainThread  ] [INFO ] Epoch 91; Train loss 7.6622; Val loss 7.6352
+2022-05-13 12:40:52,741 [MainThread  ] [INFO ] Epoch 92; Train loss 7.6352; Val loss 7.6053
+2022-05-13 12:40:52,751 [MainThread  ] [INFO ] Epoch 93; Train loss 7.6053; Val loss 7.5746
+2022-05-13 12:40:52,761 [MainThread  ] [INFO ] Epoch 94; Train loss 7.5778; Val loss 7.5432
+2022-05-13 12:40:52,771 [MainThread  ] [INFO ] Epoch 95; Train loss 7.5432; Val loss 7.5114
+2022-05-13 12:40:52,781 [MainThread  ] [INFO ] Epoch 96; Train loss 7.5114; Val loss 7.4792
+2022-05-13 12:40:52,791 [MainThread  ] [INFO ] Epoch 97; Train loss 7.4792; Val loss 7.4464
+2022-05-13 12:40:52,801 [MainThread  ] [INFO ] Epoch 98; Train loss 7.4464; Val loss 7.4136
+2022-05-13 12:40:52,811 [MainThread  ] [INFO ] Epoch 99; Train loss 7.4150; Val loss 7.3805
+2022-05-13 12:40:52,821 [MainThread  ] [INFO ] Epoch 100; Train loss 7.3805; Val loss 7.3469
+2022-05-13 12:40:52,831 [MainThread  ] [INFO ] Epoch 101; Train loss 7.3469; Val loss 7.3136
+2022-05-13 12:40:52,841 [MainThread  ] [INFO ] Epoch 102; Train loss 7.3146; Val loss 7.2799
+2022-05-13 12:40:52,852 [MainThread  ] [INFO ] Epoch 103; Train loss 7.2808; Val loss 7.2464
+2022-05-13 12:40:52,862 [MainThread  ] [INFO ] Epoch 104; Train loss 7.2464; Val loss 7.2134
+2022-05-13 12:40:52,872 [MainThread  ] [INFO ] Epoch 105; Train loss 7.2134; Val loss 7.1803
+2022-05-13 12:40:52,882 [MainThread  ] [INFO ] Epoch 106; Train loss 7.1803; Val loss 7.1466
+2022-05-13 12:40:52,893 [MainThread  ] [INFO ] Epoch 107; Train loss 7.1466; Val loss 7.1119
+2022-05-13 12:40:52,903 [MainThread  ] [INFO ] Epoch 108; Train loss 7.1119; Val loss 7.0768
+2022-05-13 12:40:52,912 [MainThread  ] [INFO ] Epoch 109; Train loss 7.0768; Val loss 7.0416
+2022-05-13 12:40:52,922 [MainThread  ] [INFO ] Epoch 110; Train loss 7.0416; Val loss 7.0063
+2022-05-13 12:40:52,931 [MainThread  ] [INFO ] Epoch 111; Train loss 7.0059; Val loss 6.9699
+2022-05-13 12:40:52,941 [MainThread  ] [INFO ] Epoch 112; Train loss 6.9701; Val loss 6.9321
+2022-05-13 12:40:52,951 [MainThread  ] [INFO ] Epoch 113; Train loss 6.9321; Val loss 6.8939
+2022-05-13 12:40:52,961 [MainThread  ] [INFO ] Epoch 114; Train loss 6.8939; Val loss 6.8595
+2022-05-13 12:40:52,972 [MainThread  ] [INFO ] Epoch 115; Train loss 6.8584; Val loss 6.8294
+2022-05-13 12:40:52,982 [MainThread  ] [INFO ] Epoch 116; Train loss 6.8294; Val loss 6.7983
+2022-05-13 12:40:52,992 [MainThread  ] [INFO ] Epoch 117; Train loss 6.7983; Val loss 6.7668
+2022-05-13 12:40:53,002 [MainThread  ] [INFO ] Epoch 118; Train loss 6.7668; Val loss 6.7344
+2022-05-13 12:40:53,012 [MainThread  ] [INFO ] Epoch 119; Train loss 6.7331; Val loss 6.7016
+2022-05-13 12:40:53,022 [MainThread  ] [INFO ] Epoch 120; Train loss 6.7002; Val loss 6.6695
+2022-05-13 12:40:53,033 [MainThread  ] [INFO ] Epoch 121; Train loss 6.6695; Val loss 6.6378
+2022-05-13 12:40:53,043 [MainThread  ] [INFO ] Epoch 122; Train loss 6.6341; Val loss 6.6056
+2022-05-13 12:40:53,054 [MainThread  ] [INFO ] Epoch 123; Train loss 6.6044; Val loss 6.5728
+2022-05-13 12:40:53,064 [MainThread  ] [INFO ] Epoch 124; Train loss 6.5728; Val loss 6.5397
+2022-05-13 12:40:53,074 [MainThread  ] [INFO ] Epoch 125; Train loss 6.5397; Val loss 6.5058
+2022-05-13 12:40:53,084 [MainThread  ] [INFO ] Epoch 126; Train loss 6.5058; Val loss 6.4717
+2022-05-13 12:40:53,094 [MainThread  ] [INFO ] Epoch 127; Train loss 6.4708; Val loss 6.4381
+2022-05-13 12:40:53,104 [MainThread  ] [INFO ] Epoch 128; Train loss 6.4372; Val loss 6.4042
+2022-05-13 12:40:53,115 [MainThread  ] [INFO ] Epoch 129; Train loss 6.4032; Val loss 6.3706
+2022-05-13 12:40:53,127 [MainThread  ] [INFO ] Epoch 130; Train loss 6.3658; Val loss 6.3370
+2022-05-13 12:40:53,138 [MainThread  ] [INFO ] Epoch 131; Train loss 6.3319; Val loss 6.3026
+2022-05-13 12:40:53,148 [MainThread  ] [INFO ] Epoch 132; Train loss 6.3012; Val loss 6.2672
+2022-05-13 12:40:53,158 [MainThread  ] [INFO ] Epoch 133; Train loss 6.2657; Val loss 6.2314
+2022-05-13 12:40:53,168 [MainThread  ] [INFO ] Epoch 134; Train loss 6.2314; Val loss 6.1951
+2022-05-13 12:40:53,178 [MainThread  ] [INFO ] Epoch 135; Train loss 6.1951; Val loss 6.1580
+2022-05-13 12:40:53,188 [MainThread  ] [INFO ] Epoch 136; Train loss 6.1580; Val loss 6.1195
+2022-05-13 12:40:53,199 [MainThread  ] [INFO ] Epoch 137; Train loss 6.1123; Val loss 6.0798
+2022-05-13 12:40:53,208 [MainThread  ] [INFO ] Epoch 138; Train loss 6.0771; Val loss 6.0387
+2022-05-13 12:40:53,218 [MainThread  ] [INFO ] Epoch 139; Train loss 6.0359; Val loss 5.9969
+2022-05-13 12:40:53,229 [MainThread  ] [INFO ] Epoch 140; Train loss 5.9969; Val loss 5.9550
+2022-05-13 12:40:53,239 [MainThread  ] [INFO ] Epoch 141; Train loss 5.9550; Val loss 5.9125
+2022-05-13 12:40:53,249 [MainThread  ] [INFO ] Epoch 142; Train loss 5.9125; Val loss 5.8691
+2022-05-13 12:40:53,259 [MainThread  ] [INFO ] Epoch 143; Train loss 5.8662; Val loss 5.8251
+2022-05-13 12:40:53,270 [MainThread  ] [INFO ] Epoch 144; Train loss 5.8223; Val loss 5.7799
+2022-05-13 12:40:53,280 [MainThread  ] [INFO ] Epoch 145; Train loss 5.7714; Val loss 5.7341
+2022-05-13 12:40:53,290 [MainThread  ] [INFO ] Epoch 146; Train loss 5.7341; Val loss 5.6879
+2022-05-13 12:40:53,300 [MainThread  ] [INFO ] Epoch 147; Train loss 5.6856; Val loss 5.6428
+2022-05-13 12:40:53,311 [MainThread  ] [INFO ] Epoch 148; Train loss 5.6405; Val loss 5.5979
+2022-05-13 12:40:53,321 [MainThread  ] [INFO ] Epoch 149; Train loss 5.5979; Val loss 5.5527
+2022-05-13 12:40:53,331 [MainThread  ] [INFO ] Epoch 150; Train loss 5.5527; Val loss 5.5073
+2022-05-13 12:40:53,341 [MainThread  ] [INFO ] Epoch 151; Train loss 5.5073; Val loss 5.4612
+2022-05-13 12:40:53,352 [MainThread  ] [INFO ] Epoch 152; Train loss 5.4612; Val loss 5.4140
+2022-05-13 12:40:53,361 [MainThread  ] [INFO ] Epoch 153; Train loss 5.4116; Val loss 5.3662
+2022-05-13 12:40:53,371 [MainThread  ] [INFO ] Epoch 154; Train loss 5.3662; Val loss 5.3179
+2022-05-13 12:40:53,382 [MainThread  ] [INFO ] Epoch 155; Train loss 5.3179; Val loss 5.2706
+2022-05-13 12:40:53,393 [MainThread  ] [INFO ] Epoch 156; Train loss 5.2706; Val loss 5.2219
+2022-05-13 12:40:53,402 [MainThread  ] [INFO ] Epoch 157; Train loss 5.2219; Val loss 5.1723
+2022-05-13 12:40:53,412 [MainThread  ] [INFO ] Epoch 158; Train loss 5.1628; Val loss 5.1215
+2022-05-13 12:40:53,422 [MainThread  ] [INFO ] Epoch 159; Train loss 5.1190; Val loss 5.0703
+2022-05-13 12:40:53,433 [MainThread  ] [INFO ] Epoch 160; Train loss 5.0703; Val loss 5.0185
+2022-05-13 12:40:53,444 [MainThread  ] [INFO ] Epoch 161; Train loss 5.0161; Val loss 4.9660
+2022-05-13 12:40:53,454 [MainThread  ] [INFO ] Epoch 162; Train loss 4.9558; Val loss 4.9134
+2022-05-13 12:40:53,464 [MainThread  ] [INFO ] Epoch 163; Train loss 4.9134; Val loss 4.8602
+2022-05-13 12:40:53,475 [MainThread  ] [INFO ] Epoch 164; Train loss 4.8495; Val loss 4.8075
+2022-05-13 12:40:53,485 [MainThread  ] [INFO ] Epoch 165; Train loss 4.7966; Val loss 4.7564
+2022-05-13 12:40:53,495 [MainThread  ] [INFO ] Epoch 166; Train loss 4.7453; Val loss 4.7039
+2022-05-13 12:40:53,505 [MainThread  ] [INFO ] Epoch 167; Train loss 4.7039; Val loss 4.6524
+2022-05-13 12:40:53,515 [MainThread  ] [INFO ] Epoch 168; Train loss 4.6498; Val loss 4.6021
+2022-05-13 12:40:53,526 [MainThread  ] [INFO ] Epoch 169; Train loss 4.6021; Val loss 4.5508
+2022-05-13 12:40:53,536 [MainThread  ] [INFO ] Epoch 170; Train loss 4.5482; Val loss 4.4999
+2022-05-13 12:40:53,546 [MainThread  ] [INFO ] Epoch 171; Train loss 4.4974; Val loss 4.4507
+2022-05-13 12:40:53,557 [MainThread  ] [INFO ] Epoch 172; Train loss 4.4483; Val loss 4.4022
+2022-05-13 12:40:53,567 [MainThread  ] [INFO ] Epoch 173; Train loss 4.3905; Val loss 4.3527
+2022-05-13 12:40:53,577 [MainThread  ] [INFO ] Epoch 174; Train loss 4.3411; Val loss 4.3044
+2022-05-13 12:40:53,587 [MainThread  ] [INFO ] Epoch 175; Train loss 4.3022; Val loss 4.2558
+2022-05-13 12:40:53,598 [MainThread  ] [INFO ] Epoch 176; Train loss 4.2536; Val loss 4.2062
+2022-05-13 12:40:53,608 [MainThread  ] [INFO ] Epoch 177; Train loss 4.2041; Val loss 4.1559
+2022-05-13 12:40:53,618 [MainThread  ] [INFO ] Epoch 178; Train loss 4.1559; Val loss 4.1084
+2022-05-13 12:40:53,629 [MainThread  ] [INFO ] Epoch 179; Train loss 4.1064; Val loss 4.0594
+2022-05-13 12:40:53,639 [MainThread  ] [INFO ] Epoch 180; Train loss 4.0477; Val loss 4.0099
+2022-05-13 12:40:53,650 [MainThread  ] [INFO ] Epoch 181; Train loss 4.0099; Val loss 3.9630
+2022-05-13 12:40:53,660 [MainThread  ] [INFO ] Epoch 182; Train loss 3.9611; Val loss 3.9166
+2022-05-13 12:40:53,671 [MainThread  ] [INFO ] Epoch 183; Train loss 3.9166; Val loss 3.8699
+2022-05-13 12:40:53,681 [MainThread  ] [INFO ] Epoch 184; Train loss 3.8681; Val loss 3.8258
+2022-05-13 12:40:53,691 [MainThread  ] [INFO ] Epoch 185; Train loss 3.8137; Val loss 3.7880
+2022-05-13 12:40:53,701 [MainThread  ] [INFO ] Epoch 186; Train loss 3.7880; Val loss 3.7525
+2022-05-13 12:40:53,712 [MainThread  ] [INFO ] Epoch 187; Train loss 3.7525; Val loss 3.7191
+2022-05-13 12:40:53,722 [MainThread  ] [INFO ] Epoch 188; Train loss 3.7174; Val loss 3.6842
+2022-05-13 12:40:53,732 [MainThread  ] [INFO ] Epoch 189; Train loss 3.6825; Val loss 3.6496
+2022-05-13 12:40:53,743 [MainThread  ] [INFO ] Epoch 190; Train loss 3.6496; Val loss 3.6168
+2022-05-13 12:40:53,753 [MainThread  ] [INFO ] Epoch 191; Train loss 3.6044; Val loss 3.5831
+2022-05-13 12:40:53,763 [MainThread  ] [INFO ] Epoch 192; Train loss 3.5831; Val loss 3.5495
+2022-05-13 12:40:53,773 [MainThread  ] [INFO ] Epoch 193; Train loss 3.5495; Val loss 3.5170
+2022-05-13 12:40:53,783 [MainThread  ] [INFO ] Epoch 194; Train loss 3.5170; Val loss 3.4848
+2022-05-13 12:40:53,793 [MainThread  ] [INFO ] Epoch 195; Train loss 3.4848; Val loss 3.4538
+2022-05-13 12:40:53,804 [MainThread  ] [INFO ] Epoch 196; Train loss 3.4524; Val loss 3.4246
+2022-05-13 12:40:53,814 [MainThread  ] [INFO ] Epoch 197; Train loss 3.4246; Val loss 3.3933
+2022-05-13 12:40:53,824 [MainThread  ] [INFO ] Epoch 198; Train loss 3.3802; Val loss 3.3633
+2022-05-13 12:40:53,834 [MainThread  ] [INFO ] Epoch 199; Train loss 3.3501; Val loss 3.3341
+2022-05-13 12:40:53,845 [MainThread  ] [INFO ] Epoch 200; Train loss 3.3341; Val loss 3.3052
+2022-05-13 12:40:53,855 [MainThread  ] [INFO ] Epoch 201; Train loss 3.2918; Val loss 3.2770
+2022-05-13 12:40:53,865 [MainThread  ] [INFO ] Epoch 202; Train loss 3.2770; Val loss 3.2488
+2022-05-13 12:40:53,875 [MainThread  ] [INFO ] Epoch 203; Train loss 3.2488; Val loss 3.2211
+2022-05-13 12:40:53,886 [MainThread  ] [INFO ] Epoch 204; Train loss 3.2074; Val loss 3.1948
+2022-05-13 12:40:53,896 [MainThread  ] [INFO ] Epoch 205; Train loss 3.1810; Val loss 3.1693
+2022-05-13 12:40:53,907 [MainThread  ] [INFO ] Epoch 206; Train loss 3.1683; Val loss 3.1441
+2022-05-13 12:40:53,917 [MainThread  ] [INFO ] Epoch 207; Train loss 3.1300; Val loss 3.1192
+2022-05-13 12:40:53,932 [MainThread  ] [INFO ] Epoch 208; Train loss 3.1183; Val loss 3.0948
+2022-05-13 12:40:53,950 [MainThread  ] [INFO ] Epoch 209; Train loss 3.0805; Val loss 3.0711
+2022-05-13 12:40:53,962 [MainThread  ] [INFO ] Epoch 210; Train loss 3.0711; Val loss 3.0478
+2022-05-13 12:40:53,972 [MainThread  ] [INFO ] Epoch 211; Train loss 3.0470; Val loss 3.0251
+2022-05-13 12:40:53,983 [MainThread  ] [INFO ] Epoch 212; Train loss 3.0251; Val loss 3.0033
+2022-05-13 12:40:53,993 [MainThread  ] [INFO ] Epoch 213; Train loss 3.0025; Val loss 2.9793
+2022-05-13 12:40:54,004 [MainThread  ] [INFO ] Epoch 214; Train loss 2.9793; Val loss 2.9558
+2022-05-13 12:40:54,015 [MainThread  ] [INFO ] Epoch 215; Train loss 2.9558; Val loss 2.9378
+2022-05-13 12:40:54,027 [MainThread  ] [INFO ] Epoch 216; Train loss 2.9378; Val loss 2.9123
+2022-05-13 12:40:54,043 [MainThread  ] [INFO ] Epoch 217; Train loss 2.9123; Val loss 2.8879
+2022-05-13 12:40:54,055 [MainThread  ] [INFO ] Epoch 218; Train loss 2.8873; Val loss 2.8676
+2022-05-13 12:40:54,071 [MainThread  ] [INFO ] Epoch 219; Train loss 2.8669; Val loss 2.8455
+2022-05-13 12:40:54,082 [MainThread  ] [INFO ] Epoch 220; Train loss 2.8455; Val loss 2.8250
+2022-05-13 12:40:54,093 [MainThread  ] [INFO ] Epoch 221; Train loss 2.8250; Val loss 2.8081
+2022-05-13 12:40:54,104 [MainThread  ] [INFO ] Epoch 222; Train loss 2.8075; Val loss 2.7856
+2022-05-13 12:40:54,115 [MainThread  ] [INFO ] Epoch 223; Train loss 2.7856; Val loss 2.7759
+2022-05-13 12:40:54,133 [MainThread  ] [INFO ] Epoch 224; Train loss 2.7759; Val loss 2.7607
+2022-05-13 12:40:54,151 [MainThread  ] [INFO ] Epoch 225; Train loss 2.7601; Val loss 2.7375
+2022-05-13 12:40:54,162 [MainThread  ] [INFO ] Epoch 226; Train loss 2.7375; Val loss 2.7234
+2022-05-13 12:40:54,176 [MainThread  ] [INFO ] Epoch 227; Train loss 2.7234; Val loss 2.7115
+2022-05-13 12:40:54,188 [MainThread  ] [INFO ] Epoch 228; Train loss 2.6957; Val loss 2.6914
+2022-05-13 12:40:54,199 [MainThread  ] [INFO ] Epoch 229; Train loss 2.6756; Val loss 2.6696
+2022-05-13 12:40:54,210 [MainThread  ] [INFO ] Epoch 230; Train loss 2.6690; Val loss 2.6568
+2022-05-13 12:40:54,221 [MainThread  ] [INFO ] Epoch 231; Train loss 2.6568; Val loss 2.6413
+2022-05-13 12:40:54,232 [MainThread  ] [INFO ] Epoch 232; Train loss 2.6253; Val loss 2.6268
+2022-05-13 12:40:54,242 [MainThread  ] [INFO ] Epoch 233; Train loss 2.6262; Val loss 2.6126
+2022-05-13 12:40:54,255 [MainThread  ] [INFO ] Epoch 234; Train loss 2.6126; Val loss 2.6007
+2022-05-13 12:40:54,266 [MainThread  ] [INFO ] Epoch 235; Train loss 2.5845; Val loss 2.5851
+2022-05-13 12:40:54,277 [MainThread  ] [INFO ] Epoch 236; Train loss 2.5689; Val loss 2.5707
+2022-05-13 12:40:54,288 [MainThread  ] [INFO ] Epoch 237; Train loss 2.5702; Val loss 2.5584
+2022-05-13 12:40:54,301 [MainThread  ] [INFO ] Epoch 238; Train loss 2.5584; Val loss 2.5427
+2022-05-13 12:40:54,313 [MainThread  ] [INFO ] Epoch 239; Train loss 2.5427; Val loss 2.5306
+2022-05-13 12:40:54,330 [MainThread  ] [INFO ] Epoch 240; Train loss 2.5142; Val loss 2.5150
+2022-05-13 12:40:54,342 [MainThread  ] [INFO ] Epoch 241; Train loss 2.5150; Val loss 2.5017
+2022-05-13 12:40:54,356 [MainThread  ] [INFO ] Epoch 242; Train loss 2.4852; Val loss 2.4919
+2022-05-13 12:40:54,376 [MainThread  ] [INFO ] Epoch 243; Train loss 2.4914; Val loss 2.4774
+2022-05-13 12:40:54,388 [MainThread  ] [INFO ] Epoch 244; Train loss 2.4774; Val loss 2.4676
+2022-05-13 12:40:54,400 [MainThread  ] [INFO ] Epoch 245; Train loss 2.4676; Val loss 2.4569
+2022-05-13 12:40:54,413 [MainThread  ] [INFO ] Epoch 246; Train loss 2.4569; Val loss 2.4398
+2022-05-13 12:40:54,424 [MainThread  ] [INFO ] Epoch 247; Train loss 2.4398; Val loss 2.4348
+2022-05-13 12:40:54,435 [MainThread  ] [INFO ] Epoch 248; Train loss 2.4348; Val loss 2.4220
+2022-05-13 12:40:54,445 [MainThread  ] [INFO ] Epoch 249; Train loss 2.4052; Val loss 2.4051
+2022-05-13 12:40:54,461 [MainThread  ] [INFO ] Epoch 250; Train loss 2.3883; Val loss 2.3990
+2022-05-13 12:40:54,475 [MainThread  ] [INFO ] Epoch 251; Train loss 2.3986; Val loss 2.3850
+2022-05-13 12:40:54,486 [MainThread  ] [INFO ] Epoch 252; Train loss 2.3850; Val loss 2.3715
+2022-05-13 12:40:54,497 [MainThread  ] [INFO ] Epoch 253; Train loss 2.3545; Val loss 2.3608
+2022-05-13 12:40:54,508 [MainThread  ] [INFO ] Epoch 254; Train loss 2.3604; Val loss 2.3478
+2022-05-13 12:40:54,522 [MainThread  ] [INFO ] Epoch 255; Train loss 2.3478; Val loss 2.3363
+2022-05-13 12:40:54,534 [MainThread  ] [INFO ] Epoch 256; Train loss 2.3359; Val loss 2.3243
+2022-05-13 12:40:54,548 [MainThread  ] [INFO ] Epoch 257; Train loss 2.3243; Val loss 2.3130
+2022-05-13 12:40:54,559 [MainThread  ] [INFO ] Epoch 258; Train loss 2.2959; Val loss 2.3016
+2022-05-13 12:40:54,571 [MainThread  ] [INFO ] Epoch 259; Train loss 2.2845; Val loss 2.2902
+2022-05-13 12:40:54,583 [MainThread  ] [INFO ] Epoch 260; Train loss 2.2730; Val loss 2.2807
+2022-05-13 12:40:54,597 [MainThread  ] [INFO ] Epoch 261; Train loss 2.2807; Val loss 2.2686
+2022-05-13 12:40:54,611 [MainThread  ] [INFO ] Epoch 262; Train loss 2.2686; Val loss 2.2662
+2022-05-13 12:40:54,629 [MainThread  ] [INFO ] Epoch 263; Train loss 2.2658; Val loss 2.2579
+2022-05-13 12:40:54,643 [MainThread  ] [INFO ] Epoch 264; Train loss 2.2576; Val loss 2.2414
+2022-05-13 12:40:54,657 [MainThread  ] [INFO ] Epoch 265; Train loss 2.2414; Val loss 2.2404
+2022-05-13 12:40:54,669 [MainThread  ] [INFO ] Epoch 266; Train loss 2.2404; Val loss 2.2321
+2022-05-13 12:40:54,682 [MainThread  ] [INFO ] Epoch 267; Train loss 2.2321; Val loss 2.2134
+2022-05-13 12:40:54,697 [MainThread  ] [INFO ] Epoch 268; Train loss 2.2134; Val loss 2.2182
+2022-05-13 12:40:54,697 [MainThread  ] [INFO ] Early stopping criterion satisfied
+2022-05-13 12:40:54,698 [MainThread  ] [INFO ] Test
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.8888888955116272
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 1.0
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.944444477558136
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] DFS: key mean accuracy: 0.7673324942588806
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] DFS: key last accuracy: 0.7673324942588806
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.9722221493721008
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.9722221493721008
+2022-05-13 12:40:54,702 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:43:01,728 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=10000, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='6', nnodes='6')
+2022-05-13 12:43:01,729 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:43:01,730 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:43:01,752 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:43:01,755 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:43:01,756 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:43:01,756 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:43:01,756 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 10000, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:43:01,791 [MainThread  ] [INFO ] Epoch 0; Train loss 10.4762; Val loss 10.4146
+2022-05-13 12:43:01,802 [MainThread  ] [INFO ] Epoch 1; Train loss 10.4146; Val loss 10.3725
+2022-05-13 12:43:01,814 [MainThread  ] [INFO ] Epoch 2; Train loss 10.3725; Val loss 10.3312
+2022-05-13 12:43:01,826 [MainThread  ] [INFO ] Epoch 3; Train loss 10.3306; Val loss 10.2907
+2022-05-13 12:43:01,838 [MainThread  ] [INFO ] Epoch 4; Train loss 10.2903; Val loss 10.2513
+2022-05-13 12:43:01,848 [MainThread  ] [INFO ] Epoch 5; Train loss 10.2509; Val loss 10.2132
+2022-05-13 12:43:01,859 [MainThread  ] [INFO ] Epoch 6; Train loss 10.2132; Val loss 10.1757
+2022-05-13 12:43:01,870 [MainThread  ] [INFO ] Epoch 7; Train loss 10.1754; Val loss 10.1393
+2022-05-13 12:43:01,881 [MainThread  ] [INFO ] Epoch 8; Train loss 10.1390; Val loss 10.1032
+2022-05-13 12:43:01,891 [MainThread  ] [INFO ] Epoch 9; Train loss 10.1182; Val loss 10.0675
+2022-05-13 12:43:01,902 [MainThread  ] [INFO ] Epoch 10; Train loss 10.0675; Val loss 10.0332
+2022-05-13 12:43:01,913 [MainThread  ] [INFO ] Epoch 11; Train loss 10.0332; Val loss 9.9994
+2022-05-13 12:43:01,924 [MainThread  ] [INFO ] Epoch 12; Train loss 9.9989; Val loss 9.9660
+2022-05-13 12:43:01,934 [MainThread  ] [INFO ] Epoch 13; Train loss 9.9660; Val loss 9.9330
+2022-05-13 12:43:01,945 [MainThread  ] [INFO ] Epoch 14; Train loss 9.9330; Val loss 9.9006
+2022-05-13 12:43:01,955 [MainThread  ] [INFO ] Epoch 15; Train loss 9.9002; Val loss 9.8690
+2022-05-13 12:43:01,965 [MainThread  ] [INFO ] Epoch 16; Train loss 9.8805; Val loss 9.8377
+2022-05-13 12:43:01,976 [MainThread  ] [INFO ] Epoch 17; Train loss 9.8377; Val loss 9.8067
+2022-05-13 12:43:01,987 [MainThread  ] [INFO ] Epoch 18; Train loss 9.8067; Val loss 9.7764
+2022-05-13 12:43:01,998 [MainThread  ] [INFO ] Epoch 19; Train loss 9.7764; Val loss 9.7465
+2022-05-13 12:43:02,008 [MainThread  ] [INFO ] Epoch 20; Train loss 9.7458; Val loss 9.7166
+2022-05-13 12:43:02,018 [MainThread  ] [INFO ] Epoch 21; Train loss 9.7166; Val loss 9.6869
+2022-05-13 12:43:02,029 [MainThread  ] [INFO ] Epoch 22; Train loss 9.6862; Val loss 9.6574
+2022-05-13 12:43:02,039 [MainThread  ] [INFO ] Epoch 23; Train loss 9.6565; Val loss 9.6280
+2022-05-13 12:43:02,050 [MainThread  ] [INFO ] Epoch 24; Train loss 9.6280; Val loss 9.5986
+2022-05-13 12:43:02,060 [MainThread  ] [INFO ] Epoch 25; Train loss 9.6072; Val loss 9.5701
+2022-05-13 12:43:02,069 [MainThread  ] [INFO ] Epoch 26; Train loss 9.5783; Val loss 9.5422
+2022-05-13 12:43:02,080 [MainThread  ] [INFO ] Epoch 27; Train loss 9.5500; Val loss 9.5146
+2022-05-13 12:43:02,090 [MainThread  ] [INFO ] Epoch 28; Train loss 9.5219; Val loss 9.4874
+2022-05-13 12:43:02,101 [MainThread  ] [INFO ] Epoch 29; Train loss 9.4874; Val loss 9.4602
+2022-05-13 12:43:02,111 [MainThread  ] [INFO ] Epoch 30; Train loss 9.4602; Val loss 9.4324
+2022-05-13 12:43:02,123 [MainThread  ] [INFO ] Epoch 31; Train loss 9.4324; Val loss 9.4042
+2022-05-13 12:43:02,134 [MainThread  ] [INFO ] Epoch 32; Train loss 9.4042; Val loss 9.3759
+2022-05-13 12:43:02,145 [MainThread  ] [INFO ] Epoch 33; Train loss 9.3759; Val loss 9.3477
+2022-05-13 12:43:02,156 [MainThread  ] [INFO ] Epoch 34; Train loss 9.3477; Val loss 9.3196
+2022-05-13 12:43:02,166 [MainThread  ] [INFO ] Epoch 35; Train loss 9.3171; Val loss 9.2919
+2022-05-13 12:43:02,177 [MainThread  ] [INFO ] Epoch 36; Train loss 9.2892; Val loss 9.2647
+2022-05-13 12:43:02,187 [MainThread  ] [INFO ] Epoch 37; Train loss 9.2619; Val loss 9.2378
+2022-05-13 12:43:02,198 [MainThread  ] [INFO ] Epoch 38; Train loss 9.2349; Val loss 9.2116
+2022-05-13 12:43:02,209 [MainThread  ] [INFO ] Epoch 39; Train loss 9.2084; Val loss 9.1854
+2022-05-13 12:43:02,219 [MainThread  ] [INFO ] Epoch 40; Train loss 9.1854; Val loss 9.1593
+2022-05-13 12:43:02,230 [MainThread  ] [INFO ] Epoch 41; Train loss 9.1557; Val loss 9.1333
+2022-05-13 12:43:02,240 [MainThread  ] [INFO ] Epoch 42; Train loss 9.1294; Val loss 9.1072
+2022-05-13 12:43:02,250 [MainThread  ] [INFO ] Epoch 43; Train loss 9.1072; Val loss 9.0811
+2022-05-13 12:43:02,261 [MainThread  ] [INFO ] Epoch 44; Train loss 9.0811; Val loss 9.0554
+2022-05-13 12:43:02,271 [MainThread  ] [INFO ] Epoch 45; Train loss 9.0509; Val loss 9.0299
+2022-05-13 12:43:02,282 [MainThread  ] [INFO ] Epoch 46; Train loss 9.0253; Val loss 9.0046
+2022-05-13 12:43:02,292 [MainThread  ] [INFO ] Epoch 47; Train loss 9.0046; Val loss 8.9789
+2022-05-13 12:43:02,303 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9789; Val loss 8.9529
+2022-05-13 12:43:02,313 [MainThread  ] [INFO ] Epoch 49; Train loss 8.9529; Val loss 8.9267
+2022-05-13 12:43:02,325 [MainThread  ] [INFO ] Epoch 50; Train loss 8.9267; Val loss 8.9007
+2022-05-13 12:43:02,335 [MainThread  ] [INFO ] Epoch 51; Train loss 8.9007; Val loss 8.8747
+2022-05-13 12:43:02,346 [MainThread  ] [INFO ] Epoch 52; Train loss 8.8747; Val loss 8.8487
+2022-05-13 12:43:02,357 [MainThread  ] [INFO ] Epoch 53; Train loss 8.8442; Val loss 8.8225
+2022-05-13 12:43:02,368 [MainThread  ] [INFO ] Epoch 54; Train loss 8.8225; Val loss 8.7961
+2022-05-13 12:43:02,379 [MainThread  ] [INFO ] Epoch 55; Train loss 8.7961; Val loss 8.7696
+2022-05-13 12:43:02,390 [MainThread  ] [INFO ] Epoch 56; Train loss 8.7696; Val loss 8.7434
+2022-05-13 12:43:02,402 [MainThread  ] [INFO ] Epoch 57; Train loss 8.7434; Val loss 8.7167
+2022-05-13 12:43:02,413 [MainThread  ] [INFO ] Epoch 58; Train loss 8.7167; Val loss 8.6898
+2022-05-13 12:43:02,424 [MainThread  ] [INFO ] Epoch 59; Train loss 8.6854; Val loss 8.6627
+2022-05-13 12:43:02,435 [MainThread  ] [INFO ] Epoch 60; Train loss 8.6583; Val loss 8.6357
+2022-05-13 12:43:02,445 [MainThread  ] [INFO ] Epoch 61; Train loss 8.6367; Val loss 8.6084
+2022-05-13 12:43:02,456 [MainThread  ] [INFO ] Epoch 62; Train loss 8.6084; Val loss 8.5809
+2022-05-13 12:43:02,466 [MainThread  ] [INFO ] Epoch 63; Train loss 8.5766; Val loss 8.5532
+2022-05-13 12:43:02,476 [MainThread  ] [INFO ] Epoch 64; Train loss 8.5532; Val loss 8.5252
+2022-05-13 12:43:02,487 [MainThread  ] [INFO ] Epoch 65; Train loss 8.5209; Val loss 8.4968
+2022-05-13 12:43:02,497 [MainThread  ] [INFO ] Epoch 66; Train loss 8.4968; Val loss 8.4679
+2022-05-13 12:43:02,507 [MainThread  ] [INFO ] Epoch 67; Train loss 8.4679; Val loss 8.4382
+2022-05-13 12:43:02,518 [MainThread  ] [INFO ] Epoch 68; Train loss 8.4338; Val loss 8.4076
+2022-05-13 12:43:02,528 [MainThread  ] [INFO ] Epoch 69; Train loss 8.4076; Val loss 8.3763
+2022-05-13 12:43:02,539 [MainThread  ] [INFO ] Epoch 70; Train loss 8.3763; Val loss 8.3445
+2022-05-13 12:43:02,549 [MainThread  ] [INFO ] Epoch 71; Train loss 8.3470; Val loss 8.3113
+2022-05-13 12:43:02,559 [MainThread  ] [INFO ] Epoch 72; Train loss 8.3069; Val loss 8.2772
+2022-05-13 12:43:02,570 [MainThread  ] [INFO ] Epoch 73; Train loss 8.2727; Val loss 8.2416
+2022-05-13 12:43:02,581 [MainThread  ] [INFO ] Epoch 74; Train loss 8.2416; Val loss 8.2044
+2022-05-13 12:43:02,592 [MainThread  ] [INFO ] Epoch 75; Train loss 8.1996; Val loss 8.1660
+2022-05-13 12:43:02,603 [MainThread  ] [INFO ] Epoch 76; Train loss 8.1660; Val loss 8.1270
+2022-05-13 12:43:02,614 [MainThread  ] [INFO ] Epoch 77; Train loss 8.1220; Val loss 8.0870
+2022-05-13 12:43:02,624 [MainThread  ] [INFO ] Epoch 78; Train loss 8.0870; Val loss 8.0462
+2022-05-13 12:43:02,634 [MainThread  ] [INFO ] Epoch 79; Train loss 8.0501; Val loss 8.0079
+2022-05-13 12:43:02,644 [MainThread  ] [INFO ] Epoch 80; Train loss 8.0079; Val loss 7.9725
+2022-05-13 12:43:02,655 [MainThread  ] [INFO ] Epoch 81; Train loss 7.9725; Val loss 7.9371
+2022-05-13 12:43:02,665 [MainThread  ] [INFO ] Epoch 82; Train loss 7.9331; Val loss 7.9044
+2022-05-13 12:43:02,676 [MainThread  ] [INFO ] Epoch 83; Train loss 7.9044; Val loss 7.8709
+2022-05-13 12:43:02,686 [MainThread  ] [INFO ] Epoch 84; Train loss 7.8671; Val loss 7.8366
+2022-05-13 12:43:02,697 [MainThread  ] [INFO ] Epoch 85; Train loss 7.8407; Val loss 7.8091
+2022-05-13 12:43:02,708 [MainThread  ] [INFO ] Epoch 86; Train loss 7.8055; Val loss 7.7808
+2022-05-13 12:43:02,718 [MainThread  ] [INFO ] Epoch 87; Train loss 7.7808; Val loss 7.7520
+2022-05-13 12:43:02,728 [MainThread  ] [INFO ] Epoch 88; Train loss 7.7556; Val loss 7.7232
+2022-05-13 12:43:02,739 [MainThread  ] [INFO ] Epoch 89; Train loss 7.7232; Val loss 7.6939
+2022-05-13 12:43:02,750 [MainThread  ] [INFO ] Epoch 90; Train loss 7.6911; Val loss 7.6647
+2022-05-13 12:43:02,761 [MainThread  ] [INFO ] Epoch 91; Train loss 7.6622; Val loss 7.6352
+2022-05-13 12:43:02,771 [MainThread  ] [INFO ] Epoch 92; Train loss 7.6352; Val loss 7.6053
+2022-05-13 12:43:02,781 [MainThread  ] [INFO ] Epoch 93; Train loss 7.6053; Val loss 7.5746
+2022-05-13 12:43:02,792 [MainThread  ] [INFO ] Epoch 94; Train loss 7.5778; Val loss 7.5432
+2022-05-13 12:43:02,803 [MainThread  ] [INFO ] Epoch 95; Train loss 7.5432; Val loss 7.5114
+2022-05-13 12:43:02,814 [MainThread  ] [INFO ] Epoch 96; Train loss 7.5114; Val loss 7.4792
+2022-05-13 12:43:02,825 [MainThread  ] [INFO ] Epoch 97; Train loss 7.4792; Val loss 7.4464
+2022-05-13 12:43:02,836 [MainThread  ] [INFO ] Epoch 98; Train loss 7.4464; Val loss 7.4136
+2022-05-13 12:43:02,847 [MainThread  ] [INFO ] Epoch 99; Train loss 7.4150; Val loss 7.3805
+2022-05-13 12:43:02,857 [MainThread  ] [INFO ] Epoch 100; Train loss 7.3805; Val loss 7.3469
+2022-05-13 12:43:02,868 [MainThread  ] [INFO ] Epoch 101; Train loss 7.3469; Val loss 7.3136
+2022-05-13 12:43:02,878 [MainThread  ] [INFO ] Epoch 102; Train loss 7.3146; Val loss 7.2799
+2022-05-13 12:43:02,889 [MainThread  ] [INFO ] Epoch 103; Train loss 7.2808; Val loss 7.2464
+2022-05-13 12:43:02,900 [MainThread  ] [INFO ] Epoch 104; Train loss 7.2464; Val loss 7.2134
+2022-05-13 12:43:02,910 [MainThread  ] [INFO ] Epoch 105; Train loss 7.2134; Val loss 7.1803
+2022-05-13 12:43:02,921 [MainThread  ] [INFO ] Epoch 106; Train loss 7.1803; Val loss 7.1466
+2022-05-13 12:43:02,931 [MainThread  ] [INFO ] Epoch 107; Train loss 7.1466; Val loss 7.1119
+2022-05-13 12:43:02,942 [MainThread  ] [INFO ] Epoch 108; Train loss 7.1119; Val loss 7.0768
+2022-05-13 12:43:02,953 [MainThread  ] [INFO ] Epoch 109; Train loss 7.0768; Val loss 7.0416
+2022-05-13 12:43:02,964 [MainThread  ] [INFO ] Epoch 110; Train loss 7.0416; Val loss 7.0063
+2022-05-13 12:43:02,974 [MainThread  ] [INFO ] Epoch 111; Train loss 7.0059; Val loss 6.9699
+2022-05-13 12:43:02,985 [MainThread  ] [INFO ] Epoch 112; Train loss 6.9701; Val loss 6.9321
+2022-05-13 12:43:02,995 [MainThread  ] [INFO ] Epoch 113; Train loss 6.9321; Val loss 6.8939
+2022-05-13 12:43:03,005 [MainThread  ] [INFO ] Epoch 114; Train loss 6.8939; Val loss 6.8595
+2022-05-13 12:43:03,015 [MainThread  ] [INFO ] Epoch 115; Train loss 6.8584; Val loss 6.8294
+2022-05-13 12:43:03,026 [MainThread  ] [INFO ] Epoch 116; Train loss 6.8294; Val loss 6.7983
+2022-05-13 12:43:03,038 [MainThread  ] [INFO ] Epoch 117; Train loss 6.7983; Val loss 6.7668
+2022-05-13 12:43:03,050 [MainThread  ] [INFO ] Epoch 118; Train loss 6.7668; Val loss 6.7344
+2022-05-13 12:43:03,062 [MainThread  ] [INFO ] Epoch 119; Train loss 6.7331; Val loss 6.7016
+2022-05-13 12:43:03,073 [MainThread  ] [INFO ] Epoch 120; Train loss 6.7002; Val loss 6.6695
+2022-05-13 12:43:03,084 [MainThread  ] [INFO ] Epoch 121; Train loss 6.6695; Val loss 6.6378
+2022-05-13 12:43:03,094 [MainThread  ] [INFO ] Epoch 122; Train loss 6.6341; Val loss 6.6056
+2022-05-13 12:43:03,104 [MainThread  ] [INFO ] Epoch 123; Train loss 6.6044; Val loss 6.5728
+2022-05-13 12:43:03,115 [MainThread  ] [INFO ] Epoch 124; Train loss 6.5728; Val loss 6.5397
+2022-05-13 12:43:03,125 [MainThread  ] [INFO ] Epoch 125; Train loss 6.5397; Val loss 6.5058
+2022-05-13 12:43:03,136 [MainThread  ] [INFO ] Epoch 126; Train loss 6.5058; Val loss 6.4717
+2022-05-13 12:43:03,146 [MainThread  ] [INFO ] Epoch 127; Train loss 6.4708; Val loss 6.4381
+2022-05-13 12:43:03,156 [MainThread  ] [INFO ] Epoch 128; Train loss 6.4372; Val loss 6.4042
+2022-05-13 12:43:03,167 [MainThread  ] [INFO ] Epoch 129; Train loss 6.4032; Val loss 6.3706
+2022-05-13 12:43:03,177 [MainThread  ] [INFO ] Epoch 130; Train loss 6.3658; Val loss 6.3370
+2022-05-13 12:43:03,187 [MainThread  ] [INFO ] Epoch 131; Train loss 6.3319; Val loss 6.3026
+2022-05-13 12:43:03,198 [MainThread  ] [INFO ] Epoch 132; Train loss 6.3012; Val loss 6.2672
+2022-05-13 12:43:03,209 [MainThread  ] [INFO ] Epoch 133; Train loss 6.2657; Val loss 6.2314
+2022-05-13 12:43:03,238 [MainThread  ] [INFO ] Epoch 134; Train loss 6.2314; Val loss 6.1951
+2022-05-13 12:43:03,248 [MainThread  ] [INFO ] Epoch 135; Train loss 6.1951; Val loss 6.1580
+2022-05-13 12:43:03,259 [MainThread  ] [INFO ] Epoch 136; Train loss 6.1580; Val loss 6.1195
+2022-05-13 12:43:03,269 [MainThread  ] [INFO ] Epoch 137; Train loss 6.1123; Val loss 6.0798
+2022-05-13 12:43:03,280 [MainThread  ] [INFO ] Epoch 138; Train loss 6.0771; Val loss 6.0387
+2022-05-13 12:43:03,291 [MainThread  ] [INFO ] Epoch 139; Train loss 6.0359; Val loss 5.9969
+2022-05-13 12:43:03,302 [MainThread  ] [INFO ] Epoch 140; Train loss 5.9969; Val loss 5.9550
+2022-05-13 12:43:03,312 [MainThread  ] [INFO ] Epoch 141; Train loss 5.9550; Val loss 5.9125
+2022-05-13 12:43:03,323 [MainThread  ] [INFO ] Epoch 142; Train loss 5.9125; Val loss 5.8691
+2022-05-13 12:43:03,333 [MainThread  ] [INFO ] Epoch 143; Train loss 5.8662; Val loss 5.8251
+2022-05-13 12:43:03,344 [MainThread  ] [INFO ] Epoch 144; Train loss 5.8223; Val loss 5.7799
+2022-05-13 12:43:03,355 [MainThread  ] [INFO ] Epoch 145; Train loss 5.7714; Val loss 5.7341
+2022-05-13 12:43:03,365 [MainThread  ] [INFO ] Epoch 146; Train loss 5.7341; Val loss 5.6879
+2022-05-13 12:43:03,375 [MainThread  ] [INFO ] Epoch 147; Train loss 5.6856; Val loss 5.6428
+2022-05-13 12:43:03,386 [MainThread  ] [INFO ] Epoch 148; Train loss 5.6405; Val loss 5.5979
+2022-05-13 12:43:03,396 [MainThread  ] [INFO ] Epoch 149; Train loss 5.5979; Val loss 5.5527
+2022-05-13 12:43:03,406 [MainThread  ] [INFO ] Epoch 150; Train loss 5.5527; Val loss 5.5073
+2022-05-13 12:43:03,417 [MainThread  ] [INFO ] Epoch 151; Train loss 5.5073; Val loss 5.4612
+2022-05-13 12:43:03,427 [MainThread  ] [INFO ] Epoch 152; Train loss 5.4612; Val loss 5.4140
+2022-05-13 12:43:03,437 [MainThread  ] [INFO ] Epoch 153; Train loss 5.4116; Val loss 5.3662
+2022-05-13 12:43:03,448 [MainThread  ] [INFO ] Epoch 154; Train loss 5.3662; Val loss 5.3179
+2022-05-13 12:43:03,458 [MainThread  ] [INFO ] Epoch 155; Train loss 5.3179; Val loss 5.2706
+2022-05-13 12:43:03,468 [MainThread  ] [INFO ] Epoch 156; Train loss 5.2706; Val loss 5.2219
+2022-05-13 12:43:03,478 [MainThread  ] [INFO ] Epoch 157; Train loss 5.2219; Val loss 5.1723
+2022-05-13 12:43:03,489 [MainThread  ] [INFO ] Epoch 158; Train loss 5.1628; Val loss 5.1215
+2022-05-13 12:43:03,498 [MainThread  ] [INFO ] Epoch 159; Train loss 5.1190; Val loss 5.0703
+2022-05-13 12:43:03,509 [MainThread  ] [INFO ] Epoch 160; Train loss 5.0703; Val loss 5.0185
+2022-05-13 12:43:03,520 [MainThread  ] [INFO ] Epoch 161; Train loss 5.0161; Val loss 4.9660
+2022-05-13 12:43:03,530 [MainThread  ] [INFO ] Epoch 162; Train loss 4.9558; Val loss 4.9134
+2022-05-13 12:43:03,541 [MainThread  ] [INFO ] Epoch 163; Train loss 4.9134; Val loss 4.8602
+2022-05-13 12:43:03,552 [MainThread  ] [INFO ] Epoch 164; Train loss 4.8495; Val loss 4.8075
+2022-05-13 12:43:03,562 [MainThread  ] [INFO ] Epoch 165; Train loss 4.7966; Val loss 4.7564
+2022-05-13 12:43:03,572 [MainThread  ] [INFO ] Epoch 166; Train loss 4.7453; Val loss 4.7039
+2022-05-13 12:43:03,582 [MainThread  ] [INFO ] Epoch 167; Train loss 4.7039; Val loss 4.6524
+2022-05-13 12:43:03,593 [MainThread  ] [INFO ] Epoch 168; Train loss 4.6498; Val loss 4.6021
+2022-05-13 12:43:03,603 [MainThread  ] [INFO ] Epoch 169; Train loss 4.6021; Val loss 4.5508
+2022-05-13 12:43:03,613 [MainThread  ] [INFO ] Epoch 170; Train loss 4.5482; Val loss 4.4999
+2022-05-13 12:43:03,624 [MainThread  ] [INFO ] Epoch 171; Train loss 4.4974; Val loss 4.4507
+2022-05-13 12:43:03,634 [MainThread  ] [INFO ] Epoch 172; Train loss 4.4483; Val loss 4.4022
+2022-05-13 12:43:03,645 [MainThread  ] [INFO ] Epoch 173; Train loss 4.3905; Val loss 4.3527
+2022-05-13 12:43:03,656 [MainThread  ] [INFO ] Epoch 174; Train loss 4.3411; Val loss 4.3044
+2022-05-13 12:43:03,667 [MainThread  ] [INFO ] Epoch 175; Train loss 4.3022; Val loss 4.2558
+2022-05-13 12:43:03,688 [MainThread  ] [INFO ] Epoch 176; Train loss 4.2536; Val loss 4.2062
+2022-05-13 12:43:03,701 [MainThread  ] [INFO ] Epoch 177; Train loss 4.2041; Val loss 4.1559
+2022-05-13 12:43:03,724 [MainThread  ] [INFO ] Epoch 178; Train loss 4.1559; Val loss 4.1084
+2022-05-13 12:43:03,734 [MainThread  ] [INFO ] Epoch 179; Train loss 4.1064; Val loss 4.0594
+2022-05-13 12:43:03,745 [MainThread  ] [INFO ] Epoch 180; Train loss 4.0477; Val loss 4.0099
+2022-05-13 12:43:03,755 [MainThread  ] [INFO ] Epoch 181; Train loss 4.0099; Val loss 3.9630
+2022-05-13 12:43:03,765 [MainThread  ] [INFO ] Epoch 182; Train loss 3.9611; Val loss 3.9166
+2022-05-13 12:43:03,775 [MainThread  ] [INFO ] Epoch 183; Train loss 3.9166; Val loss 3.8699
+2022-05-13 12:43:03,786 [MainThread  ] [INFO ] Epoch 184; Train loss 3.8681; Val loss 3.8258
+2022-05-13 12:43:03,796 [MainThread  ] [INFO ] Epoch 185; Train loss 3.8137; Val loss 3.7880
+2022-05-13 12:43:03,806 [MainThread  ] [INFO ] Epoch 186; Train loss 3.7880; Val loss 3.7525
+2022-05-13 12:43:03,817 [MainThread  ] [INFO ] Epoch 187; Train loss 3.7525; Val loss 3.7191
+2022-05-13 12:43:03,827 [MainThread  ] [INFO ] Epoch 188; Train loss 3.7174; Val loss 3.6842
+2022-05-13 12:43:03,837 [MainThread  ] [INFO ] Epoch 189; Train loss 3.6825; Val loss 3.6496
+2022-05-13 12:43:03,847 [MainThread  ] [INFO ] Epoch 190; Train loss 3.6496; Val loss 3.6168
+2022-05-13 12:43:03,857 [MainThread  ] [INFO ] Epoch 191; Train loss 3.6044; Val loss 3.5831
+2022-05-13 12:43:03,868 [MainThread  ] [INFO ] Epoch 192; Train loss 3.5831; Val loss 3.5495
+2022-05-13 12:43:03,878 [MainThread  ] [INFO ] Epoch 193; Train loss 3.5495; Val loss 3.5170
+2022-05-13 12:43:03,887 [MainThread  ] [INFO ] Epoch 194; Train loss 3.5170; Val loss 3.4848
+2022-05-13 12:43:03,897 [MainThread  ] [INFO ] Epoch 195; Train loss 3.4848; Val loss 3.4538
+2022-05-13 12:43:03,908 [MainThread  ] [INFO ] Epoch 196; Train loss 3.4524; Val loss 3.4246
+2022-05-13 12:43:03,918 [MainThread  ] [INFO ] Epoch 197; Train loss 3.4246; Val loss 3.3933
+2022-05-13 12:43:03,929 [MainThread  ] [INFO ] Epoch 198; Train loss 3.3802; Val loss 3.3633
+2022-05-13 12:43:03,939 [MainThread  ] [INFO ] Epoch 199; Train loss 3.3501; Val loss 3.3341
+2022-05-13 12:43:03,950 [MainThread  ] [INFO ] Epoch 200; Train loss 3.3341; Val loss 3.3052
+2022-05-13 12:43:03,960 [MainThread  ] [INFO ] Epoch 201; Train loss 3.2918; Val loss 3.2770
+2022-05-13 12:43:03,971 [MainThread  ] [INFO ] Epoch 202; Train loss 3.2770; Val loss 3.2488
+2022-05-13 12:43:03,982 [MainThread  ] [INFO ] Epoch 203; Train loss 3.2488; Val loss 3.2211
+2022-05-13 12:43:03,992 [MainThread  ] [INFO ] Epoch 204; Train loss 3.2074; Val loss 3.1948
+2022-05-13 12:43:04,002 [MainThread  ] [INFO ] Epoch 205; Train loss 3.1810; Val loss 3.1693
+2022-05-13 12:43:04,012 [MainThread  ] [INFO ] Epoch 206; Train loss 3.1683; Val loss 3.1441
+2022-05-13 12:43:04,023 [MainThread  ] [INFO ] Epoch 207; Train loss 3.1300; Val loss 3.1192
+2022-05-13 12:43:04,034 [MainThread  ] [INFO ] Epoch 208; Train loss 3.1183; Val loss 3.0948
+2022-05-13 12:43:04,045 [MainThread  ] [INFO ] Epoch 209; Train loss 3.0805; Val loss 3.0711
+2022-05-13 12:43:04,055 [MainThread  ] [INFO ] Epoch 210; Train loss 3.0711; Val loss 3.0478
+2022-05-13 12:43:04,066 [MainThread  ] [INFO ] Epoch 211; Train loss 3.0470; Val loss 3.0251
+2022-05-13 12:43:04,077 [MainThread  ] [INFO ] Epoch 212; Train loss 3.0251; Val loss 3.0033
+2022-05-13 12:43:04,088 [MainThread  ] [INFO ] Epoch 213; Train loss 3.0025; Val loss 2.9793
+2022-05-13 12:43:04,098 [MainThread  ] [INFO ] Epoch 214; Train loss 2.9793; Val loss 2.9558
+2022-05-13 12:43:04,109 [MainThread  ] [INFO ] Epoch 215; Train loss 2.9558; Val loss 2.9378
+2022-05-13 12:43:04,120 [MainThread  ] [INFO ] Epoch 216; Train loss 2.9378; Val loss 2.9123
+2022-05-13 12:43:04,131 [MainThread  ] [INFO ] Epoch 217; Train loss 2.9123; Val loss 2.8879
+2022-05-13 12:43:04,142 [MainThread  ] [INFO ] Epoch 218; Train loss 2.8873; Val loss 2.8676
+2022-05-13 12:43:04,155 [MainThread  ] [INFO ] Epoch 219; Train loss 2.8669; Val loss 2.8455
+2022-05-13 12:43:04,166 [MainThread  ] [INFO ] Epoch 220; Train loss 2.8455; Val loss 2.8250
+2022-05-13 12:43:04,177 [MainThread  ] [INFO ] Epoch 221; Train loss 2.8250; Val loss 2.8081
+2022-05-13 12:43:04,188 [MainThread  ] [INFO ] Epoch 222; Train loss 2.8075; Val loss 2.7856
+2022-05-13 12:43:04,199 [MainThread  ] [INFO ] Epoch 223; Train loss 2.7856; Val loss 2.7759
+2022-05-13 12:43:04,210 [MainThread  ] [INFO ] Epoch 224; Train loss 2.7759; Val loss 2.7607
+2022-05-13 12:43:04,220 [MainThread  ] [INFO ] Epoch 225; Train loss 2.7601; Val loss 2.7375
+2022-05-13 12:43:04,231 [MainThread  ] [INFO ] Epoch 226; Train loss 2.7375; Val loss 2.7234
+2022-05-13 12:43:04,242 [MainThread  ] [INFO ] Epoch 227; Train loss 2.7234; Val loss 2.7115
+2022-05-13 12:43:04,253 [MainThread  ] [INFO ] Epoch 228; Train loss 2.6957; Val loss 2.6914
+2022-05-13 12:43:04,263 [MainThread  ] [INFO ] Epoch 229; Train loss 2.6756; Val loss 2.6696
+2022-05-13 12:43:04,274 [MainThread  ] [INFO ] Epoch 230; Train loss 2.6690; Val loss 2.6568
+2022-05-13 12:43:04,285 [MainThread  ] [INFO ] Epoch 231; Train loss 2.6568; Val loss 2.6413
+2022-05-13 12:43:04,296 [MainThread  ] [INFO ] Epoch 232; Train loss 2.6253; Val loss 2.6268
+2022-05-13 12:43:04,308 [MainThread  ] [INFO ] Epoch 233; Train loss 2.6262; Val loss 2.6126
+2022-05-13 12:43:04,320 [MainThread  ] [INFO ] Epoch 234; Train loss 2.6126; Val loss 2.6007
+2022-05-13 12:43:04,331 [MainThread  ] [INFO ] Epoch 235; Train loss 2.5845; Val loss 2.5851
+2022-05-13 12:43:04,341 [MainThread  ] [INFO ] Epoch 236; Train loss 2.5689; Val loss 2.5707
+2022-05-13 12:43:04,352 [MainThread  ] [INFO ] Epoch 237; Train loss 2.5702; Val loss 2.5584
+2022-05-13 12:43:04,362 [MainThread  ] [INFO ] Epoch 238; Train loss 2.5584; Val loss 2.5427
+2022-05-13 12:43:04,373 [MainThread  ] [INFO ] Epoch 239; Train loss 2.5427; Val loss 2.5306
+2022-05-13 12:43:04,383 [MainThread  ] [INFO ] Epoch 240; Train loss 2.5142; Val loss 2.5150
+2022-05-13 12:43:04,394 [MainThread  ] [INFO ] Epoch 241; Train loss 2.5150; Val loss 2.5017
+2022-05-13 12:43:04,405 [MainThread  ] [INFO ] Epoch 242; Train loss 2.4852; Val loss 2.4919
+2022-05-13 12:43:04,415 [MainThread  ] [INFO ] Epoch 243; Train loss 2.4914; Val loss 2.4774
+2022-05-13 12:43:04,425 [MainThread  ] [INFO ] Epoch 244; Train loss 2.4774; Val loss 2.4676
+2022-05-13 12:43:04,436 [MainThread  ] [INFO ] Epoch 245; Train loss 2.4676; Val loss 2.4569
+2022-05-13 12:43:04,446 [MainThread  ] [INFO ] Epoch 246; Train loss 2.4569; Val loss 2.4398
+2022-05-13 12:43:04,457 [MainThread  ] [INFO ] Epoch 247; Train loss 2.4398; Val loss 2.4348
+2022-05-13 12:43:04,468 [MainThread  ] [INFO ] Epoch 248; Train loss 2.4348; Val loss 2.4220
+2022-05-13 12:43:04,479 [MainThread  ] [INFO ] Epoch 249; Train loss 2.4052; Val loss 2.4051
+2022-05-13 12:43:04,491 [MainThread  ] [INFO ] Epoch 250; Train loss 2.3883; Val loss 2.3990
+2022-05-13 12:43:04,501 [MainThread  ] [INFO ] Epoch 251; Train loss 2.3986; Val loss 2.3850
+2022-05-13 12:43:04,512 [MainThread  ] [INFO ] Epoch 252; Train loss 2.3850; Val loss 2.3715
+2022-05-13 12:43:04,524 [MainThread  ] [INFO ] Epoch 253; Train loss 2.3545; Val loss 2.3608
+2022-05-13 12:43:04,535 [MainThread  ] [INFO ] Epoch 254; Train loss 2.3604; Val loss 2.3478
+2022-05-13 12:43:04,546 [MainThread  ] [INFO ] Epoch 255; Train loss 2.3478; Val loss 2.3363
+2022-05-13 12:43:04,556 [MainThread  ] [INFO ] Epoch 256; Train loss 2.3359; Val loss 2.3243
+2022-05-13 12:43:04,567 [MainThread  ] [INFO ] Epoch 257; Train loss 2.3243; Val loss 2.3130
+2022-05-13 12:43:04,579 [MainThread  ] [INFO ] Epoch 258; Train loss 2.2959; Val loss 2.3016
+2022-05-13 12:43:04,589 [MainThread  ] [INFO ] Epoch 259; Train loss 2.2845; Val loss 2.2902
+2022-05-13 12:43:04,600 [MainThread  ] [INFO ] Epoch 260; Train loss 2.2730; Val loss 2.2807
+2022-05-13 12:43:04,611 [MainThread  ] [INFO ] Epoch 261; Train loss 2.2807; Val loss 2.2686
+2022-05-13 12:43:04,622 [MainThread  ] [INFO ] Epoch 262; Train loss 2.2686; Val loss 2.2662
+2022-05-13 12:43:04,633 [MainThread  ] [INFO ] Epoch 263; Train loss 2.2658; Val loss 2.2579
+2022-05-13 12:43:04,643 [MainThread  ] [INFO ] Epoch 264; Train loss 2.2576; Val loss 2.2414
+2022-05-13 12:43:04,653 [MainThread  ] [INFO ] Epoch 265; Train loss 2.2414; Val loss 2.2404
+2022-05-13 12:43:04,664 [MainThread  ] [INFO ] Epoch 266; Train loss 2.2404; Val loss 2.2321
+2022-05-13 12:43:04,675 [MainThread  ] [INFO ] Epoch 267; Train loss 2.2321; Val loss 2.2134
+2022-05-13 12:43:04,685 [MainThread  ] [INFO ] Epoch 268; Train loss 2.2134; Val loss 2.2182
+2022-05-13 12:43:04,685 [MainThread  ] [INFO ] Early stopping criterion satisfied
+2022-05-13 12:43:04,686 [MainThread  ] [INFO ] Test
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.8888888955116272
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 1.0
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.944444477558136
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] DFS: key mean accuracy: 0.7673324942588806
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] DFS: key last accuracy: 0.7673324942588806
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.9722221493721008
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.9722221493721008
+2022-05-13 12:43:04,692 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:43:18,261 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=100, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='6', nnodes='6')
+2022-05-13 12:43:18,261 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:43:18,261 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:43:18,270 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:43:18,272 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:43:18,275 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:43:18,275 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:43:18,275 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 100, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:43:18,290 [MainThread  ] [INFO ] Epoch 0; Train loss 10.4762; Val loss 10.4146
+2022-05-13 12:43:18,302 [MainThread  ] [INFO ] Epoch 1; Train loss 10.4146; Val loss 10.3725
+2022-05-13 12:43:18,313 [MainThread  ] [INFO ] Epoch 2; Train loss 10.3725; Val loss 10.3312
+2022-05-13 12:43:18,325 [MainThread  ] [INFO ] Epoch 3; Train loss 10.3306; Val loss 10.2907
+2022-05-13 12:43:18,336 [MainThread  ] [INFO ] Epoch 4; Train loss 10.2903; Val loss 10.2513
+2022-05-13 12:43:18,347 [MainThread  ] [INFO ] Epoch 5; Train loss 10.2509; Val loss 10.2132
+2022-05-13 12:43:18,357 [MainThread  ] [INFO ] Epoch 6; Train loss 10.2132; Val loss 10.1757
+2022-05-13 12:43:18,368 [MainThread  ] [INFO ] Epoch 7; Train loss 10.1754; Val loss 10.1393
+2022-05-13 12:43:18,379 [MainThread  ] [INFO ] Epoch 8; Train loss 10.1390; Val loss 10.1032
+2022-05-13 12:43:18,389 [MainThread  ] [INFO ] Epoch 9; Train loss 10.1182; Val loss 10.0675
+2022-05-13 12:43:18,400 [MainThread  ] [INFO ] Epoch 10; Train loss 10.0675; Val loss 10.0332
+2022-05-13 12:43:18,410 [MainThread  ] [INFO ] Epoch 11; Train loss 10.0332; Val loss 9.9994
+2022-05-13 12:43:18,421 [MainThread  ] [INFO ] Epoch 12; Train loss 9.9989; Val loss 9.9660
+2022-05-13 12:43:18,431 [MainThread  ] [INFO ] Epoch 13; Train loss 9.9660; Val loss 9.9330
+2022-05-13 12:43:18,442 [MainThread  ] [INFO ] Epoch 14; Train loss 9.9330; Val loss 9.9006
+2022-05-13 12:43:18,452 [MainThread  ] [INFO ] Epoch 15; Train loss 9.9002; Val loss 9.8690
+2022-05-13 12:43:18,462 [MainThread  ] [INFO ] Epoch 16; Train loss 9.8805; Val loss 9.8377
+2022-05-13 12:43:18,472 [MainThread  ] [INFO ] Epoch 17; Train loss 9.8377; Val loss 9.8067
+2022-05-13 12:43:18,483 [MainThread  ] [INFO ] Epoch 18; Train loss 9.8067; Val loss 9.7764
+2022-05-13 12:43:18,493 [MainThread  ] [INFO ] Epoch 19; Train loss 9.7764; Val loss 9.7465
+2022-05-13 12:43:18,504 [MainThread  ] [INFO ] Epoch 20; Train loss 9.7458; Val loss 9.7166
+2022-05-13 12:43:18,514 [MainThread  ] [INFO ] Epoch 21; Train loss 9.7166; Val loss 9.6869
+2022-05-13 12:43:18,525 [MainThread  ] [INFO ] Epoch 22; Train loss 9.6862; Val loss 9.6574
+2022-05-13 12:43:18,535 [MainThread  ] [INFO ] Epoch 23; Train loss 9.6565; Val loss 9.6280
+2022-05-13 12:43:18,545 [MainThread  ] [INFO ] Epoch 24; Train loss 9.6280; Val loss 9.5986
+2022-05-13 12:43:18,556 [MainThread  ] [INFO ] Epoch 25; Train loss 9.6072; Val loss 9.5701
+2022-05-13 12:43:18,567 [MainThread  ] [INFO ] Epoch 26; Train loss 9.5783; Val loss 9.5422
+2022-05-13 12:43:18,577 [MainThread  ] [INFO ] Epoch 27; Train loss 9.5500; Val loss 9.5146
+2022-05-13 12:43:18,587 [MainThread  ] [INFO ] Epoch 28; Train loss 9.5219; Val loss 9.4874
+2022-05-13 12:43:18,597 [MainThread  ] [INFO ] Epoch 29; Train loss 9.4874; Val loss 9.4602
+2022-05-13 12:43:18,608 [MainThread  ] [INFO ] Epoch 30; Train loss 9.4602; Val loss 9.4324
+2022-05-13 12:43:18,618 [MainThread  ] [INFO ] Epoch 31; Train loss 9.4324; Val loss 9.4042
+2022-05-13 12:43:18,628 [MainThread  ] [INFO ] Epoch 32; Train loss 9.4042; Val loss 9.3759
+2022-05-13 12:43:18,638 [MainThread  ] [INFO ] Epoch 33; Train loss 9.3759; Val loss 9.3477
+2022-05-13 12:43:18,648 [MainThread  ] [INFO ] Epoch 34; Train loss 9.3477; Val loss 9.3196
+2022-05-13 12:43:18,659 [MainThread  ] [INFO ] Epoch 35; Train loss 9.3171; Val loss 9.2919
+2022-05-13 12:43:18,670 [MainThread  ] [INFO ] Epoch 36; Train loss 9.2892; Val loss 9.2647
+2022-05-13 12:43:18,680 [MainThread  ] [INFO ] Epoch 37; Train loss 9.2619; Val loss 9.2378
+2022-05-13 12:43:18,691 [MainThread  ] [INFO ] Epoch 38; Train loss 9.2349; Val loss 9.2116
+2022-05-13 12:43:18,701 [MainThread  ] [INFO ] Epoch 39; Train loss 9.2084; Val loss 9.1854
+2022-05-13 12:43:18,712 [MainThread  ] [INFO ] Epoch 40; Train loss 9.1854; Val loss 9.1593
+2022-05-13 12:43:18,722 [MainThread  ] [INFO ] Epoch 41; Train loss 9.1557; Val loss 9.1333
+2022-05-13 12:43:18,733 [MainThread  ] [INFO ] Epoch 42; Train loss 9.1294; Val loss 9.1072
+2022-05-13 12:43:18,743 [MainThread  ] [INFO ] Epoch 43; Train loss 9.1072; Val loss 9.0811
+2022-05-13 12:43:18,754 [MainThread  ] [INFO ] Epoch 44; Train loss 9.0811; Val loss 9.0554
+2022-05-13 12:43:18,764 [MainThread  ] [INFO ] Epoch 45; Train loss 9.0509; Val loss 9.0299
+2022-05-13 12:43:18,775 [MainThread  ] [INFO ] Epoch 46; Train loss 9.0253; Val loss 9.0046
+2022-05-13 12:43:18,785 [MainThread  ] [INFO ] Epoch 47; Train loss 9.0046; Val loss 8.9789
+2022-05-13 12:43:18,795 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9789; Val loss 8.9529
+2022-05-13 12:43:18,806 [MainThread  ] [INFO ] Epoch 49; Train loss 8.9529; Val loss 8.9267
+2022-05-13 12:43:18,816 [MainThread  ] [INFO ] Epoch 50; Train loss 8.9267; Val loss 8.9007
+2022-05-13 12:43:18,826 [MainThread  ] [INFO ] Epoch 51; Train loss 8.9007; Val loss 8.8747
+2022-05-13 12:43:18,837 [MainThread  ] [INFO ] Epoch 52; Train loss 8.8747; Val loss 8.8487
+2022-05-13 12:43:18,847 [MainThread  ] [INFO ] Epoch 53; Train loss 8.8442; Val loss 8.8225
+2022-05-13 12:43:18,858 [MainThread  ] [INFO ] Epoch 54; Train loss 8.8225; Val loss 8.7961
+2022-05-13 12:43:18,869 [MainThread  ] [INFO ] Epoch 55; Train loss 8.7961; Val loss 8.7696
+2022-05-13 12:43:18,879 [MainThread  ] [INFO ] Epoch 56; Train loss 8.7696; Val loss 8.7434
+2022-05-13 12:43:18,889 [MainThread  ] [INFO ] Epoch 57; Train loss 8.7434; Val loss 8.7167
+2022-05-13 12:43:18,899 [MainThread  ] [INFO ] Epoch 58; Train loss 8.7167; Val loss 8.6898
+2022-05-13 12:43:18,909 [MainThread  ] [INFO ] Epoch 59; Train loss 8.6854; Val loss 8.6627
+2022-05-13 12:43:18,919 [MainThread  ] [INFO ] Epoch 60; Train loss 8.6583; Val loss 8.6357
+2022-05-13 12:43:18,929 [MainThread  ] [INFO ] Epoch 61; Train loss 8.6367; Val loss 8.6084
+2022-05-13 12:43:18,939 [MainThread  ] [INFO ] Epoch 62; Train loss 8.6084; Val loss 8.5809
+2022-05-13 12:43:18,950 [MainThread  ] [INFO ] Epoch 63; Train loss 8.5766; Val loss 8.5532
+2022-05-13 12:43:18,960 [MainThread  ] [INFO ] Epoch 64; Train loss 8.5532; Val loss 8.5252
+2022-05-13 12:43:18,971 [MainThread  ] [INFO ] Epoch 65; Train loss 8.5209; Val loss 8.4968
+2022-05-13 12:43:18,981 [MainThread  ] [INFO ] Epoch 66; Train loss 8.4968; Val loss 8.4679
+2022-05-13 12:43:18,991 [MainThread  ] [INFO ] Epoch 67; Train loss 8.4679; Val loss 8.4382
+2022-05-13 12:43:19,001 [MainThread  ] [INFO ] Epoch 68; Train loss 8.4338; Val loss 8.4076
+2022-05-13 12:43:19,011 [MainThread  ] [INFO ] Epoch 69; Train loss 8.4076; Val loss 8.3763
+2022-05-13 12:43:19,022 [MainThread  ] [INFO ] Epoch 70; Train loss 8.3763; Val loss 8.3445
+2022-05-13 12:43:19,032 [MainThread  ] [INFO ] Epoch 71; Train loss 8.3470; Val loss 8.3113
+2022-05-13 12:43:19,042 [MainThread  ] [INFO ] Epoch 72; Train loss 8.3069; Val loss 8.2772
+2022-05-13 12:43:19,053 [MainThread  ] [INFO ] Epoch 73; Train loss 8.2727; Val loss 8.2416
+2022-05-13 12:43:19,063 [MainThread  ] [INFO ] Epoch 74; Train loss 8.2416; Val loss 8.2044
+2022-05-13 12:43:19,073 [MainThread  ] [INFO ] Epoch 75; Train loss 8.1996; Val loss 8.1660
+2022-05-13 12:43:19,083 [MainThread  ] [INFO ] Epoch 76; Train loss 8.1660; Val loss 8.1270
+2022-05-13 12:43:19,093 [MainThread  ] [INFO ] Epoch 77; Train loss 8.1220; Val loss 8.0870
+2022-05-13 12:43:19,104 [MainThread  ] [INFO ] Epoch 78; Train loss 8.0870; Val loss 8.0462
+2022-05-13 12:43:19,114 [MainThread  ] [INFO ] Epoch 79; Train loss 8.0501; Val loss 8.0079
+2022-05-13 12:43:19,123 [MainThread  ] [INFO ] Epoch 80; Train loss 8.0079; Val loss 7.9725
+2022-05-13 12:43:19,134 [MainThread  ] [INFO ] Epoch 81; Train loss 7.9725; Val loss 7.9371
+2022-05-13 12:43:19,144 [MainThread  ] [INFO ] Epoch 82; Train loss 7.9331; Val loss 7.9044
+2022-05-13 12:43:19,154 [MainThread  ] [INFO ] Epoch 83; Train loss 7.9044; Val loss 7.8709
+2022-05-13 12:43:19,164 [MainThread  ] [INFO ] Epoch 84; Train loss 7.8671; Val loss 7.8366
+2022-05-13 12:43:19,174 [MainThread  ] [INFO ] Epoch 85; Train loss 7.8407; Val loss 7.8091
+2022-05-13 12:43:19,185 [MainThread  ] [INFO ] Epoch 86; Train loss 7.8055; Val loss 7.7808
+2022-05-13 12:43:19,195 [MainThread  ] [INFO ] Epoch 87; Train loss 7.7808; Val loss 7.7520
+2022-05-13 12:43:19,206 [MainThread  ] [INFO ] Epoch 88; Train loss 7.7556; Val loss 7.7232
+2022-05-13 12:43:19,216 [MainThread  ] [INFO ] Epoch 89; Train loss 7.7232; Val loss 7.6939
+2022-05-13 12:43:19,227 [MainThread  ] [INFO ] Epoch 90; Train loss 7.6911; Val loss 7.6647
+2022-05-13 12:43:19,237 [MainThread  ] [INFO ] Epoch 91; Train loss 7.6622; Val loss 7.6352
+2022-05-13 12:43:19,247 [MainThread  ] [INFO ] Epoch 92; Train loss 7.6352; Val loss 7.6053
+2022-05-13 12:43:19,258 [MainThread  ] [INFO ] Epoch 93; Train loss 7.6053; Val loss 7.5746
+2022-05-13 12:43:19,269 [MainThread  ] [INFO ] Epoch 94; Train loss 7.5778; Val loss 7.5432
+2022-05-13 12:43:19,279 [MainThread  ] [INFO ] Epoch 95; Train loss 7.5432; Val loss 7.5114
+2022-05-13 12:43:19,289 [MainThread  ] [INFO ] Epoch 96; Train loss 7.5114; Val loss 7.4792
+2022-05-13 12:43:19,300 [MainThread  ] [INFO ] Epoch 97; Train loss 7.4792; Val loss 7.4464
+2022-05-13 12:43:19,310 [MainThread  ] [INFO ] Epoch 98; Train loss 7.4464; Val loss 7.4136
+2022-05-13 12:43:19,321 [MainThread  ] [INFO ] Epoch 99; Train loss 7.4150; Val loss 7.3805
+2022-05-13 12:43:19,321 [MainThread  ] [INFO ] Test
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.5555555820465088
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 1.0
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.944444477558136
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] DFS: key mean accuracy: 3.6679470539093018
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] DFS: key last accuracy: 3.6679470539093018
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.6388888955116272
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.6388888955116272
+2022-05-13 12:43:19,325 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:43:23,529 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=10, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='6', nnodes='6')
+2022-05-13 12:43:23,530 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:43:23,530 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:43:23,533 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:43:23,534 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:43:23,534 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:43:23,534 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:43:23,534 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 10, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:43:23,547 [MainThread  ] [INFO ] Epoch 0; Train loss 10.4762; Val loss 10.4146
+2022-05-13 12:43:23,558 [MainThread  ] [INFO ] Epoch 1; Train loss 10.4146; Val loss 10.3725
+2022-05-13 12:43:23,569 [MainThread  ] [INFO ] Epoch 2; Train loss 10.3725; Val loss 10.3312
+2022-05-13 12:43:23,580 [MainThread  ] [INFO ] Epoch 3; Train loss 10.3306; Val loss 10.2907
+2022-05-13 12:43:23,590 [MainThread  ] [INFO ] Epoch 4; Train loss 10.2903; Val loss 10.2513
+2022-05-13 12:43:23,600 [MainThread  ] [INFO ] Epoch 5; Train loss 10.2509; Val loss 10.2132
+2022-05-13 12:43:23,610 [MainThread  ] [INFO ] Epoch 6; Train loss 10.2132; Val loss 10.1757
+2022-05-13 12:43:23,620 [MainThread  ] [INFO ] Epoch 7; Train loss 10.1754; Val loss 10.1393
+2022-05-13 12:43:23,631 [MainThread  ] [INFO ] Epoch 8; Train loss 10.1390; Val loss 10.1032
+2022-05-13 12:43:23,642 [MainThread  ] [INFO ] Epoch 9; Train loss 10.1182; Val loss 10.0675
+2022-05-13 12:43:23,642 [MainThread  ] [INFO ] Test
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.10185185074806213
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] BFS: termination accuracy: 0.0
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.9166666865348816
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] DFS: key mean accuracy: 7.317410945892334
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] DFS: state last accuracy: 0.1666666716337204
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] DFS: key last accuracy: 0.34986087679862976
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.2777777910232544
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.0
+2022-05-13 12:43:23,645 [MainThread  ] [INFO ] Termination accuracy: 0.0
+2022-05-13 12:45:16,049 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='"TwoDGrid"', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='"BFS DFS"', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs="['10']", nnodes="['50']", datagraphsetname="['joe']")
+2022-05-13 12:45:16,050 [MainThread  ] [ERROR] The algorithm task submitted does not exist: "BFS
+NoneType: None
+2022-05-13 12:45:16,050 [MainThread  ] [ERROR] The algorithm task submitted does not exist: DFS"
+NoneType: None
+2022-05-13 12:45:16,050 [MainThread  ] [INFO ] Task metadata: {'nodedim': [], 'edgedim': [], 'pred': []}
+2022-05-13 12:45:16,050 [MainThread  ] [INFO ] Generating "TwoDGrid" graphs
+2022-05-13 12:45:16,050 [MainThread  ] [ERROR] Unknown graphtype {}
+NoneType: None
+2022-05-13 12:45:16,050 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:45:31,582 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='BFS DFS', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs="['10']", nnodes="['50']", datagraphsetname="['joe']")
+2022-05-13 12:45:31,587 [MainThread  ] [ERROR] The algorithm task submitted does not exist: BFS
+NoneType: None
+2022-05-13 12:45:31,588 [MainThread  ] [ERROR] The algorithm task submitted does not exist: DFS
+NoneType: None
+2022-05-13 12:45:31,588 [MainThread  ] [INFO ] Task metadata: {'nodedim': [], 'edgedim': [], 'pred': []}
+2022-05-13 12:45:31,588 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:45:47,531 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='BFS DFS', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='joe')
+2022-05-13 12:45:47,531 [MainThread  ] [ERROR] The algorithm task submitted does not exist: BFS
+NoneType: None
+2022-05-13 12:45:47,531 [MainThread  ] [ERROR] The algorithm task submitted does not exist: DFS
+NoneType: None
+2022-05-13 12:45:47,531 [MainThread  ] [INFO ] Task metadata: {'nodedim': [], 'edgedim': [], 'pred': []}
+2022-05-13 12:45:47,532 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:46:42,333 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='BFS DFS', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='joe')
+2022-05-13 12:46:42,334 [MainThread  ] [ERROR] The algorithm task submitted does not exist: BFS
+NoneType: None
+2022-05-13 12:46:42,334 [MainThread  ] [ERROR] The algorithm task submitted does not exist: DFS
+NoneType: None
+2022-05-13 12:46:42,334 [MainThread  ] [INFO ] Task metadata: {'nodedim': [], 'edgedim': [], 'pred': []}
+2022-05-13 12:46:42,334 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:47:29,225 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='joe')
+2022-05-13 12:47:29,225 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:47:29,225 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:47:29,244 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:47:29,246 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:47:29,247 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:47:29,247 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:47:29,247 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 50, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:47:29,261 [MainThread  ] [INFO ] Epoch 0; Train loss 9.9599; Val loss 9.9374
+2022-05-13 12:47:29,272 [MainThread  ] [INFO ] Epoch 1; Train loss 9.9386; Val loss 9.9154
+2022-05-13 12:47:29,282 [MainThread  ] [INFO ] Epoch 2; Train loss 9.9154; Val loss 9.8935
+2022-05-13 12:47:29,292 [MainThread  ] [INFO ] Epoch 3; Train loss 9.8943; Val loss 9.8713
+2022-05-13 12:47:29,302 [MainThread  ] [INFO ] Epoch 4; Train loss 9.8713; Val loss 9.8491
+2022-05-13 12:47:29,312 [MainThread  ] [INFO ] Epoch 5; Train loss 9.8491; Val loss 9.8266
+2022-05-13 12:47:29,323 [MainThread  ] [INFO ] Epoch 6; Train loss 9.8273; Val loss 9.8043
+2022-05-13 12:47:29,333 [MainThread  ] [INFO ] Epoch 7; Train loss 9.8049; Val loss 9.7820
+2022-05-13 12:47:29,344 [MainThread  ] [INFO ] Epoch 8; Train loss 9.7820; Val loss 9.7598
+2022-05-13 12:47:29,355 [MainThread  ] [INFO ] Epoch 9; Train loss 9.7600; Val loss 9.7379
+2022-05-13 12:47:29,366 [MainThread  ] [INFO ] Epoch 10; Train loss 9.7380; Val loss 9.7166
+2022-05-13 12:47:29,376 [MainThread  ] [INFO ] Epoch 11; Train loss 9.7166; Val loss 9.6956
+2022-05-13 12:47:29,387 [MainThread  ] [INFO ] Epoch 12; Train loss 9.6956; Val loss 9.6747
+2022-05-13 12:47:29,398 [MainThread  ] [INFO ] Epoch 13; Train loss 9.6747; Val loss 9.6537
+2022-05-13 12:47:29,408 [MainThread  ] [INFO ] Epoch 14; Train loss 9.6537; Val loss 9.6326
+2022-05-13 12:47:29,419 [MainThread  ] [INFO ] Epoch 15; Train loss 9.6325; Val loss 9.6115
+2022-05-13 12:47:29,429 [MainThread  ] [INFO ] Epoch 16; Train loss 9.6115; Val loss 9.5906
+2022-05-13 12:47:29,439 [MainThread  ] [INFO ] Epoch 17; Train loss 9.5906; Val loss 9.5698
+2022-05-13 12:47:29,450 [MainThread  ] [INFO ] Epoch 18; Train loss 9.5698; Val loss 9.5493
+2022-05-13 12:47:29,460 [MainThread  ] [INFO ] Epoch 19; Train loss 9.5493; Val loss 9.5291
+2022-05-13 12:47:29,471 [MainThread  ] [INFO ] Epoch 20; Train loss 9.5294; Val loss 9.5092
+2022-05-13 12:47:29,481 [MainThread  ] [INFO ] Epoch 21; Train loss 9.5096; Val loss 9.4894
+2022-05-13 12:47:29,492 [MainThread  ] [INFO ] Epoch 22; Train loss 9.4894; Val loss 9.4699
+2022-05-13 12:47:29,502 [MainThread  ] [INFO ] Epoch 23; Train loss 9.4699; Val loss 9.4505
+2022-05-13 12:47:29,513 [MainThread  ] [INFO ] Epoch 24; Train loss 9.4511; Val loss 9.4311
+2022-05-13 12:47:29,523 [MainThread  ] [INFO ] Epoch 25; Train loss 9.4311; Val loss 9.4118
+2022-05-13 12:47:29,534 [MainThread  ] [INFO ] Epoch 26; Train loss 9.4126; Val loss 9.3925
+2022-05-13 12:47:29,544 [MainThread  ] [INFO ] Epoch 27; Train loss 9.4154; Val loss 9.3732
+2022-05-13 12:47:29,555 [MainThread  ] [INFO ] Epoch 28; Train loss 9.3962; Val loss 9.3539
+2022-05-13 12:47:29,565 [MainThread  ] [INFO ] Epoch 29; Train loss 9.3539; Val loss 9.3348
+2022-05-13 12:47:29,575 [MainThread  ] [INFO ] Epoch 30; Train loss 9.3362; Val loss 9.3157
+2022-05-13 12:47:29,586 [MainThread  ] [INFO ] Epoch 31; Train loss 9.3172; Val loss 9.2964
+2022-05-13 12:47:29,597 [MainThread  ] [INFO ] Epoch 32; Train loss 9.3199; Val loss 9.2770
+2022-05-13 12:47:29,608 [MainThread  ] [INFO ] Epoch 33; Train loss 9.2770; Val loss 9.2573
+2022-05-13 12:47:29,618 [MainThread  ] [INFO ] Epoch 34; Train loss 9.2590; Val loss 9.2371
+2022-05-13 12:47:29,628 [MainThread  ] [INFO ] Epoch 35; Train loss 9.2607; Val loss 9.2167
+2022-05-13 12:47:29,638 [MainThread  ] [INFO ] Epoch 36; Train loss 9.2167; Val loss 9.1962
+2022-05-13 12:47:29,650 [MainThread  ] [INFO ] Epoch 37; Train loss 9.1981; Val loss 9.1756
+2022-05-13 12:47:29,662 [MainThread  ] [INFO ] Epoch 38; Train loss 9.1776; Val loss 9.1549
+2022-05-13 12:47:29,673 [MainThread  ] [INFO ] Epoch 39; Train loss 9.1568; Val loss 9.1340
+2022-05-13 12:47:29,683 [MainThread  ] [INFO ] Epoch 40; Train loss 9.1340; Val loss 9.1129
+2022-05-13 12:47:29,694 [MainThread  ] [INFO ] Epoch 41; Train loss 9.1129; Val loss 9.0918
+2022-05-13 12:47:29,706 [MainThread  ] [INFO ] Epoch 42; Train loss 9.0918; Val loss 9.0705
+2022-05-13 12:47:29,717 [MainThread  ] [INFO ] Epoch 43; Train loss 9.0705; Val loss 9.0492
+2022-05-13 12:47:29,729 [MainThread  ] [INFO ] Epoch 44; Train loss 9.0509; Val loss 9.0281
+2022-05-13 12:47:29,740 [MainThread  ] [INFO ] Epoch 45; Train loss 9.0296; Val loss 9.0067
+2022-05-13 12:47:29,753 [MainThread  ] [INFO ] Epoch 46; Train loss 9.0304; Val loss 8.9852
+2022-05-13 12:47:29,763 [MainThread  ] [INFO ] Epoch 47; Train loss 8.9852; Val loss 8.9634
+2022-05-13 12:47:29,774 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9634; Val loss 8.9412
+2022-05-13 12:47:29,784 [MainThread  ] [INFO ] Epoch 49; Train loss 8.9421; Val loss 8.9189
+2022-05-13 12:47:29,784 [MainThread  ] [INFO ] Test
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.3379629850387573
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0833333358168602
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.2777777910232544
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] DFS: key mean accuracy: 7.287989139556885
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] DFS: key last accuracy: 7.287989139556885
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.5
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.5
+2022-05-13 12:47:29,788 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:49:19,396 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='data-large', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='joe')
+2022-05-13 12:49:19,397 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:49:19,397 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:49:19,422 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:49:19,424 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:49:19,425 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:49:19,425 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:49:19,425 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 50, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:49:19,445 [MainThread  ] [INFO ] Epoch 0; Train loss 9.9599; Val loss 9.9374
+2022-05-13 12:49:19,457 [MainThread  ] [INFO ] Epoch 1; Train loss 9.9386; Val loss 9.9154
+2022-05-13 12:49:19,467 [MainThread  ] [INFO ] Epoch 2; Train loss 9.9154; Val loss 9.8935
+2022-05-13 12:49:19,478 [MainThread  ] [INFO ] Epoch 3; Train loss 9.8943; Val loss 9.8713
+2022-05-13 12:49:19,489 [MainThread  ] [INFO ] Epoch 4; Train loss 9.8713; Val loss 9.8491
+2022-05-13 12:49:19,500 [MainThread  ] [INFO ] Epoch 5; Train loss 9.8491; Val loss 9.8266
+2022-05-13 12:49:19,511 [MainThread  ] [INFO ] Epoch 6; Train loss 9.8273; Val loss 9.8043
+2022-05-13 12:49:19,522 [MainThread  ] [INFO ] Epoch 7; Train loss 9.8049; Val loss 9.7820
+2022-05-13 12:49:19,532 [MainThread  ] [INFO ] Epoch 8; Train loss 9.7820; Val loss 9.7598
+2022-05-13 12:49:19,543 [MainThread  ] [INFO ] Epoch 9; Train loss 9.7600; Val loss 9.7379
+2022-05-13 12:49:19,553 [MainThread  ] [INFO ] Epoch 10; Train loss 9.7380; Val loss 9.7166
+2022-05-13 12:49:19,564 [MainThread  ] [INFO ] Epoch 11; Train loss 9.7166; Val loss 9.6956
+2022-05-13 12:49:19,574 [MainThread  ] [INFO ] Epoch 12; Train loss 9.6956; Val loss 9.6747
+2022-05-13 12:49:19,585 [MainThread  ] [INFO ] Epoch 13; Train loss 9.6747; Val loss 9.6537
+2022-05-13 12:49:19,596 [MainThread  ] [INFO ] Epoch 14; Train loss 9.6537; Val loss 9.6326
+2022-05-13 12:49:19,606 [MainThread  ] [INFO ] Epoch 15; Train loss 9.6325; Val loss 9.6115
+2022-05-13 12:49:19,616 [MainThread  ] [INFO ] Epoch 16; Train loss 9.6115; Val loss 9.5906
+2022-05-13 12:49:19,627 [MainThread  ] [INFO ] Epoch 17; Train loss 9.5906; Val loss 9.5698
+2022-05-13 12:49:19,638 [MainThread  ] [INFO ] Epoch 18; Train loss 9.5698; Val loss 9.5493
+2022-05-13 12:49:19,648 [MainThread  ] [INFO ] Epoch 19; Train loss 9.5493; Val loss 9.5291
+2022-05-13 12:49:19,658 [MainThread  ] [INFO ] Epoch 20; Train loss 9.5294; Val loss 9.5092
+2022-05-13 12:49:19,669 [MainThread  ] [INFO ] Epoch 21; Train loss 9.5096; Val loss 9.4894
+2022-05-13 12:49:19,679 [MainThread  ] [INFO ] Epoch 22; Train loss 9.4894; Val loss 9.4699
+2022-05-13 12:49:19,690 [MainThread  ] [INFO ] Epoch 23; Train loss 9.4699; Val loss 9.4505
+2022-05-13 12:49:19,701 [MainThread  ] [INFO ] Epoch 24; Train loss 9.4511; Val loss 9.4311
+2022-05-13 12:49:19,711 [MainThread  ] [INFO ] Epoch 25; Train loss 9.4311; Val loss 9.4118
+2022-05-13 12:49:19,722 [MainThread  ] [INFO ] Epoch 26; Train loss 9.4126; Val loss 9.3925
+2022-05-13 12:49:19,732 [MainThread  ] [INFO ] Epoch 27; Train loss 9.4154; Val loss 9.3732
+2022-05-13 12:49:19,743 [MainThread  ] [INFO ] Epoch 28; Train loss 9.3962; Val loss 9.3539
+2022-05-13 12:49:19,753 [MainThread  ] [INFO ] Epoch 29; Train loss 9.3539; Val loss 9.3348
+2022-05-13 12:49:19,764 [MainThread  ] [INFO ] Epoch 30; Train loss 9.3362; Val loss 9.3157
+2022-05-13 12:49:19,775 [MainThread  ] [INFO ] Epoch 31; Train loss 9.3172; Val loss 9.2964
+2022-05-13 12:49:19,786 [MainThread  ] [INFO ] Epoch 32; Train loss 9.3199; Val loss 9.2770
+2022-05-13 12:49:19,796 [MainThread  ] [INFO ] Epoch 33; Train loss 9.2770; Val loss 9.2573
+2022-05-13 12:49:19,806 [MainThread  ] [INFO ] Epoch 34; Train loss 9.2590; Val loss 9.2371
+2022-05-13 12:49:19,817 [MainThread  ] [INFO ] Epoch 35; Train loss 9.2607; Val loss 9.2167
+2022-05-13 12:49:19,827 [MainThread  ] [INFO ] Epoch 36; Train loss 9.2167; Val loss 9.1962
+2022-05-13 12:49:19,837 [MainThread  ] [INFO ] Epoch 37; Train loss 9.1981; Val loss 9.1756
+2022-05-13 12:49:19,848 [MainThread  ] [INFO ] Epoch 38; Train loss 9.1776; Val loss 9.1549
+2022-05-13 12:49:19,859 [MainThread  ] [INFO ] Epoch 39; Train loss 9.1568; Val loss 9.1340
+2022-05-13 12:49:19,870 [MainThread  ] [INFO ] Epoch 40; Train loss 9.1340; Val loss 9.1129
+2022-05-13 12:49:19,880 [MainThread  ] [INFO ] Epoch 41; Train loss 9.1129; Val loss 9.0918
+2022-05-13 12:49:19,891 [MainThread  ] [INFO ] Epoch 42; Train loss 9.0918; Val loss 9.0705
+2022-05-13 12:49:19,901 [MainThread  ] [INFO ] Epoch 43; Train loss 9.0705; Val loss 9.0492
+2022-05-13 12:49:19,911 [MainThread  ] [INFO ] Epoch 44; Train loss 9.0509; Val loss 9.0281
+2022-05-13 12:49:19,922 [MainThread  ] [INFO ] Epoch 45; Train loss 9.0296; Val loss 9.0067
+2022-05-13 12:49:19,933 [MainThread  ] [INFO ] Epoch 46; Train loss 9.0304; Val loss 8.9852
+2022-05-13 12:49:19,943 [MainThread  ] [INFO ] Epoch 47; Train loss 8.9852; Val loss 8.9634
+2022-05-13 12:49:19,954 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9634; Val loss 8.9412
+2022-05-13 12:49:19,964 [MainThread  ] [INFO ] Epoch 49; Train loss 8.9421; Val loss 8.9189
+2022-05-13 12:49:19,965 [MainThread  ] [INFO ] Test
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.3379629850387573
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0833333358168602
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.2777777910232544
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] DFS: key mean accuracy: 7.287989139556885
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] DFS: key last accuracy: 7.287989139556885
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.5
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.5
+2022-05-13 12:49:19,969 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:49:30,193 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./data-large/', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='joe')
+2022-05-13 12:49:30,193 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:49:30,193 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:49:43,787 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./data-2/', savemodel='', loadmodel='', graphtypes='TwoDGrid', graphparams='False', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='joe')
+2022-05-13 12:49:43,787 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:49:43,787 [MainThread  ] [INFO ] Generating TwoDGrid graphs
+2022-05-13 12:49:43,806 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:49:43,807 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:49:43,808 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:49:43,808 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:49:43,808 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 50, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:49:43,820 [MainThread  ] [INFO ] Epoch 0; Train loss 9.9599; Val loss 9.9374
+2022-05-13 12:49:43,832 [MainThread  ] [INFO ] Epoch 1; Train loss 9.9386; Val loss 9.9154
+2022-05-13 12:49:43,842 [MainThread  ] [INFO ] Epoch 2; Train loss 9.9154; Val loss 9.8935
+2022-05-13 12:49:43,853 [MainThread  ] [INFO ] Epoch 3; Train loss 9.8943; Val loss 9.8713
+2022-05-13 12:49:43,863 [MainThread  ] [INFO ] Epoch 4; Train loss 9.8713; Val loss 9.8491
+2022-05-13 12:49:43,874 [MainThread  ] [INFO ] Epoch 5; Train loss 9.8491; Val loss 9.8266
+2022-05-13 12:49:43,885 [MainThread  ] [INFO ] Epoch 6; Train loss 9.8273; Val loss 9.8043
+2022-05-13 12:49:43,895 [MainThread  ] [INFO ] Epoch 7; Train loss 9.8049; Val loss 9.7820
+2022-05-13 12:49:43,906 [MainThread  ] [INFO ] Epoch 8; Train loss 9.7820; Val loss 9.7598
+2022-05-13 12:49:43,916 [MainThread  ] [INFO ] Epoch 9; Train loss 9.7600; Val loss 9.7379
+2022-05-13 12:49:43,927 [MainThread  ] [INFO ] Epoch 10; Train loss 9.7380; Val loss 9.7166
+2022-05-13 12:49:43,937 [MainThread  ] [INFO ] Epoch 11; Train loss 9.7166; Val loss 9.6956
+2022-05-13 12:49:43,947 [MainThread  ] [INFO ] Epoch 12; Train loss 9.6956; Val loss 9.6747
+2022-05-13 12:49:43,958 [MainThread  ] [INFO ] Epoch 13; Train loss 9.6747; Val loss 9.6537
+2022-05-13 12:49:43,968 [MainThread  ] [INFO ] Epoch 14; Train loss 9.6537; Val loss 9.6326
+2022-05-13 12:49:43,978 [MainThread  ] [INFO ] Epoch 15; Train loss 9.6325; Val loss 9.6115
+2022-05-13 12:49:43,988 [MainThread  ] [INFO ] Epoch 16; Train loss 9.6115; Val loss 9.5906
+2022-05-13 12:49:43,999 [MainThread  ] [INFO ] Epoch 17; Train loss 9.5906; Val loss 9.5698
+2022-05-13 12:49:44,009 [MainThread  ] [INFO ] Epoch 18; Train loss 9.5698; Val loss 9.5493
+2022-05-13 12:49:44,019 [MainThread  ] [INFO ] Epoch 19; Train loss 9.5493; Val loss 9.5291
+2022-05-13 12:49:44,029 [MainThread  ] [INFO ] Epoch 20; Train loss 9.5294; Val loss 9.5092
+2022-05-13 12:49:44,040 [MainThread  ] [INFO ] Epoch 21; Train loss 9.5096; Val loss 9.4894
+2022-05-13 12:49:44,050 [MainThread  ] [INFO ] Epoch 22; Train loss 9.4894; Val loss 9.4699
+2022-05-13 12:49:44,061 [MainThread  ] [INFO ] Epoch 23; Train loss 9.4699; Val loss 9.4505
+2022-05-13 12:49:44,071 [MainThread  ] [INFO ] Epoch 24; Train loss 9.4511; Val loss 9.4311
+2022-05-13 12:49:44,081 [MainThread  ] [INFO ] Epoch 25; Train loss 9.4311; Val loss 9.4118
+2022-05-13 12:49:44,092 [MainThread  ] [INFO ] Epoch 26; Train loss 9.4126; Val loss 9.3925
+2022-05-13 12:49:44,102 [MainThread  ] [INFO ] Epoch 27; Train loss 9.4154; Val loss 9.3732
+2022-05-13 12:49:44,112 [MainThread  ] [INFO ] Epoch 28; Train loss 9.3962; Val loss 9.3539
+2022-05-13 12:49:44,123 [MainThread  ] [INFO ] Epoch 29; Train loss 9.3539; Val loss 9.3348
+2022-05-13 12:49:44,133 [MainThread  ] [INFO ] Epoch 30; Train loss 9.3362; Val loss 9.3157
+2022-05-13 12:49:44,143 [MainThread  ] [INFO ] Epoch 31; Train loss 9.3172; Val loss 9.2964
+2022-05-13 12:49:44,153 [MainThread  ] [INFO ] Epoch 32; Train loss 9.3199; Val loss 9.2770
+2022-05-13 12:49:44,163 [MainThread  ] [INFO ] Epoch 33; Train loss 9.2770; Val loss 9.2573
+2022-05-13 12:49:44,173 [MainThread  ] [INFO ] Epoch 34; Train loss 9.2590; Val loss 9.2371
+2022-05-13 12:49:44,183 [MainThread  ] [INFO ] Epoch 35; Train loss 9.2607; Val loss 9.2167
+2022-05-13 12:49:44,193 [MainThread  ] [INFO ] Epoch 36; Train loss 9.2167; Val loss 9.1962
+2022-05-13 12:49:44,203 [MainThread  ] [INFO ] Epoch 37; Train loss 9.1981; Val loss 9.1756
+2022-05-13 12:49:44,213 [MainThread  ] [INFO ] Epoch 38; Train loss 9.1776; Val loss 9.1549
+2022-05-13 12:49:44,223 [MainThread  ] [INFO ] Epoch 39; Train loss 9.1568; Val loss 9.1340
+2022-05-13 12:49:44,233 [MainThread  ] [INFO ] Epoch 40; Train loss 9.1340; Val loss 9.1129
+2022-05-13 12:49:44,243 [MainThread  ] [INFO ] Epoch 41; Train loss 9.1129; Val loss 9.0918
+2022-05-13 12:49:44,253 [MainThread  ] [INFO ] Epoch 42; Train loss 9.0918; Val loss 9.0705
+2022-05-13 12:49:44,263 [MainThread  ] [INFO ] Epoch 43; Train loss 9.0705; Val loss 9.0492
+2022-05-13 12:49:44,273 [MainThread  ] [INFO ] Epoch 44; Train loss 9.0509; Val loss 9.0281
+2022-05-13 12:49:44,282 [MainThread  ] [INFO ] Epoch 45; Train loss 9.0296; Val loss 9.0067
+2022-05-13 12:49:44,293 [MainThread  ] [INFO ] Epoch 46; Train loss 9.0304; Val loss 8.9852
+2022-05-13 12:49:44,303 [MainThread  ] [INFO ] Epoch 47; Train loss 8.9852; Val loss 8.9634
+2022-05-13 12:49:44,313 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9634; Val loss 8.9412
+2022-05-13 12:49:44,323 [MainThread  ] [INFO ] Epoch 49; Train loss 8.9421; Val loss 8.9189
+2022-05-13 12:49:44,324 [MainThread  ] [INFO ] Test
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.3379629850387573
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0833333358168602
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.2777777910232544
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] DFS: key mean accuracy: 7.287989139556885
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] DFS: key last accuracy: 7.287989139556885
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.5
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.5
+2022-05-13 12:49:44,327 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:51:21,167 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./data-2/', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='joe')
+2022-05-13 12:51:21,167 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:51:21,167 [MainThread  ] [INFO ] Generating BarabasiAlbert graphs
+2022-05-13 12:51:21,188 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:51:21,189 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:51:21,190 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:51:21,190 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:51:21,190 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 50, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:51:21,203 [MainThread  ] [INFO ] Epoch 0; Train loss 9.7381; Val loss 9.7200
+2022-05-13 12:51:21,215 [MainThread  ] [INFO ] Epoch 1; Train loss 9.7188; Val loss 9.6976
+2022-05-13 12:51:21,226 [MainThread  ] [INFO ] Epoch 2; Train loss 9.6929; Val loss 9.6760
+2022-05-13 12:51:21,236 [MainThread  ] [INFO ] Epoch 3; Train loss 9.6712; Val loss 9.6548
+2022-05-13 12:51:21,247 [MainThread  ] [INFO ] Epoch 4; Train loss 9.6526; Val loss 9.6338
+2022-05-13 12:51:21,258 [MainThread  ] [INFO ] Epoch 5; Train loss 9.6290; Val loss 9.6133
+2022-05-13 12:51:21,269 [MainThread  ] [INFO ] Epoch 6; Train loss 9.6133; Val loss 9.5931
+2022-05-13 12:51:21,279 [MainThread  ] [INFO ] Epoch 7; Train loss 9.5883; Val loss 9.5727
+2022-05-13 12:51:21,289 [MainThread  ] [INFO ] Epoch 8; Train loss 9.5681; Val loss 9.5530
+2022-05-13 12:51:21,300 [MainThread  ] [INFO ] Epoch 9; Train loss 9.5501; Val loss 9.5334
+2022-05-13 12:51:21,311 [MainThread  ] [INFO ] Epoch 10; Train loss 9.5304; Val loss 9.5141
+2022-05-13 12:51:21,321 [MainThread  ] [INFO ] Epoch 11; Train loss 9.5108; Val loss 9.4951
+2022-05-13 12:51:21,332 [MainThread  ] [INFO ] Epoch 12; Train loss 9.4951; Val loss 9.4768
+2022-05-13 12:51:21,342 [MainThread  ] [INFO ] Epoch 13; Train loss 9.4731; Val loss 9.4590
+2022-05-13 12:51:21,353 [MainThread  ] [INFO ] Epoch 14; Train loss 9.4590; Val loss 9.4414
+2022-05-13 12:51:21,364 [MainThread  ] [INFO ] Epoch 15; Train loss 9.4370; Val loss 9.4239
+2022-05-13 12:51:21,374 [MainThread  ] [INFO ] Epoch 16; Train loss 9.4196; Val loss 9.4064
+2022-05-13 12:51:21,384 [MainThread  ] [INFO ] Epoch 17; Train loss 9.4020; Val loss 9.3892
+2022-05-13 12:51:21,395 [MainThread  ] [INFO ] Epoch 18; Train loss 9.3846; Val loss 9.3721
+2022-05-13 12:51:21,405 [MainThread  ] [INFO ] Epoch 19; Train loss 9.3674; Val loss 9.3550
+2022-05-13 12:51:21,416 [MainThread  ] [INFO ] Epoch 20; Train loss 9.3501; Val loss 9.3379
+2022-05-13 12:51:21,426 [MainThread  ] [INFO ] Epoch 21; Train loss 9.3379; Val loss 9.3211
+2022-05-13 12:51:21,437 [MainThread  ] [INFO ] Epoch 22; Train loss 9.3211; Val loss 9.3044
+2022-05-13 12:51:21,448 [MainThread  ] [INFO ] Epoch 23; Train loss 9.3044; Val loss 9.2877
+2022-05-13 12:51:21,458 [MainThread  ] [INFO ] Epoch 24; Train loss 9.2877; Val loss 9.2712
+2022-05-13 12:51:21,468 [MainThread  ] [INFO ] Epoch 25; Train loss 9.2712; Val loss 9.2548
+2022-05-13 12:51:21,479 [MainThread  ] [INFO ] Epoch 26; Train loss 9.2548; Val loss 9.2383
+2022-05-13 12:51:21,490 [MainThread  ] [INFO ] Epoch 27; Train loss 9.2349; Val loss 9.2223
+2022-05-13 12:51:21,500 [MainThread  ] [INFO ] Epoch 28; Train loss 9.2188; Val loss 9.2064
+2022-05-13 12:51:21,511 [MainThread  ] [INFO ] Epoch 29; Train loss 9.2007; Val loss 9.1906
+2022-05-13 12:51:21,521 [MainThread  ] [INFO ] Epoch 30; Train loss 9.1906; Val loss 9.1749
+2022-05-13 12:51:21,532 [MainThread  ] [INFO ] Epoch 31; Train loss 9.1749; Val loss 9.1594
+2022-05-13 12:51:21,542 [MainThread  ] [INFO ] Epoch 32; Train loss 9.1594; Val loss 9.1439
+2022-05-13 12:51:21,553 [MainThread  ] [INFO ] Epoch 33; Train loss 9.1439; Val loss 9.1283
+2022-05-13 12:51:21,563 [MainThread  ] [INFO ] Epoch 34; Train loss 9.1283; Val loss 9.1126
+2022-05-13 12:51:21,574 [MainThread  ] [INFO ] Epoch 35; Train loss 9.1095; Val loss 9.0969
+2022-05-13 12:51:21,584 [MainThread  ] [INFO ] Epoch 36; Train loss 9.0969; Val loss 9.0814
+2022-05-13 12:51:21,595 [MainThread  ] [INFO ] Epoch 37; Train loss 9.0814; Val loss 9.0660
+2022-05-13 12:51:21,605 [MainThread  ] [INFO ] Epoch 38; Train loss 9.0595; Val loss 9.0506
+2022-05-13 12:51:21,616 [MainThread  ] [INFO ] Epoch 39; Train loss 9.0506; Val loss 9.0352
+2022-05-13 12:51:21,626 [MainThread  ] [INFO ] Epoch 40; Train loss 9.0352; Val loss 9.0197
+2022-05-13 12:51:21,636 [MainThread  ] [INFO ] Epoch 41; Train loss 9.0130; Val loss 9.0042
+2022-05-13 12:51:21,647 [MainThread  ] [INFO ] Epoch 42; Train loss 9.0016; Val loss 8.9886
+2022-05-13 12:51:21,657 [MainThread  ] [INFO ] Epoch 43; Train loss 8.9816; Val loss 8.9730
+2022-05-13 12:51:21,668 [MainThread  ] [INFO ] Epoch 44; Train loss 8.9706; Val loss 8.9574
+2022-05-13 12:51:21,678 [MainThread  ] [INFO ] Epoch 45; Train loss 8.9574; Val loss 8.9416
+2022-05-13 12:51:21,688 [MainThread  ] [INFO ] Epoch 46; Train loss 8.9393; Val loss 8.9257
+2022-05-13 12:51:21,699 [MainThread  ] [INFO ] Epoch 47; Train loss 8.9182; Val loss 8.9096
+2022-05-13 12:51:21,709 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9076; Val loss 8.8935
+2022-05-13 12:51:21,719 [MainThread  ] [INFO ] Epoch 49; Train loss 8.8858; Val loss 8.8772
+2022-05-13 12:51:21,720 [MainThread  ] [INFO ] Test
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.8842592239379883
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 1.0
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.1944444626569748
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] DFS: key mean accuracy: 7.679294109344482
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] DFS: key last accuracy: 7.679294109344482
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.5277777910232544
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.5277777910232544
+2022-05-13 12:51:21,723 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:51:37,612 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./data-2/', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:51:37,613 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:51:37,613 [MainThread  ] [INFO ] Generating BarabasiAlbert graphs
+2022-05-13 12:51:37,632 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:51:37,633 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:51:37,634 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:51:37,634 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:51:37,634 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 50, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:51:37,646 [MainThread  ] [INFO ] Epoch 0; Train loss 9.7381; Val loss 9.7200
+2022-05-13 12:51:37,657 [MainThread  ] [INFO ] Epoch 1; Train loss 9.7188; Val loss 9.6976
+2022-05-13 12:51:37,668 [MainThread  ] [INFO ] Epoch 2; Train loss 9.6929; Val loss 9.6760
+2022-05-13 12:51:37,679 [MainThread  ] [INFO ] Epoch 3; Train loss 9.6712; Val loss 9.6548
+2022-05-13 12:51:37,689 [MainThread  ] [INFO ] Epoch 4; Train loss 9.6526; Val loss 9.6338
+2022-05-13 12:51:37,699 [MainThread  ] [INFO ] Epoch 5; Train loss 9.6290; Val loss 9.6133
+2022-05-13 12:51:37,710 [MainThread  ] [INFO ] Epoch 6; Train loss 9.6133; Val loss 9.5931
+2022-05-13 12:51:37,720 [MainThread  ] [INFO ] Epoch 7; Train loss 9.5883; Val loss 9.5727
+2022-05-13 12:51:37,730 [MainThread  ] [INFO ] Epoch 8; Train loss 9.5681; Val loss 9.5530
+2022-05-13 12:51:37,740 [MainThread  ] [INFO ] Epoch 9; Train loss 9.5501; Val loss 9.5334
+2022-05-13 12:51:37,751 [MainThread  ] [INFO ] Epoch 10; Train loss 9.5304; Val loss 9.5141
+2022-05-13 12:51:37,761 [MainThread  ] [INFO ] Epoch 11; Train loss 9.5108; Val loss 9.4951
+2022-05-13 12:51:37,771 [MainThread  ] [INFO ] Epoch 12; Train loss 9.4951; Val loss 9.4768
+2022-05-13 12:51:37,782 [MainThread  ] [INFO ] Epoch 13; Train loss 9.4731; Val loss 9.4590
+2022-05-13 12:51:37,792 [MainThread  ] [INFO ] Epoch 14; Train loss 9.4590; Val loss 9.4414
+2022-05-13 12:51:37,802 [MainThread  ] [INFO ] Epoch 15; Train loss 9.4370; Val loss 9.4239
+2022-05-13 12:51:37,813 [MainThread  ] [INFO ] Epoch 16; Train loss 9.4196; Val loss 9.4064
+2022-05-13 12:51:37,823 [MainThread  ] [INFO ] Epoch 17; Train loss 9.4020; Val loss 9.3892
+2022-05-13 12:51:37,833 [MainThread  ] [INFO ] Epoch 18; Train loss 9.3846; Val loss 9.3721
+2022-05-13 12:51:37,843 [MainThread  ] [INFO ] Epoch 19; Train loss 9.3674; Val loss 9.3550
+2022-05-13 12:51:37,853 [MainThread  ] [INFO ] Epoch 20; Train loss 9.3501; Val loss 9.3379
+2022-05-13 12:51:37,864 [MainThread  ] [INFO ] Epoch 21; Train loss 9.3379; Val loss 9.3211
+2022-05-13 12:51:37,874 [MainThread  ] [INFO ] Epoch 22; Train loss 9.3211; Val loss 9.3044
+2022-05-13 12:51:37,884 [MainThread  ] [INFO ] Epoch 23; Train loss 9.3044; Val loss 9.2877
+2022-05-13 12:51:37,894 [MainThread  ] [INFO ] Epoch 24; Train loss 9.2877; Val loss 9.2712
+2022-05-13 12:51:37,904 [MainThread  ] [INFO ] Epoch 25; Train loss 9.2712; Val loss 9.2548
+2022-05-13 12:51:37,915 [MainThread  ] [INFO ] Epoch 26; Train loss 9.2548; Val loss 9.2383
+2022-05-13 12:51:37,925 [MainThread  ] [INFO ] Epoch 27; Train loss 9.2349; Val loss 9.2223
+2022-05-13 12:51:37,935 [MainThread  ] [INFO ] Epoch 28; Train loss 9.2188; Val loss 9.2064
+2022-05-13 12:51:37,945 [MainThread  ] [INFO ] Epoch 29; Train loss 9.2007; Val loss 9.1906
+2022-05-13 12:51:37,955 [MainThread  ] [INFO ] Epoch 30; Train loss 9.1906; Val loss 9.1749
+2022-05-13 12:51:37,966 [MainThread  ] [INFO ] Epoch 31; Train loss 9.1749; Val loss 9.1594
+2022-05-13 12:51:37,976 [MainThread  ] [INFO ] Epoch 32; Train loss 9.1594; Val loss 9.1439
+2022-05-13 12:51:37,986 [MainThread  ] [INFO ] Epoch 33; Train loss 9.1439; Val loss 9.1283
+2022-05-13 12:51:37,997 [MainThread  ] [INFO ] Epoch 34; Train loss 9.1283; Val loss 9.1126
+2022-05-13 12:51:38,007 [MainThread  ] [INFO ] Epoch 35; Train loss 9.1095; Val loss 9.0969
+2022-05-13 12:51:38,017 [MainThread  ] [INFO ] Epoch 36; Train loss 9.0969; Val loss 9.0814
+2022-05-13 12:51:38,027 [MainThread  ] [INFO ] Epoch 37; Train loss 9.0814; Val loss 9.0660
+2022-05-13 12:51:38,037 [MainThread  ] [INFO ] Epoch 38; Train loss 9.0595; Val loss 9.0506
+2022-05-13 12:51:38,048 [MainThread  ] [INFO ] Epoch 39; Train loss 9.0506; Val loss 9.0352
+2022-05-13 12:51:38,058 [MainThread  ] [INFO ] Epoch 40; Train loss 9.0352; Val loss 9.0197
+2022-05-13 12:51:38,068 [MainThread  ] [INFO ] Epoch 41; Train loss 9.0130; Val loss 9.0042
+2022-05-13 12:51:38,078 [MainThread  ] [INFO ] Epoch 42; Train loss 9.0016; Val loss 8.9886
+2022-05-13 12:51:38,088 [MainThread  ] [INFO ] Epoch 43; Train loss 8.9816; Val loss 8.9730
+2022-05-13 12:51:38,098 [MainThread  ] [INFO ] Epoch 44; Train loss 8.9706; Val loss 8.9574
+2022-05-13 12:51:38,109 [MainThread  ] [INFO ] Epoch 45; Train loss 8.9574; Val loss 8.9416
+2022-05-13 12:51:38,119 [MainThread  ] [INFO ] Epoch 46; Train loss 8.9393; Val loss 8.9257
+2022-05-13 12:51:38,129 [MainThread  ] [INFO ] Epoch 47; Train loss 8.9182; Val loss 8.9096
+2022-05-13 12:51:38,140 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9076; Val loss 8.8935
+2022-05-13 12:51:38,150 [MainThread  ] [INFO ] Epoch 49; Train loss 8.8858; Val loss 8.8772
+2022-05-13 12:51:38,151 [MainThread  ] [INFO ] Test
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.8842592239379883
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 1.0
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.1944444626569748
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] DFS: key mean accuracy: 7.679294109344482
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] DFS: key last accuracy: 7.679294109344482
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.5277777910232544
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.5277777910232544
+2022-05-13 12:51:38,154 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:51:51,773 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./data-2/', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs dfs', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:51:51,774 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [0, 0], 'pred': [0, 1]}
+2022-05-13 12:51:51,774 [MainThread  ] [INFO ] Generating BarabasiAlbert graphs
+2022-05-13 12:51:51,794 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:51:51,795 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:51:51,796 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:51:51,796 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:51:51,796 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 50, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs dfs', 'batchsize': 32}
+2022-05-13 12:51:51,809 [MainThread  ] [INFO ] Epoch 0; Train loss 9.7381; Val loss 9.7200
+2022-05-13 12:51:51,820 [MainThread  ] [INFO ] Epoch 1; Train loss 9.7188; Val loss 9.6976
+2022-05-13 12:51:51,831 [MainThread  ] [INFO ] Epoch 2; Train loss 9.6929; Val loss 9.6760
+2022-05-13 12:51:51,842 [MainThread  ] [INFO ] Epoch 3; Train loss 9.6712; Val loss 9.6548
+2022-05-13 12:51:51,852 [MainThread  ] [INFO ] Epoch 4; Train loss 9.6526; Val loss 9.6338
+2022-05-13 12:51:51,862 [MainThread  ] [INFO ] Epoch 5; Train loss 9.6290; Val loss 9.6133
+2022-05-13 12:51:51,873 [MainThread  ] [INFO ] Epoch 6; Train loss 9.6133; Val loss 9.5931
+2022-05-13 12:51:51,884 [MainThread  ] [INFO ] Epoch 7; Train loss 9.5883; Val loss 9.5727
+2022-05-13 12:51:51,895 [MainThread  ] [INFO ] Epoch 8; Train loss 9.5681; Val loss 9.5530
+2022-05-13 12:51:51,905 [MainThread  ] [INFO ] Epoch 9; Train loss 9.5501; Val loss 9.5334
+2022-05-13 12:51:51,915 [MainThread  ] [INFO ] Epoch 10; Train loss 9.5304; Val loss 9.5141
+2022-05-13 12:51:51,926 [MainThread  ] [INFO ] Epoch 11; Train loss 9.5108; Val loss 9.4951
+2022-05-13 12:51:51,936 [MainThread  ] [INFO ] Epoch 12; Train loss 9.4951; Val loss 9.4768
+2022-05-13 12:51:51,947 [MainThread  ] [INFO ] Epoch 13; Train loss 9.4731; Val loss 9.4590
+2022-05-13 12:51:51,958 [MainThread  ] [INFO ] Epoch 14; Train loss 9.4590; Val loss 9.4414
+2022-05-13 12:51:51,968 [MainThread  ] [INFO ] Epoch 15; Train loss 9.4370; Val loss 9.4239
+2022-05-13 12:51:51,979 [MainThread  ] [INFO ] Epoch 16; Train loss 9.4196; Val loss 9.4064
+2022-05-13 12:51:51,989 [MainThread  ] [INFO ] Epoch 17; Train loss 9.4020; Val loss 9.3892
+2022-05-13 12:51:52,000 [MainThread  ] [INFO ] Epoch 18; Train loss 9.3846; Val loss 9.3721
+2022-05-13 12:51:52,011 [MainThread  ] [INFO ] Epoch 19; Train loss 9.3674; Val loss 9.3550
+2022-05-13 12:51:52,022 [MainThread  ] [INFO ] Epoch 20; Train loss 9.3501; Val loss 9.3379
+2022-05-13 12:51:52,031 [MainThread  ] [INFO ] Epoch 21; Train loss 9.3379; Val loss 9.3211
+2022-05-13 12:51:52,042 [MainThread  ] [INFO ] Epoch 22; Train loss 9.3211; Val loss 9.3044
+2022-05-13 12:51:52,053 [MainThread  ] [INFO ] Epoch 23; Train loss 9.3044; Val loss 9.2877
+2022-05-13 12:51:52,063 [MainThread  ] [INFO ] Epoch 24; Train loss 9.2877; Val loss 9.2712
+2022-05-13 12:51:52,073 [MainThread  ] [INFO ] Epoch 25; Train loss 9.2712; Val loss 9.2548
+2022-05-13 12:51:52,083 [MainThread  ] [INFO ] Epoch 26; Train loss 9.2548; Val loss 9.2383
+2022-05-13 12:51:52,093 [MainThread  ] [INFO ] Epoch 27; Train loss 9.2349; Val loss 9.2223
+2022-05-13 12:51:52,104 [MainThread  ] [INFO ] Epoch 28; Train loss 9.2188; Val loss 9.2064
+2022-05-13 12:51:52,115 [MainThread  ] [INFO ] Epoch 29; Train loss 9.2007; Val loss 9.1906
+2022-05-13 12:51:52,125 [MainThread  ] [INFO ] Epoch 30; Train loss 9.1906; Val loss 9.1749
+2022-05-13 12:51:52,136 [MainThread  ] [INFO ] Epoch 31; Train loss 9.1749; Val loss 9.1594
+2022-05-13 12:51:52,146 [MainThread  ] [INFO ] Epoch 32; Train loss 9.1594; Val loss 9.1439
+2022-05-13 12:51:52,156 [MainThread  ] [INFO ] Epoch 33; Train loss 9.1439; Val loss 9.1283
+2022-05-13 12:51:52,167 [MainThread  ] [INFO ] Epoch 34; Train loss 9.1283; Val loss 9.1126
+2022-05-13 12:51:52,177 [MainThread  ] [INFO ] Epoch 35; Train loss 9.1095; Val loss 9.0969
+2022-05-13 12:51:52,186 [MainThread  ] [INFO ] Epoch 36; Train loss 9.0969; Val loss 9.0814
+2022-05-13 12:51:52,198 [MainThread  ] [INFO ] Epoch 37; Train loss 9.0814; Val loss 9.0660
+2022-05-13 12:51:52,209 [MainThread  ] [INFO ] Epoch 38; Train loss 9.0595; Val loss 9.0506
+2022-05-13 12:51:52,220 [MainThread  ] [INFO ] Epoch 39; Train loss 9.0506; Val loss 9.0352
+2022-05-13 12:51:52,231 [MainThread  ] [INFO ] Epoch 40; Train loss 9.0352; Val loss 9.0197
+2022-05-13 12:51:52,242 [MainThread  ] [INFO ] Epoch 41; Train loss 9.0130; Val loss 9.0042
+2022-05-13 12:51:52,252 [MainThread  ] [INFO ] Epoch 42; Train loss 9.0016; Val loss 8.9886
+2022-05-13 12:51:52,262 [MainThread  ] [INFO ] Epoch 43; Train loss 8.9816; Val loss 8.9730
+2022-05-13 12:51:52,273 [MainThread  ] [INFO ] Epoch 44; Train loss 8.9706; Val loss 8.9574
+2022-05-13 12:51:52,283 [MainThread  ] [INFO ] Epoch 45; Train loss 8.9574; Val loss 8.9416
+2022-05-13 12:51:52,293 [MainThread  ] [INFO ] Epoch 46; Train loss 8.9393; Val loss 8.9257
+2022-05-13 12:51:52,304 [MainThread  ] [INFO ] Epoch 47; Train loss 8.9182; Val loss 8.9096
+2022-05-13 12:51:52,314 [MainThread  ] [INFO ] Epoch 48; Train loss 8.9076; Val loss 8.8935
+2022-05-13 12:51:52,325 [MainThread  ] [INFO ] Epoch 49; Train loss 8.8858; Val loss 8.8772
+2022-05-13 12:51:52,325 [MainThread  ] [INFO ] Test
+2022-05-13 12:51:52,328 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.8842592239379883
+2022-05-13 12:51:52,328 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 1.0
+2022-05-13 12:51:52,328 [MainThread  ] [INFO ] BFS: termination accuracy: 0.8333333134651184
+2022-05-13 12:51:52,328 [MainThread  ] [INFO ] DFS: next MST node mean accuracy: 0.1944444626569748
+2022-05-13 12:51:52,328 [MainThread  ] [INFO ] DFS: key mean accuracy: 7.679294109344482
+2022-05-13 12:51:52,329 [MainThread  ] [INFO ] DFS: state last accuracy: 1.0
+2022-05-13 12:51:52,329 [MainThread  ] [INFO ] DFS: key last accuracy: 7.679294109344482
+2022-05-13 12:51:52,329 [MainThread  ] [INFO ] DFS: predecessors MST mean accuracy: 0.5277777910232544
+2022-05-13 12:51:52,329 [MainThread  ] [INFO ] DFS: predecessors MST last accuracy: 0.5277777910232544
+2022-05-13 12:51:52,329 [MainThread  ] [INFO ] Termination accuracy: 0.8333333134651184
+2022-05-13 12:53:22,590 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./data-2/', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=True, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs bf prims dijkstra mostrelseq mostrelpar dfs widest widestpar', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:53:22,591 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 1, 2, 2, 2, 1, 2, 2, 1], 'edgedim': [0, 1, 1, 1, 1, 1, 0, 1, 1], 'pred': [0, 1, 1, 1, 1, 1, 1, 1, 1]}
+2022-05-13 12:53:22,592 [MainThread  ] [INFO ] Generating BarabasiAlbert graphs
+2022-05-13 12:53:22,720 [MainThread  ] [INFO ] Data generation done
+2022-05-13 12:54:48,635 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data/val', evaldatafp='./data/eval', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs bf prims dijkstra mostrelseq mostrelpar dfs widest widestpar', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:54:48,635 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 1, 2, 2, 2, 1, 2, 2, 1], 'edgedim': [0, 1, 1, 1, 1, 1, 0, 1, 1], 'pred': [0, 1, 1, 1, 1, 1, 1, 1, 1]}
+2022-05-13 12:55:26,962 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data-2/data_barabasialbert10_50', evaldatafp='./data-2/data_barabasialbert10_50', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs bf prims dijkstra mostrelseq mostrelpar dfs widest widestpar', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:55:26,962 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 1, 2, 2, 2, 1, 2, 2, 1], 'edgedim': [0, 1, 1, 1, 1, 1, 0, 1, 1], 'pred': [0, 1, 1, 1, 1, 1, 1, 1, 1]}
+2022-05-13 12:55:26,999 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:55:27,002 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:55:27,002 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:55:27,002 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 50, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs bf prims dijkstra mostrelseq mostrelpar dfs widest widestpar', 'batchsize': 32}
+2022-05-13 12:55:46,101 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data-2/data_barabasialbert10_50', evaldatafp='./data-2/data_barabasialbert10_50', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs bf', arch='NeuralExec', layers=1, optimizer='adam', epochs=50, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:55:46,101 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 1], 'edgedim': [0, 1], 'pred': [0, 1]}
+2022-05-13 12:55:46,105 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:55:46,105 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:55:46,105 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:55:46,105 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 50, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs bf', 'batchsize': 32}
+2022-05-13 12:55:47,285 [MainThread  ] [INFO ] Epoch 0; Train loss 6.8250; Val loss 5.9779
+2022-05-13 12:55:48,261 [MainThread  ] [INFO ] Epoch 1; Train loss 5.9779; Val loss 5.9480
+2022-05-13 12:55:49,205 [MainThread  ] [INFO ] Epoch 2; Train loss 6.9993; Val loss 5.9196
+2022-05-13 12:55:50,163 [MainThread  ] [INFO ] Epoch 3; Train loss 7.2810; Val loss 5.8927
+2022-05-13 12:55:51,184 [MainThread  ] [INFO ] Epoch 4; Train loss 6.6866; Val loss 5.8658
+2022-05-13 12:55:52,148 [MainThread  ] [INFO ] Epoch 5; Train loss 6.0242; Val loss 5.8394
+2022-05-13 12:55:53,144 [MainThread  ] [INFO ] Epoch 6; Train loss 5.8394; Val loss 5.8133
+2022-05-13 12:56:00,163 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data-2/data_barabasialbert10_50', evaldatafp='./data-2/data_barabasialbert10_50', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs bf', arch='NeuralExec', layers=1, optimizer='adam', epochs=5, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:56:00,163 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 1], 'edgedim': [0, 1], 'pred': [0, 1]}
+2022-05-13 12:56:00,167 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:56:00,168 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:56:00,168 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:56:00,168 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 5, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs bf', 'batchsize': 32}
+2022-05-13 12:56:01,107 [MainThread  ] [INFO ] Epoch 0; Train loss 6.8250; Val loss 5.9779
+2022-05-13 12:56:02,063 [MainThread  ] [INFO ] Epoch 1; Train loss 5.9779; Val loss 5.9480
+2022-05-13 12:56:03,002 [MainThread  ] [INFO ] Epoch 2; Train loss 6.9993; Val loss 5.9196
+2022-05-13 12:56:03,972 [MainThread  ] [INFO ] Epoch 3; Train loss 7.2810; Val loss 5.8927
+2022-05-13 12:56:04,961 [MainThread  ] [INFO ] Epoch 4; Train loss 6.6866; Val loss 5.8658
+2022-05-13 12:56:04,963 [MainThread  ] [INFO ] Test
+2022-05-13 12:56:05,262 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.1856333166360855
+2022-05-13 12:56:05,262 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0
+2022-05-13 12:56:05,262 [MainThread  ] [INFO ] BFS: termination accuracy: 0.4233333170413971
+2022-05-13 12:56:05,262 [MainThread  ] [INFO ] BellmanFord: mean squared error: 0.5961748957633972
+2022-05-13 12:56:05,262 [MainThread  ] [INFO ] BellmanFord: last step mean squared error: 0.8520475625991821
+2022-05-13 12:56:05,262 [MainThread  ] [INFO ] BellmanFord: predecessors mean step accuracy: 0.12128984928131104
+2022-05-13 12:56:05,262 [MainThread  ] [INFO ] BellmanFord: predecessors last step accuracy: 0.18399998545646667
+2022-05-13 12:56:05,262 [MainThread  ] [INFO ] Termination accuracy: 0.4233333170413971
+2022-05-13 12:57:27,661 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data-2/data_barabasialbert10_50', evaldatafp='./data-2/data_barabasialbert10_50', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs bf prims dijkstra', arch='NeuralExec', layers=1, optimizer='adam', epochs=3, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:57:27,662 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 1, 2, 2], 'edgedim': [0, 1, 1, 1], 'pred': [0, 1, 1, 1]}
+2022-05-13 12:57:27,675 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:57:27,676 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:57:27,677 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:57:27,677 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 3, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs bf prims dijkstra', 'batchsize': 32}
+2022-05-13 12:57:37,598 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data-2/data_barabasialbert10_50', evaldatafp='./data-2/data_barabasialbert10_50', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='prims dijkstra', arch='NeuralExec', layers=1, optimizer='adam', epochs=3, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:57:37,598 [MainThread  ] [INFO ] Task metadata: {'nodedim': [2, 2], 'edgedim': [1, 1], 'pred': [1, 1]}
+2022-05-13 12:57:37,603 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:57:37,604 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:57:37,604 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:57:37,604 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 3, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'prims dijkstra', 'batchsize': 32}
+2022-05-13 12:57:39,483 [MainThread  ] [INFO ] Epoch 0; Train loss 32.4184; Val loss 30.2897
+2022-05-13 12:57:40,985 [MainThread  ] [INFO ] Epoch 1; Train loss 30.2897; Val loss 28.9651
+2022-05-13 12:57:42,302 [MainThread  ] [INFO ] Epoch 2; Train loss 28.9651; Val loss 28.2036
+2022-05-13 12:57:42,305 [MainThread  ] [INFO ] Test
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Prims: next MST node mean accuracy: 0.019999999552965164
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Prims: key mean accuracy: 19.913951873779297
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Prims: state last accuracy: 1.0
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Prims: key last accuracy: 19.913951873779297
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Prims: predecessors MST mean accuracy: 0.11400000751018524
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Prims: predecessors MST last accuracy: 0.11400000751018524
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Termination accuracy: 0.9799998998641968
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Dijkstra: next MST node mean accuracy: 0.03999999910593033
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Dijkstra: key mean accuracy: 12.665414810180664
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Dijkstra: state last accuracy: 1.0
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Dijkstra: key last accuracy: 12.665414810180664
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Dijkstra: predecessors MST mean accuracy: 0.18199999630451202
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Dijkstra: predecessors MST last accuracy: 0.18199999630451202
+2022-05-13 12:57:42,699 [MainThread  ] [INFO ] Termination accuracy: 0.9799998998641968
+2022-05-13 12:57:57,262 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data-2/data_barabasialbert10_50', evaldatafp='./data-2/data_barabasialbert10_50', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bf prims dijkstra', arch='NeuralExec', layers=1, optimizer='adam', epochs=3, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:57:57,262 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2, 2], 'edgedim': [1, 1, 1], 'pred': [1, 1, 1]}
+2022-05-13 12:57:57,271 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:57:57,272 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:57:57,272 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:57:57,272 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 3, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bf prims dijkstra', 'batchsize': 32}
+2022-05-13 12:58:09,063 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data-2/data_barabasialbert10_50', evaldatafp='./data-2/data_barabasialbert10_50', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bf prims', arch='NeuralExec', layers=1, optimizer='adam', epochs=3, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:58:09,064 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2], 'edgedim': [1, 1], 'pred': [1, 1]}
+2022-05-13 12:58:09,069 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:58:09,070 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:58:09,070 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:58:09,070 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 3, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bf prims', 'batchsize': 32}
+2022-05-13 12:58:17,437 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data-2/data_barabasialbert10_50', evaldatafp='./data-2/data_barabasialbert10_50', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs prims dijkstra', arch='NeuralExec', layers=1, optimizer='adam', epochs=3, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:58:17,438 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2, 2], 'edgedim': [0, 1, 1], 'pred': [0, 1, 1]}
+2022-05-13 12:58:17,446 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:58:17,447 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:58:17,447 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:58:17,447 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 3, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs prims dijkstra', 'batchsize': 32}
+2022-05-13 12:58:18,927 [MainThread  ] [INFO ] Epoch 0; Train loss 46.6336; Val loss 46.0978
+2022-05-13 12:58:20,189 [MainThread  ] [INFO ] Epoch 1; Train loss 46.0943; Val loss 45.5678
+2022-05-13 12:58:21,502 [MainThread  ] [INFO ] Epoch 2; Train loss 45.5597; Val loss 45.0511
+2022-05-13 12:58:21,505 [MainThread  ] [INFO ] Test
+2022-05-13 12:58:21,864 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.02491999790072441
+2022-05-13 12:58:21,864 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0
+2022-05-13 12:58:21,864 [MainThread  ] [INFO ] BFS: termination accuracy: 0.4480000138282776
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Prims: next MST node mean accuracy: 0.030000001192092896
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Prims: key mean accuracy: 2.1956398487091064
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Prims: state last accuracy: 0.46799999475479126
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Prims: key last accuracy: 2.4318764209747314
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Prims: predecessors MST mean accuracy: 0.09600000083446503
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Prims: predecessors MST last accuracy: 0.10193544626235962
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Termination accuracy: 0.4480000138282776
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Dijkstra: next MST node mean accuracy: 0.04399999603629112
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Dijkstra: key mean accuracy: 1.722435712814331
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Dijkstra: state last accuracy: 0.46799999475479126
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Dijkstra: key last accuracy: 2.5667834281921387
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Dijkstra: predecessors MST mean accuracy: 0.08399999886751175
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Dijkstra: predecessors MST last accuracy: 0.05964888259768486
+2022-05-13 12:58:21,865 [MainThread  ] [INFO ] Termination accuracy: 0.4480000138282776
+2022-05-13 12:58:34,607 [MainThread  ] [INFO ] Namespace(config='./options.conf', dataset='', datafp='./data-2/data_barabasialbert10_50', valdatafp='./data-2/data_barabasialbert10_50', evaldatafp='./data-2/data_barabasialbert10_50', evaltask='Test', transfertask='', transferarch='', datasavefp='./', savemodel='', loadmodel='', graphtypes='BarabasiAlbert', graphparams='5', datagen=False, hidekeys=True, verbose=False, debug=False, logfile='./last_run.log', cuda=False, seed=0, optimal=False, task='bfs prims dijkstra', arch='NeuralExec', layers=1, optimizer='adam', epochs=10, ksamples=1, lr=0.0001, weightdecay=1e-05, warmup=0, earlystop=True, earlytol=5e-06, patience=1, schedpatience=0, tempinit=1.0, temprate=1.0, tempmin=1.0, normaliseloss=False, iterations=1, transferepochs=1, tunelr=0.0001, latentdim=32, encdim=32, noisedim=0, batchsize=32, evalbatchsize=32, nworkers=0, ngraphs='10', nnodes='50', datagraphsetname='data')
+2022-05-13 12:58:34,608 [MainThread  ] [INFO ] Task metadata: {'nodedim': [1, 2, 2], 'edgedim': [0, 1, 1], 'pred': [0, 1, 1]}
+2022-05-13 12:58:34,614 [MainThread  ] [INFO ] Dataloaders initialised
+2022-05-13 12:58:34,615 [MainThread  ] [INFO ] Model initialised
+2022-05-13 12:58:34,615 [MainThread  ] [INFO ] Starting training with the following parameters:
+2022-05-13 12:58:34,615 [MainThread  ] [INFO ] {'optimizer': 'adam', 'epochs': 10, 'lr': 0.0001, 'warmup': 0, 'earlystop': True, 'patience': 1, 'weightdecay': 1e-05, 'schedpatience': 0, 'tempinit': 1.0, 'temprate': 1.0, 'tempmin': 1.0, 'earlytol': 5e-06, 'ksamples': 1, 'task': 'bfs prims dijkstra', 'batchsize': 32}
+2022-05-13 12:58:35,917 [MainThread  ] [INFO ] Epoch 0; Train loss 46.6336; Val loss 46.0978
+2022-05-13 12:58:37,145 [MainThread  ] [INFO ] Epoch 1; Train loss 46.0943; Val loss 45.5678
+2022-05-13 12:58:38,468 [MainThread  ] [INFO ] Epoch 2; Train loss 45.5597; Val loss 45.0511
+2022-05-13 12:58:39,774 [MainThread  ] [INFO ] Epoch 3; Train loss 45.0531; Val loss 44.5470
+2022-05-13 12:58:41,074 [MainThread  ] [INFO ] Epoch 4; Train loss 44.5441; Val loss 44.0552
+2022-05-13 12:58:42,446 [MainThread  ] [INFO ] Epoch 5; Train loss 44.0562; Val loss 43.5758
+2022-05-13 12:58:43,814 [MainThread  ] [INFO ] Epoch 6; Train loss 43.5762; Val loss 43.1085
+2022-05-13 12:58:45,139 [MainThread  ] [INFO ] Epoch 7; Train loss 43.0996; Val loss 42.6530
+2022-05-13 12:58:46,437 [MainThread  ] [INFO ] Epoch 8; Train loss 42.6432; Val loss 42.2087
+2022-05-13 12:58:47,764 [MainThread  ] [INFO ] Epoch 9; Train loss 42.2026; Val loss 41.7753
+2022-05-13 12:58:47,767 [MainThread  ] [INFO ] Test
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] BFS: reachability mean step accuracy: 0.022119997069239616
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] BFS: reachability last step accuracy: 0.0
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] BFS: termination accuracy: 0.6679999232292175
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Prims: next MST node mean accuracy: 0.021999996155500412
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Prims: key mean accuracy: 2.1635544300079346
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Prims: state last accuracy: 0.6879999041557312
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Prims: key last accuracy: 2.292635440826416
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Prims: predecessors MST mean accuracy: 0.12000000476837158
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Prims: predecessors MST last accuracy: 0.12774649262428284
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Termination accuracy: 0.6679999232292175
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Dijkstra: next MST node mean accuracy: 0.037999995052814484
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Dijkstra: key mean accuracy: 1.7941505908966064
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Dijkstra: state last accuracy: 0.6879999041557312
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Dijkstra: key last accuracy: 2.1957764625549316
+2022-05-13 12:58:48,151 [MainThread  ] [INFO ] Dijkstra: predecessors MST mean accuracy: 0.06199999526143074
+2022-05-13 12:58:48,152 [MainThread  ] [INFO ] Dijkstra: predecessors MST last accuracy: 0.06729277968406677
+2022-05-13 12:58:48,152 [MainThread  ] [INFO ] Termination accuracy: 0.6679999232292175
