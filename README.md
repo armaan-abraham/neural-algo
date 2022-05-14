@@ -2,5 +2,7 @@
 Training Schedule for Graph Representation of Neural Algorithmic Reasoning
 
 ## Getting started
-```pip install -r requirements.txt```
+Install pip requirements: \
+```pip install -r requirements.txt``` \
+Run: \
 ```python main.py [args]```
