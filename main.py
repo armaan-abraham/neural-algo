@@ -70,10 +70,8 @@ def main():
                             task_list,
                             args['hidekeys'], 
                             data
-                        )
-                    
-                        A.append("_"+"erdosrenyi"+ngraphs[i] +"_"+ nnodes[i]+"_")
-                    
+                        ) 
+                        A.append("_"+"erdosrenyi"+ngraphs[i] +"_"+ nnodes[i]+"_") 
                     elif graphtype == "BarabasiAlbert":
                         m = int(params)
                         gen_barabasi_albert(rand_gen, int(ngraphs[i]), int(nnodes[i]), m, args['datasavefp']+filename[i]+"_")
