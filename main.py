@@ -82,7 +82,8 @@ def main():
                             args['datasavefp']+filename[i]+"_"+"barabasialbert" + ngraphs[i] + "_"+ nnodes[i] + ".pt",
                             src_nodes,
                             task_list,
-                            args['hidekeys']
+                            args['hidekeys'],
+                            data
                         )
                         A.append("_"+"BarabasiAlbert"+ngraphs[i] +"_"+ nnodes[i]+"_") 
                     elif graphtype == "TwoDGrid":
@@ -92,7 +93,8 @@ def main():
                             args['datasavefp']+filename[i]+"_"+"twodgrid" + ngraphs[i] + "_"+ nnodes[i] + ".pt",
                             src_nodes,
                             task_list,
-                            args['hidekeys']
+                            args['hidekeys'],
+                            data
                         )
                         A.append("_"+"TwoDGrid"+ngraphs[i] +"_"+ nnodes[i]+"_")  
                     else:
