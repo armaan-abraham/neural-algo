@@ -48,6 +48,8 @@ def main():
     logger.info("Task metadata: " + str(metadata))
     print(task_list)
 
+
+    A = []
     if args['datagen']:
         rand_gen = torch.distributions.Uniform(0.0, 1.0)
         ngraphs = args['ngraphs'].split(',')
@@ -57,37 +59,44 @@ def main():
         for graphtype, params in zip(args['graphtypes'].split(','), args['graphparams'].split(',')):
             for i in range(len(ngraphs)):
                 logger.info("Generating {} graphs".format(graphtype))
-                if graphtype == 'ErdosRenyi':
-                    directed = True if params == "True" else False
-                    gen_erdos_renyi(rand_gen, int(ngraphs[i]), int(nnodes[i]), args['datasavefp']+filename[i]+"_", directed)
-                    src_nodes = torch.argmax(rand_gen.sample((int(ngraphs[i]), int(nnodes[i]))), dim=1)
-                    gen_multi_algo_data(
-                        args['datasavefp']+filename[i]+"_"+"erdosrenyi" + ngraphs[i] + "_"+ nnodes[i] + ".pt",
-                        src_nodes,
-                        task_list,
-                        args['hidekeys']
-                    )
-                elif graphtype == "BarabasiAlbert":
-                    m = int(params)
-                    gen_barabasi_albert(rand_gen, int(ngraphs[i]), int(nnodes[i]), m, args['datasavefp']+filename[i]+"_")
-                    src_nodes = torch.argmax(rand_gen.sample((int(ngraphs[i]), int(nnodes[i]))), dim=1)
-                    gen_multi_algo_data(
-                        args['datasavefp']+filename[i]+"_"+"barabasialbert" + ngraphs[i] + "_"+ nnodes[i] + ".pt",
-                        src_nodes,
-                        task_list,
-                        args['hidekeys']
-                    )
-                elif graphtype == "TwoDGrid":
-                    gen_twod_grid(rand_gen, int(ngraphs[i]), int(nnodes[i]), args['datasavefp']+filename[i]+"_")
-                    src_nodes = torch.argmax(rand_gen.sample((int(ngraphs[i]), int(nnodes[i]))), dim=1)
-                    gen_multi_algo_data(
-                        args['datasavefp']+filename[i]+"_"+"twodgrid" + ngraphs[i] + "_"+ nnodes[i] + ".pt",
-                        src_nodes,
-                        task_list,
-                        args['hidekeys']
-                    )
-                else:
-                    logger.exception("Unknown graphtype {}")
+                for data in [args['datafp'], args['valdatafp'], args['evaldatafp']]:
+                    if graphtype == 'ErdosRenyi':
+                        directed = True if params == "True" else False
+                        gen_erdos_renyi(rand_gen, int(ngraphs[i]), int(nnodes[i]), args['datasavefp']+filename[i]+"_", directed)
+                        src_nodes = torch.argmax(rand_gen.sample((int(ngraphs[i]), int(nnodes[i]))), dim=1)
+                        gen_multi_algo_data(
+                            args['datasavefp']+filename[i]+"_"+"erdosrenyi" + ngraphs[i] + "_"+ nnodes[i] + ".pt",
+                            src_nodes,
+                            task_list,
+                            args['hidekeys'], 
+                            data
+                        )
+                    
+                        A.append("_"+"erdosrenyi"+ngraphs[i] +"_"+ nnodes[i]+"_")
+                    
+                    elif graphtype == "BarabasiAlbert":
+                        m = int(params)
+                        gen_barabasi_albert(rand_gen, int(ngraphs[i]), int(nnodes[i]), m, args['datasavefp']+filename[i]+"_")
+                        src_nodes = torch.argmax(rand_gen.sample((int(ngraphs[i]), int(nnodes[i]))), dim=1)
+                        gen_multi_algo_data(
+                            args['datasavefp']+filename[i]+"_"+"barabasialbert" + ngraphs[i] + "_"+ nnodes[i] + ".pt",
+                            src_nodes,
+                            task_list,
+                            args['hidekeys']
+                        )
+                        A.append("_"+"BarabasiAlbert"+ngraphs[i] +"_"+ nnodes[i]+"_") 
+                    elif graphtype == "TwoDGrid":
+                        gen_twod_grid(rand_gen, int(ngraphs[i]), int(nnodes[i]), args['datasavefp']+filename[i]+"_")
+                        src_nodes = torch.argmax(rand_gen.sample((int(ngraphs[i]), int(nnodes[i]))), dim=1)
+                        gen_multi_algo_data(
+                            args['datasavefp']+filename[i]+"_"+"twodgrid" + ngraphs[i] + "_"+ nnodes[i] + ".pt",
+                            src_nodes,
+                            task_list,
+                            args['hidekeys']
+                        )
+                        A.append("_"+"TwoDGrid"+ngraphs[i] +"_"+ nnodes[i]+"_")  
+                    else:
+                        logger.exception("Unknown graphtype {}")
         logger.info("Data generation done")
 
     # collect relevant stuff for training
@@ -107,7 +116,7 @@ def main():
     cfg.normaliseloss = args['normaliseloss']
 
     # loading train data
-    data_stream = DataLoader(dset(logger,args['datafp'].split(' '),algo_names,"Train"),
+    data_stream = DataLoader(dset(logger,args['datafp'].split(' '),algo_names,"Train", graph_name=A[0]),
                              shuffle = True,
                              batch_size = args['batchsize'],
                              num_workers = args['nworkers'],
@@ -115,7 +124,7 @@ def main():
                              drop_last = False
                              )
     # loading val data
-    val_stream = DataLoader(dset(logger,args['valdatafp'].split(' '),algo_names,"Validation"),
+    val_stream = DataLoader(dset(logger,args['valdatafp'].split(' '),algo_names,"Validation",graph_name=A[0]),
                             shuffle = False,
                             batch_size = args['batchsize'],
                             num_workers = args['nworkers'],
@@ -125,7 +134,7 @@ def main():
     # loading test data
     test_stream = []
     for task, fp in zip(args['evaltask'].split(','),args['evaldatafp'].split(' ')):
-        test_stream.append(DataLoader(dset(logger,[fp],algo_names,task),
+        test_stream.append(DataLoader(dset(logger,[fp],algo_names,task, graph_name=A[0]),
                                       shuffle = False,
                                       batch_size = args['evalbatchsize'],
                                       num_workers = args['nworkers'],
@@ -190,7 +199,7 @@ def main():
         loss_module = LossAssembler(device, logger, algos, args)
 
         # loading train data
-        data_stream = DataLoader(dset(logger,args['datafp'].split(' '),transfer_algo_names,"Train"),
+        data_stream = DataLoader(dset(logger,args['datafp'].split(' '), A[0] ,transfer_algo_names,"Train", graph_name=A[0]),
                                  shuffle = True,
                                  batch_size = args['batchsize'],
                                  num_workers = args['nworkers'],
@@ -198,7 +207,7 @@ def main():
                                  drop_last = False
                                  )
         # loading val data
-        val_stream = DataLoader(dset(logger,args['valdatafp'].split(' '),transfer_algo_names,"Validation"),
+        val_stream = DataLoader(dset(logger,args['valdatafp'].split(' '),transfer_algo_names,"Validation", graph_name=A[0]),
                                 shuffle = False,
                                 batch_size = args['batchsize'],
                                 num_workers = args['nworkers'],
@@ -208,7 +217,7 @@ def main():
         # loading test data
         test_stream = []
         for task, fp in zip(args['evaltask'].split(','),args['evaldatafp'].split(' ')):
-            test_stream.append(DataLoader(dset(logger,[fp],transfer_algo_names,task),
+            test_stream.append(DataLoader(dset(logger,[fp],transfer_algo_names,task, graph_name=A[0]),
                                           shuffle = False,
                                           batch_size = args['evalbatchsize'],
                                           num_workers = args['nworkers'],
@@ -287,12 +296,12 @@ def pre_main():
     # add all the command line arguments here
     parser.add_argument('-d', '--dataset',
                         type=str,
-                        default='',
+                        default='./',
                         help='Dataset to use'
     )
     parser.add_argument('-f', '--datafp',
                         type=str,
-                        default='./data',
+                        default='./data-2',
                         help='Path to dataset'
     )
     parser.add_argument('--valdatafp',

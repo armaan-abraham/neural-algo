@@ -12,7 +12,7 @@ class MultiAlgo(Dataset):
     Important!! All graphs must be of the size in a given dataset!
     """
 
-    def __init__(self, logger, datafp, algos, name='Train'):
+    def __init__(self, logger, datafp, algos, name='Train', graph_name=''):
         """
         logger: for printing out information about the dataset
         datafp: list of one or more strings representing filepaths to data to be loaded
@@ -21,6 +21,7 @@ class MultiAlgo(Dataset):
         self.name = name
         self.algos = algos
         self.n_files = len(datafp)
+        self.graph_name = graph_name
         if self.n_files < 1:
             logger.error("No filepaths have been passed to the dataset constructor!")
 
@@ -46,7 +47,8 @@ class MultiAlgo(Dataset):
         pred_list = []
         # first algo is done differently to get the graphs
         first_algo = self.algos[0]
-        with open(fp+f'_{first_algo}.pkl', 'rb') as f:
+
+        with open(fp+f'/data{self.graph_name}{first_algo}.pkl', 'rb') as f:
             steps_numpy = pkl.load(f)
 
         steps = [(torch.tensor(t0), torch.tensor(t1), torch.tensor(t2)) for t0, t1, t2 in steps_numpy]
@@ -70,7 +72,8 @@ class MultiAlgo(Dataset):
         min_term_tensor = term_tensor
 
         for algo in self.algos[1:]:
-            with open(fp+f'_{algo}.pkl', 'rb') as f:
+            #with open(fp+f'_{algo}.pkl', 'rb') as f:
+            with open(fp+f'/data{self.graph_name}{algo}.pkl', 'rb') as f:
                 steps_numpy = pkl.load(f)
 
             steps = [(torch.tensor(t0), torch.tensor(t1), torch.tensor(t2)) for t0, t1, t2 in steps_numpy]
